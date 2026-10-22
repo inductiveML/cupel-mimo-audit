@@ -1,0 +1,1172 @@
+{
+ "tasks": {
+  "format-code-task-002739": {
+   "i": 1,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.02671754976,
+     "steps": 27,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 29
+    }
+   },
+   "image_id": "sha256:1d030192d3fea3e08e332b39286c1f305f838251e6d48691097de5734da841a4",
+   "status": "done"
+  },
+  "format-code-task-002808": {
+   "i": 2,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.047701609560000004,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:c3f2a74e49032b3fdda74c4a54984509226dd6a3c927ffcd492bf2005382f743",
+   "status": "done"
+  },
+  "format-code-task-000877": {
+   "i": 3,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.06767911259999998,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:2e3b45b3631d5e1779d49c99a53d8860e9f95210c23a8eb267de1447688b30ec",
+   "status": "done"
+  },
+  "format-code-task-001692": {
+   "i": 4,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.004494334680000001,
+     "steps": 11,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:7d7123a5652aebd5f3bdbdb51438b5d66996a248c7f8c34da2d755adbe785fa1",
+   "status": "done"
+  },
+  "format-code-task-000498": {
+   "i": 5,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.00756991224,
+     "steps": 9,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:2c926addef1a3fb970dbc6f969d3c9c37ecca091f72dbf7cf2b7efdd84a2466c",
+   "status": "done"
+  },
+  "format-code-task-001285": {
+   "i": 6,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.11430654443999999,
+     "steps": 33,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 1
+    }
+   },
+   "image_id": "sha256:11207f3967f935dc706859497da1fda16d0c216ba2e577ab7b37b69ce30fe134",
+   "status": "done"
+  },
+  "format-code-task-002661": {
+   "i": 7,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.00848949552,
+     "steps": 11,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:8e1ce1af6d91bd94792eb4fb9beb6a14d273a1ec51203b7bca9fc52be6cbc3b1",
+   "status": "done"
+  },
+  "format-code-task-002197": {
+   "i": 8,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.04227449292000001,
+     "steps": 28,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 30
+    }
+   },
+   "image_id": "sha256:eb04714b7292d6f8d58e80ed88f4d28ff6c4455967c7d51e179731077b3bd0ea",
+   "status": "done"
+  },
+  "format-code-task-002935": {
+   "i": 9,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.021818748600000003,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:0b56b537949995259e84cee3ea1bd2a2cb76bce8e0fa6b2a4d87fab3cb2f610f",
+   "status": "done"
+  },
+  "format-code-task-001883": {
+   "i": 10,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.04410522467999999,
+     "steps": 40,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 11
+    }
+   },
+   "image_id": "sha256:4efa65707cf71ec4f0b1a49b7ef8ac6e5199a45fbd9f7cc2ee48b366f6c575e1",
+   "status": "done"
+  },
+  "format-code-task-002797": {
+   "i": 11,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.013972127400000001,
+     "steps": 19,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 7
+    }
+   },
+   "image_id": "sha256:ab51637fe6757fb82be9049e3e598e8d70dabd264b0c5eeeac635272318e3f67",
+   "status": "done"
+  },
+  "format-code-task-000459": {
+   "i": 12,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.03842667972,
+     "steps": 25,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:79489c38b18f078c8535fe0274077da68d9fddb09b52ed01992b994b03e80009",
+   "status": "done"
+  },
+  "format-code-task-000162": {
+   "i": 13,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.023121438120000004,
+     "steps": 19,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 3
+    }
+   },
+   "image_id": "sha256:2c29a1dd0a3824b4fbcda8f30155be86e3efaacdac0c793dcc6dde58acc27ba4",
+   "status": "done"
+  },
+  "format-code-task-001495": {
+   "i": 14,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.01842832728,
+     "steps": 16,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:c4c5df8452277bdb646d8f44e067838db3c020cf89055d1c72134ea6f52ae4c0",
+   "status": "done"
+  },
+  "format-code-task-000520": {
+   "i": 15,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.03755411748,
+     "steps": 40,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:2e3d8519e1b914dea2663438e047c4e09b14746948a70d5489ec3e77446fe903",
+   "status": "done"
+  },
+  "format-code-task-002199": {
+   "i": 16,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.01410908004,
+     "steps": 19,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 30
+    }
+   },
+   "image_id": "sha256:0c3187e7b1f984bff08e081b7ca4d16be6b5da119ffb6d609ef0783d373ca4a0",
+   "status": "done"
+  },
+  "format-code-task-000414": {
+   "i": 17,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.0189169398,
+     "steps": 25,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 5
+    }
+   },
+   "image_id": "sha256:225e51239791a16326ba37db21e68c580cfd5a70b2f34ef9f3f3c0cafa4af3ec",
+   "status": "done"
+  },
+  "format-code-task-001566": {
+   "i": 18,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.151827885,
+     "steps": 38,
+     "stop_reason": "run_cost_cap",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:d0e602ac15e15ea3569865d8e6496054ac7b18ea5cc5e954e6b9567070f056c9",
+   "status": "done"
+  },
+  "format-code-task-002098": {
+   "i": 19,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.023786040959999994,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 5
+    }
+   },
+   "image_id": "sha256:9e4dfcfa8e0aa6bdd0865263054670e75af2bb2ae7d8b22077cec6fc871ccd3c",
+   "status": "done"
+  },
+  "format-code-task-001743": {
+   "i": 20,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.020609174520000002,
+     "steps": 22,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:aadf3122b5ec3f796f1a3e55b623a2a995d7134a99a9d3993badf519790be3f2",
+   "status": "done"
+  },
+  "format-code-task-001197": {
+   "i": 21,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.0047926652400000005,
+     "steps": 10,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:eb778154370aa13ee73db5b98842120f63647ed4bcb6bcc7bb84fcf68f81f19b",
+   "status": "done"
+  },
+  "format-code-task-003043": {
+   "i": 22,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.04861325699999999,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:4c1fdb4196bf8e65aa7d4c438d5382c1782aad7c05bfa64be85a132092d51f7a",
+   "status": "done"
+  },
+  "format-code-task-000230": {
+   "i": 23,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.09034428744,
+     "steps": 30,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 14
+    }
+   },
+   "image_id": "sha256:dc92d2462fbd47a86945e33a1a3f5adbd8578e149b86e311aeb12568340ec542",
+   "status": "done"
+  },
+  "format-code-task-001424": {
+   "i": 24,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.030379642919999998,
+     "steps": 28,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 10
+    }
+   },
+   "image_id": "sha256:871e1b3c608102ad72c7482bb07a2074f1cdc46120e280eb34671ec29920fff4",
+   "status": "done"
+  },
+  "format-code-task-002820": {
+   "i": 25,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.010137204,
+     "steps": 16,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:a4757635807dc2bb4832ddb1088107ddbd6d9a2e4491780287ea35bf576f88b7",
+   "status": "done"
+  },
+  "format-code-task-001547": {
+   "i": 26,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.054486824040000006,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:8f8201364f673f14285d289c9fb94311f263b7881e6f03f00951447541a0119f",
+   "status": "done"
+  },
+  "format-code-task-001872": {
+   "i": 27,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.043505557920000014,
+     "steps": 30,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:a54bf97cdc1cb25b66859c308242a75e1b16c233bc848234445dbe6a3357e3c1",
+   "status": "done"
+  },
+  "format-code-task-000409": {
+   "i": 28,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.14386854636000002,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 3
+    }
+   },
+   "image_id": "sha256:b9bd22c4e1b8e203c5a8f6763a726bef27e2bc09444b466e9c5a6ef8353d167a",
+   "status": "done"
+  },
+  "format-code-task-002768": {
+   "i": 29,
+   "primary": true,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.1015406766,
+     "steps": 24,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:55e5799dcd6b7dfc30b18ed5301032c7aac09e18cf194fe0c09afe20cb57d4c5",
+   "status": "done"
+  },
+  "format-code-task-000613": {
+   "i": 30,
+   "primary": true,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.024388214400000004,
+     "steps": 21,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 1
+    }
+   },
+   "image_id": "sha256:26b6574327c5ede1bff9a10457611d05807c59360dd2cdb68e4d5ef7da4536f2",
+   "status": "done"
+  },
+  "format-code-task-002649": {
+   "i": 31,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.06675160536,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:d76c32a0cd4f5bed8a35d702d7154605d02d624616a7e11bb3fa3a8155a11080",
+   "status": "done"
+  },
+  "format-code-task-001420": {
+   "i": 32,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.018230121360000004,
+     "steps": 30,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:1036ac857b6a2cb8dc1cee4f21042b56428b105102135ee1904b68ce61ef771b",
+   "status": "done"
+  },
+  "format-code-task-002256": {
+   "i": 33,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.00149351796,
+     "steps": 10,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:602bc403a999128d92f4fd293f20dab847ec21f36b706237d596ca2fcba21673",
+   "status": "done"
+  },
+  "format-code-task-002201": {
+   "i": 34,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.0029729224800000005,
+     "steps": 14,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 30
+    }
+   },
+   "image_id": "sha256:953e5737dc00bfe22d47ceb3137ac4760fdc6362b833d623c36b5a3e2bb789d3",
+   "status": "done"
+  },
+  "format-code-task-002673": {
+   "i": 35,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.01144336842,
+     "steps": 25,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:cf04bcfca91fb56b5e2afdf8c6cae31dbfa0459bddefd986eb4758c28d4677a6",
+   "status": "done"
+  },
+  "format-code-task-001642": {
+   "i": 36,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.021723126479999997,
+     "steps": 38,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 30
+    }
+   },
+   "image_id": "sha256:33807f06080e8df334b422f125cf229694e85c13c28dc8b8a4b4c3f9cfb4c156",
+   "status": "done"
+  },
+  "format-code-task-001486": {
+   "i": 37,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.031703847119999996,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 30
+    }
+   },
+   "image_id": "sha256:d831ec935e1ecce0ef8aba56c928556ac0ab6734b279259317e7f6b6c68ed4f1",
+   "status": "done"
+  },
+  "format-code-task-002285": {
+   "i": 38,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.0037808693999999998,
+     "steps": 13,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:ddb3215dfc5fc94c29c773bc73b012feb0555462628603d1b876147f3c19bc09",
+   "status": "done"
+  },
+  "format-code-task-002220": {
+   "i": 39,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.005646201660000001,
+     "steps": 16,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 30
+    }
+   },
+   "image_id": "sha256:d5e158a1eccca109208055b8bd49d0a7651adc32c3174c3bf5236fa7e2e23100",
+   "status": "done"
+  },
+  "format-code-task-000691": {
+   "i": 40,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.00237106386,
+     "steps": 10,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:bcee29dfc361de5ef621aed17502a2879400b368502ff8aa2f85234b0300068f",
+   "status": "done"
+  },
+  "format-code-task-001685": {
+   "i": 41,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.011246041619999998,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 26
+    }
+   },
+   "image_id": "sha256:27d12465b0321a9afab80283d9a5842fdb0b03ec36966efdcd70e564770a3c48",
+   "status": "done"
+  },
+  "format-code-task-002860": {
+   "i": 42,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.0036140920199999997,
+     "steps": 20,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 5
+    }
+   },
+   "image_id": "sha256:4e660689f754925b9c284aaba0e252085595b57f95a81d9bbe4b330c99967100",
+   "status": "done"
+  },
+  "format-code-task-001804": {
+   "i": 43,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.009781136640000002,
+     "steps": 18,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 5
+    }
+   },
+   "image_id": "sha256:3b896ec715bc2d034891b6b04da8e859de833a2915e66dccefcbeb3421564d37",
+   "status": "done"
+  },
+  "format-code-task-000377": {
+   "i": 44,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.005902720559999997,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:b8306dfe15cc0de0c728e0e3775b6f14396e4f21c1a526e974fd19580f0ab995",
+   "status": "done"
+  },
+  "format-code-task-002051": {
+   "i": 45,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.00104480442,
+     "steps": 7,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:f3baf85d5fa3fecb14bf9792e404968c568776ea0a3c747c8143a3ed0d632cbc",
+   "status": "done"
+  },
+  "format-code-task-002659": {
+   "i": 46,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.02834641062,
+     "steps": 40,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:d8a70e306505c036402008edf8db657d4e8b38e997b63da49905b9953e6fa827",
+   "status": "done"
+  },
+  "format-code-task-000501": {
+   "i": 47,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.10542319722000001,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 8
+    }
+   },
+   "image_id": "sha256:6f3bb027db963ca57fc3cd16a127a0344cb1cadbddcc8508c2412c9e5d3097a1",
+   "status": "done"
+  },
+  "format-code-task-001699": {
+   "i": 48,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.0031599968400000005,
+     "steps": 13,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 6
+    }
+   },
+   "image_id": "sha256:b7aa3249af403df3f74b1c1f1d3219664e4d38e06ad4ca711995091af93a2f1a",
+   "status": "done"
+  },
+  "format-code-task-000510": {
+   "i": 49,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.0026708318999999997,
+     "steps": 9,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 5
+    }
+   },
+   "image_id": "sha256:089291d614c7fd8e0f366fdd263de251f451b4837542ae2e973903ce6ec62c76",
+   "status": "done"
+  },
+  "format-code-task-000290": {
+   "i": 50,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.01857374442,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:c7832f9f7ab70bb19f714bd9e9a8202285964fdad4e2e541bb417d587bb1e415",
+   "status": "done"
+  },
+  "format-code-task-001686": {
+   "i": 51,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.0008443769399999999,
+     "steps": 6,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 3
+    }
+   },
+   "image_id": "sha256:a7d44b6a695b0292c45f05f4f8f3d2286b507b7898df26debf93ea687d431a8f",
+   "status": "done"
+  },
+  "format-code-task-002109": {
+   "i": 52,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.018893251079999996,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 7
+    }
+   },
+   "image_id": "sha256:f835bbb1cab534193e40c4ca7fe784a013941f8b907d12b013790c23d432c8e8",
+   "status": "done"
+  },
+  "format-code-task-002598": {
+   "i": 53,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.008201316419999998,
+     "steps": 24,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 19
+    }
+   },
+   "image_id": "sha256:00382168680c54e76179d4f07df11a0e8f995b0e5e5520e287d632444ae4febe",
+   "status": "done"
+  },
+  "format-code-task-000342": {
+   "i": 54,
+   "primary": false,
+   "stratum": "strong",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.00531218358,
+     "steps": 13,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 3
+    }
+   },
+   "image_id": "sha256:2296502482a0b1d45f3bfdd24f606b22c06676805f7d82ee5a53d6fd5f514222",
+   "status": "done"
+  },
+  "format-code-task-001905": {
+   "i": 55,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.03055753404,
+     "steps": 28,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 3
+    }
+   },
+   "image_id": "sha256:4896b739a59b3170cf6ea87ea339d0d54b10d1be12ebfd2f96a68136b3ec06be",
+   "status": "done"
+  },
+  "format-code-task-002919": {
+   "i": 56,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.03348889433999999,
+     "steps": 40,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:2049216e29d3c2dea7c8f8c4174aaf7b8c57850043e2984e6cfc493d21735a12",
+   "status": "done"
+  },
+  "format-code-task-001409": {
+   "i": 57,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.0017107259400000001,
+     "steps": 9,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 8
+    }
+   },
+   "image_id": "sha256:869288a16e2fe319b42b19f749aeab69ce3a6604f0cd9ba07d5d29dc16f772ad",
+   "status": "done"
+  },
+  "format-code-task-000531": {
+   "i": 58,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.021060757080000003,
+     "steps": 29,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 1
+    }
+   },
+   "image_id": "sha256:7b780dfb6785f3419f997e85cb21af6b6286ddc51d0d945efefaaa0a397c5d0c",
+   "status": "done"
+  },
+  "format-code-task-002599": {
+   "i": 59,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.008953902540000001,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 7
+    }
+   },
+   "image_id": "sha256:e1836263731cb4a936b5a602cb40a8b0d057182d65a5e5b8b4596b00b1d5ed21",
+   "status": "done"
+  },
+  "format-code-task-002443": {
+   "i": 60,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.010821082140000002,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 3
+    }
+   },
+   "image_id": "sha256:5baca6699e1cba2f76eb7df8c4fa7c8023ee99582f697c4d44d43623e2690cb8",
+   "status": "done"
+  },
+  "format-code-task-002974": {
+   "i": 61,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.01310601006,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:91af78c82665beb46ce60b02362c181b31a0f9b42329607b9ff7d01eab67718a",
+   "status": "done"
+  },
+  "format-code-task-002933": {
+   "i": 62,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.0029449450799999997,
+     "steps": 10,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 1
+    }
+   },
+   "image_id": "sha256:cb4ee324279fcbf49dd497fecc9ed16053a5ecc5119bd3e5f81d292f04eb27f8",
+   "status": "done"
+  },
+  "format-code-task-002322": {
+   "i": 63,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.015187997880000003,
+     "steps": 34,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 7
+    }
+   },
+   "image_id": "sha256:cfcc46389c8cf405b3b5dda290642b28684577e612196bebbad8d48edbbab786",
+   "status": "done"
+  },
+  "format-code-task-001214": {
+   "i": 64,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.007571747699999999,
+     "steps": 27,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 10
+    }
+   },
+   "image_id": "sha256:48a41f8ea681383e8fa4b3be3f956057334732504ce3640d451b019b1c147a26",
+   "status": "done"
+  },
+  "format-code-task-001568": {
+   "i": 65,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.010877856660000003,
+     "steps": 32,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 21
+    }
+   },
+   "image_id": "sha256:af4c69fa59e6f05f8b8a001473cccecb0c7d634c66bb089299beb0480bd7d804",
+   "status": "done"
+  },
+  "format-code-task-000670": {
+   "i": 66,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.01043914014,
+     "steps": 21,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:5f09fdbc75cbf1d23548222f5b1373d6e88926aca8d01b1aea846bde00ff906e",
+   "status": "done"
+  },
+  "format-code-task-002461": {
+   "i": 67,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.01475580348,
+     "steps": 28,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 3
+    }
+   },
+   "image_id": "sha256:c040488b2ed906815699062a0ffe10ada0dd5e6eb191546a7c17c29e36741fb5",
+   "status": "done"
+  },
+  "format-code-task-003017": {
+   "i": 68,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.0016656354,
+     "steps": 6,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 2
+    }
+   },
+   "image_id": "sha256:ddb63e21625f92f04f7619bc744a2a5891dc76aa97169bde2257f1592f0b374d",
+   "status": "done"
+  },
+  "format-code-task-000828": {
+   "i": 69,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.010127111939999997,
+     "steps": 17,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 3
+    }
+   },
+   "image_id": "sha256:9f5405d1d919d3443e0a9d264599b8a4eee3ebc1631da2d55106477fccfe89f7",
+   "status": "done"
+  },
+  "format-code-task-002833": {
+   "i": 70,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.015422859539999998,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 1
+    }
+   },
+   "image_id": "sha256:ca7ce59fd4a18f83c6aa2ab2998fbbc251ad528d2b90048d860ab8e8f6ef82e4",
+   "status": "done"
+  },
+  "format-code-task-002798": {
+   "i": 71,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": true,
+     "cost": 0.01071734598,
+     "steps": 28,
+     "stop_reason": "submitted",
+     "scaffold_n_lines": 3
+    }
+   },
+   "image_id": "sha256:c87d10433467e252b0840d548cd4e125bec9ea45fa97308b43153b9822af5ec8",
+   "status": "done"
+  },
+  "format-code-task-002335": {
+   "i": 72,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.14422520178,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 4
+    }
+   },
+   "image_id": "sha256:9e68d305d4621b6ade2cda041dd699eeea2894efdb3ea33462407b1193dedeae",
+   "status": "done"
+  },
+  "format-code-task-001935": {
+   "i": 73,
+   "primary": false,
+   "stratum": "random",
+   "runs": {
+    "SCF-SHAM": {
+     "passed": false,
+     "cost": 0.013660081380000001,
+     "steps": 40,
+     "stop_reason": "step_cap",
+     "scaffold_n_lines": 8
+    }
+   },
+   "image_id": "sha256:daca8cebc70a4632f7df049febb2a4c3374a450d3f323022301b40265128a161",
+   "status": "done"
+  }
+ }
+}

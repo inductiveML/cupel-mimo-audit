@@ -1,0 +1,2286 @@
+{
+ "tasks": {
+  "format-code-task-002739": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2262123024,
+    "Id": "sha256:1d030192d3fea3e08e332b39286c1f305f838251e6d48691097de5734da841a4"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.02563970706,
+     "steps": 36
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.007140420539999999,
+     "steps": 24
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002808": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 4238802079,
+    "Id": "sha256:c3f2a74e49032b3fdda74c4a54984509226dd6a3c927ffcd492bf2005382f743"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.0038277478800000002,
+     "steps": 16
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.010446339420000004,
+     "steps": 29
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000877": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2737689160,
+    "Id": "sha256:2e3b45b3631d5e1779d49c99a53d8860e9f95210c23a8eb267de1447688b30ec"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.028930977899999995,
+     "steps": 35
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.034524242280000006,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001692": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2429452934,
+    "Id": "sha256:7d7123a5652aebd5f3bdbdb51438b5d66996a248c7f8c34da2d755adbe785fa1"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.0037134088200000003,
+     "steps": 20
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.0022034489400000004,
+     "steps": 10
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000498": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1713910822,
+    "Id": "sha256:2c926addef1a3fb970dbc6f969d3c9c37ecca091f72dbf7cf2b7efdd84a2466c"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.010170574920000001,
+     "steps": 25
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.011381467679999998,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001285": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2587280240,
+    "Id": "sha256:11207f3967f935dc706859497da1fda16d0c216ba2e577ab7b37b69ce30fe134"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.007597919339999999,
+     "steps": 21
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.01872426996,
+     "steps": 26
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002661": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1369768831,
+    "Id": "sha256:8e1ce1af6d91bd94792eb4fb9beb6a14d273a1ec51203b7bca9fc52be6cbc3b1"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.00357198336,
+     "steps": 11
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.0032414995799999995,
+     "steps": 9
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002197": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2213998798,
+    "Id": "sha256:eb04714b7292d6f8d58e80ed88f4d28ff6c4455967c7d51e179731077b3bd0ea"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.016215386220000003,
+     "steps": 31
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.014848883280000004,
+     "steps": 27
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002935": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3434477359,
+    "Id": "sha256:0b56b537949995259e84cee3ea1bd2a2cb76bce8e0fa6b2a4d87fab3cb2f610f"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.010419027299999998,
+     "steps": 24
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.00844890156,
+     "steps": 31
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001883": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2058011098,
+    "Id": "sha256:4efa65707cf71ec4f0b1a49b7ef8ac6e5199a45fbd9f7cc2ee48b366f6c575e1"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.00688083066,
+     "steps": 19
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.0033384641400000005,
+     "steps": 15
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002797": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1935616561,
+    "Id": "sha256:ab51637fe6757fb82be9049e3e598e8d70dabd264b0c5eeeac635272318e3f67"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.00794720916,
+     "steps": 19
+    },
+    "ORIG": {
+     "passed": false,
+     "cost": 0.012618472680000001,
+     "steps": 27
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000459": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2424738150,
+    "Id": "sha256:79489c38b18f078c8535fe0274077da68d9fddb09b52ed01992b994b03e80009"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.03620817288,
+     "steps": 32
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.02519845416,
+     "steps": 27
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000162": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1573234093,
+    "Id": "sha256:2c29a1dd0a3824b4fbcda8f30155be86e3efaacdac0c793dcc6dde58acc27ba4"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.016093657799999998,
+     "steps": 21
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.00886632318,
+     "steps": 21
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001495": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1891067413,
+    "Id": "sha256:c4c5df8452277bdb646d8f44e067838db3c020cf89055d1c72134ea6f52ae4c0"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null,
+    "amendment2_reinstated": true,
+    "original_reason": "grader_needs_network (offline error in base output)"
+   },
+   "reinstated_amendment2": true,
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.00736950258,
+     "steps": 17
+    },
+    "ORIG": {
+     "passed": false,
+     "cost": 0.017327205720000002,
+     "steps": 21
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000520": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3869135733,
+    "Id": "sha256:2e3d8519e1b914dea2663438e047c4e09b14746948a70d5489ec3e77446fe903"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.03216442284,
+     "steps": 40
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.01842885594,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002199": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2197436030,
+    "Id": "sha256:0c3187e7b1f984bff08e081b7ca4d16be6b5da119ffb6d609ef0783d373ca4a0"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.010110177,
+     "steps": 32
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.01590780114,
+     "steps": 37
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000414": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2501553650,
+    "Id": "sha256:225e51239791a16326ba37db21e68c580cfd5a70b2f34ef9f3f3c0cafa4af3ec"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.012512461499999999,
+     "steps": 18
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.020105171460000005,
+     "steps": 31
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001566": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3391491252,
+    "Id": "sha256:d0e602ac15e15ea3569865d8e6496054ac7b18ea5cc5e954e6b9567070f056c9"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": false,
+     "cost": 0.054973345679999994,
+     "steps": 35
+    },
+    "ORIG": {
+     "passed": false,
+     "cost": 0.03851663508000001,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002098": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2907019884,
+    "Id": "sha256:9e4dfcfa8e0aa6bdd0865263054670e75af2bb2ae7d8b22077cec6fc871ccd3c"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.0077163154200000006,
+     "steps": 40
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.014451307200000001,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001743": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1776279174,
+    "Id": "sha256:aadf3122b5ec3f796f1a3e55b623a2a995d7134a99a9d3993badf519790be3f2"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0095090193,
+     "steps": 19
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.00903977712,
+     "steps": 23
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001197": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2886227000,
+    "Id": "sha256:eb778154370aa13ee73db5b98842120f63647ed4bcb6bcc7bb84fcf68f81f19b"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.01396952568,
+     "steps": 15
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0033496432200000002,
+     "steps": 13
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-003043": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2494688594,
+    "Id": "sha256:4c1fdb4196bf8e65aa7d4c438d5382c1782aad7c05bfa64be85a132092d51f7a"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.004047302159999999,
+     "steps": 19
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.02126464758,
+     "steps": 16
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000230": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2431329249,
+    "Id": "sha256:dc92d2462fbd47a86945e33a1a3f5adbd8578e149b86e311aeb12568340ec542"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.03845298204000001,
+     "steps": 35
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.0075968739,
+     "steps": 15
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001424": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1791205584,
+    "Id": "sha256:871e1b3c608102ad72c7482bb07a2074f1cdc46120e280eb34671ec29920fff4"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": false,
+     "cost": 0.023459899320000005,
+     "steps": 40
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.08394822017999998,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002820": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2048555122,
+    "Id": "sha256:a4757635807dc2bb4832ddb1088107ddbd6d9a2e4491780287ea35bf576f88b7"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.00429119262,
+     "steps": 14
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.004980149459999999,
+     "steps": 17
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001547": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1735510484,
+    "Id": "sha256:8f8201364f673f14285d289c9fb94311f263b7881e6f03f00951447541a0119f"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.023301016199999997,
+     "steps": 29
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.027572571179999998,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001872": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 4098333137,
+    "Id": "sha256:a54bf97cdc1cb25b66859c308242a75e1b16c233bc848234445dbe6a3357e3c1"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.008083449,
+     "steps": 28
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.014449875659999998,
+     "steps": 18
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000409": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2393151641,
+    "Id": "sha256:b9bd22c4e1b8e203c5a8f6763a726bef27e2bc09444b466e9c5a6ef8353d167a"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.049407619140000004,
+     "steps": 40
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.027062034120000005,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002768": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2014806253,
+    "Id": "sha256:55e5799dcd6b7dfc30b18ed5301032c7aac09e18cf194fe0c09afe20cb57d4c5"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.009726393600000001,
+     "steps": 17
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.0037883775599999994,
+     "steps": 11
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000613": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3207420081,
+    "Id": "sha256:26b6574327c5ede1bff9a10457611d05807c59360dd2cdb68e4d5ef7da4536f2"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.019508878619999996,
+     "steps": 20
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.010238059260000001,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002649": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3068320515,
+    "Id": "sha256:d76c32a0cd4f5bed8a35d702d7154605d02d624616a7e11bb3fa3a8155a11080"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.02672933471999999,
+     "steps": 40
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.024472057499999998,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001420": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3007231332,
+    "Id": "sha256:1036ac857b6a2cb8dc1cee4f21042b56428b105102135ee1904b68ce61ef771b"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.00537011046,
+     "steps": 21
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0032793076800000003,
+     "steps": 12
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001939": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2544095802,
+    "Id": "sha256:969fcf1bf493f7fbb3b47c7b02da0ed222700cb27c45bccde7b442175a9febdd"
+   },
+   "validation": {
+    "ok": false,
+    "reason": "base_grader_too_slow"
+   },
+   "status": "excluded",
+   "reason": "base_grader_too_slow"
+  },
+  "format-code-task-002256": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1714174216,
+    "Id": "sha256:602bc403a999128d92f4fd293f20dab847ec21f36b706237d596ca2fcba21673"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.004493948580000001,
+     "steps": 40
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.00041814630000000004,
+     "steps": 4
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002201": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2208545323,
+    "Id": "sha256:953e5737dc00bfe22d47ceb3137ac4760fdc6362b833d623c36b5a3e2bb789d3"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.00407939004,
+     "steps": 12
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.00627283008,
+     "steps": 25
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002673": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2033696679,
+    "Id": "sha256:cf04bcfca91fb56b5e2afdf8c6cae31dbfa0459bddefd986eb4758c28d4677a6"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0233274789,
+     "steps": 35
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.026108242380000004,
+     "steps": 38
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001642": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2797351373,
+    "Id": "sha256:33807f06080e8df334b422f125cf229694e85c13c28dc8b8a4b4c3f9cfb4c156"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.00475590852,
+     "steps": 18
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.006224401260000001,
+     "steps": 14
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001486": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3424829464,
+    "Id": "sha256:d831ec935e1ecce0ef8aba56c928556ac0ab6734b279259317e7f6b6c68ed4f1"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.01641949056,
+     "steps": 40
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.026334241559999996,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002285": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1407883520,
+    "Id": "sha256:ddb3215dfc5fc94c29c773bc73b012feb0555462628603d1b876147f3c19bc09"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.017315016840000003,
+     "steps": 28
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.01696513896,
+     "steps": 21
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002220": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2615877673,
+    "Id": "sha256:d5e158a1eccca109208055b8bd49d0a7651adc32c3174c3bf5236fa7e2e23100"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.00886536684,
+     "steps": 21
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.005952355199999999,
+     "steps": 9
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000691": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1531146145,
+    "Id": "sha256:bcee29dfc361de5ef621aed17502a2879400b368502ff8aa2f85234b0300068f"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.016122668759999997,
+     "steps": 13
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.0062042111999999995,
+     "steps": 17
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001685": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2393232585,
+    "Id": "sha256:27d12465b0321a9afab80283d9a5842fdb0b03ec36966efdcd70e564770a3c48"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.01717587828,
+     "steps": 31
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.028156847399999997,
+     "steps": 23
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002860": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1949092688,
+    "Id": "sha256:4e660689f754925b9c284aaba0e252085595b57f95a81d9bbe4b330c99967100"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.0063833378399999995,
+     "steps": 19
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.00421558236,
+     "steps": 16
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001804": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3081710883,
+    "Id": "sha256:3b896ec715bc2d034891b6b04da8e859de833a2915e66dccefcbeb3421564d37"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.04349517480000001,
+     "steps": 17
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.028070265959999997,
+     "steps": 19
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000377": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1926645903,
+    "Id": "sha256:b8306dfe15cc0de0c728e0e3775b6f14396e4f21c1a526e974fd19580f0ab995"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.01022391612,
+     "steps": 21
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.008475702840000002,
+     "steps": 14
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002051": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2100801067,
+    "Id": "sha256:f3baf85d5fa3fecb14bf9792e404968c568776ea0a3c747c8143a3ed0d632cbc"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.01280258892,
+     "steps": 40
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.00595469556,
+     "steps": 13
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002659": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1854867333,
+    "Id": "sha256:d8a70e306505c036402008edf8db657d4e8b38e997b63da49905b9953e6fa827"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.02547768168,
+     "steps": 28
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.03701173608000001,
+     "steps": 31
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000501": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2356552780,
+    "Id": "sha256:6f3bb027db963ca57fc3cd16a127a0344cb1cadbddcc8508c2412c9e5d3097a1"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.058081022999999996,
+     "steps": 36
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.027996455519999994,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001699": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3120434778,
+    "Id": "sha256:b7aa3249af403df3f74b1c1f1d3219664e4d38e06ad4ca711995091af93a2f1a"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.019473707880000003,
+     "steps": 28
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.01414526652,
+     "steps": 26
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000510": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1737151056,
+    "Id": "sha256:089291d614c7fd8e0f366fdd263de251f451b4837542ae2e973903ce6ec62c76"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.003963464999999999,
+     "steps": 12
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.00406002564,
+     "steps": 11
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000290": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2038374362,
+    "Id": "sha256:c7832f9f7ab70bb19f714bd9e9a8202285964fdad4e2e541bb417d587bb1e415"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.01231417836,
+     "steps": 13
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.015564047400000001,
+     "steps": 14
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001686": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 5127229385,
+    "Id": "sha256:a7d44b6a695b0292c45f05f4f8f3d2286b507b7898df26debf93ea687d431a8f"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": false,
+     "cost": 0.00162478008,
+     "steps": 6
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.00464473548,
+     "steps": 12
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002109": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2443916660,
+    "Id": "sha256:f835bbb1cab534193e40c4ca7fe784a013941f8b907d12b013790c23d432c8e8"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": false,
+     "cost": 0.06546339756,
+     "steps": 40
+    },
+    "ORIG": {
+     "passed": false,
+     "cost": 0.03525607404,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002598": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3287439224,
+    "Id": "sha256:00382168680c54e76179d4f07df11a0e8f995b0e5e5520e287d632444ae4febe"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": false,
+     "cost": 0.01288343232,
+     "steps": 20
+    },
+    "ORIG": {
+     "passed": false,
+     "cost": 0.016740286200000003,
+     "steps": 21
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000342": {
+   "stratum": "strong",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1577131529,
+    "Id": "sha256:2296502482a0b1d45f3bfdd24f606b22c06676805f7d82ee5a53d6fd5f514222"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0102903966,
+     "steps": 18
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.00486167616,
+     "steps": 10
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001905": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2123535266,
+    "Id": "sha256:4896b739a59b3170cf6ea87ea339d0d54b10d1be12ebfd2f96a68136b3ec06be"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.036107085959999986,
+     "steps": 40
+    },
+    "ORIG": {
+     "passed": false,
+     "cost": 0.04097396556,
+     "steps": 30
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002919": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2488246584,
+    "Id": "sha256:2049216e29d3c2dea7c8f8c4174aaf7b8c57850043e2984e6cfc493d21735a12"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.15658836732,
+     "steps": 38
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.03628109231999999,
+     "steps": 38
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001409": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3258664825,
+    "Id": "sha256:869288a16e2fe319b42b19f749aeab69ce3a6604f0cd9ba07d5d29dc16f772ad"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0170397216,
+     "steps": 22
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.01964190492,
+     "steps": 28
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000531": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2844580125,
+    "Id": "sha256:7b780dfb6785f3419f997e85cb21af6b6286ddc51d0d945efefaaa0a397c5d0c"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": false,
+     "cost": 0.04315800852,
+     "steps": 22
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.02503136196,
+     "steps": 29
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002599": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2616730169,
+    "Id": "sha256:e1836263731cb4a936b5a602cb40a8b0d057182d65a5e5b8b4596b00b1d5ed21"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.02583601218,
+     "steps": 32
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.01135919862,
+     "steps": 23
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002443": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1370703839,
+    "Id": "sha256:5baca6699e1cba2f76eb7df8c4fa7c8023ee99582f697c4d44d43623e2690cb8"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.011661455519999999,
+     "steps": 40
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.010277120699999998,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002974": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1433609329,
+    "Id": "sha256:91af78c82665beb46ce60b02362c181b31a0f9b42329607b9ff7d01eab67718a"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.00772283754,
+     "steps": 29
+    },
+    "NORM": {
+     "passed": false,
+     "cost": 0.0036716625,
+     "steps": 17
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002933": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1959545927,
+    "Id": "sha256:cb4ee324279fcbf49dd497fecc9ed16053a5ecc5119bd3e5f81d292f04eb27f8"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.00963709758,
+     "steps": 12
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.0373010913,
+     "steps": 15
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002322": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2042839429,
+    "Id": "sha256:cfcc46389c8cf405b3b5dda290642b28684577e612196bebbad8d48edbbab786"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.01899940482,
+     "steps": 40
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.02508579018,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001214": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3063911758,
+    "Id": "sha256:48a41f8ea681383e8fa4b3be3f956057334732504ce3640d451b019b1c147a26"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": false,
+     "cost": 0.011418034320000001,
+     "steps": 25
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0068086299600000014,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001568": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3907272626,
+    "Id": "sha256:af4c69fa59e6f05f8b8a001473cccecb0c7d634c66bb089299beb0480bd7d804"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.01419782958,
+     "steps": 32
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.00970611444,
+     "steps": 28
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000670": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3247823487,
+    "Id": "sha256:5f09fdbc75cbf1d23548222f5b1373d6e88926aca8d01b1aea846bde00ff906e"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.014865645959999998,
+     "steps": 40
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0044668206,
+     "steps": 12
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002461": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3368742215,
+    "Id": "sha256:c040488b2ed906815699062a0ffe10ada0dd5e6eb191546a7c17c29e36741fb5"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0066883568400000004,
+     "steps": 18
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.029630965320000004,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-003017": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3028534137,
+    "Id": "sha256:ddb63e21625f92f04f7619bc744a2a5891dc76aa97169bde2257f1592f0b374d"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": true,
+     "cost": 0.0019840787999999996,
+     "steps": 7
+    },
+    "ORIG": {
+     "passed": true,
+     "cost": 0.00238374576,
+     "steps": 10
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-000828": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2326379966,
+    "Id": "sha256:9f5405d1d919d3443e0a9d264599b8a4eee3ebc1631da2d55106477fccfe89f7"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.005919768360000003,
+     "steps": 40
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.01614695742,
+     "steps": 12
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002833": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2593049452,
+    "Id": "sha256:ca7ce59fd4a18f83c6aa2ab2998fbbc251ad528d2b90048d860ab8e8f6ef82e4"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.0658021914,
+     "steps": 40
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.013695858,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002798": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 1845734354,
+    "Id": "sha256:c87d10433467e252b0840d548cd4e125bec9ea45fa97308b43153b9822af5ec8"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": true,
+     "cost": 0.03203441406000001,
+     "steps": 30
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.035879993820000004,
+     "steps": 28
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-002335": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 3322327882,
+    "Id": "sha256:9e68d305d4621b6ade2cda041dd699eeea2894efdb3ea33462407b1193dedeae"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "ORIG",
+    "NORM"
+   ],
+   "runs": {
+    "ORIG": {
+     "passed": false,
+     "cost": 0.13422247937999998,
+     "steps": 40
+    },
+    "NORM": {
+     "passed": true,
+     "cost": 0.08025567264000001,
+     "steps": 26
+    }
+   },
+   "status": "done"
+  },
+  "format-code-task-001935": {
+   "stratum": "random",
+   "image": {
+    "WorkingDir": null,
+    "Entrypoint": null,
+    "Cmd": null,
+    "Size": 2481559252,
+    "Id": "sha256:daca8cebc70a4632f7df049febb2a4c3374a450d3f323022301b40265128a161"
+   },
+   "validation": {
+    "ok": true,
+    "reason": null
+   },
+   "cond_order": [
+    "NORM",
+    "ORIG"
+   ],
+   "runs": {
+    "NORM": {
+     "passed": false,
+     "cost": 0.03003363791999999,
+     "steps": 40
+    },
+    "ORIG": {
+     "passed": false,
+     "cost": 0.01934423963999999,
+     "steps": 40
+    }
+   },
+   "status": "done"
+  }
+ }
+}

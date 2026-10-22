@@ -1,0 +1,59 @@
+{
+ "note": "post hoc, descriptive only (Amendment 1); GITHUNT regex from audit_mtime_cmds.py",
+ "by_cond": {
+  "ORIG": {
+   "n": 73,
+   "runs_githunt": 21,
+   "githunt_before_first_edit": 19,
+   "githunt_in_first_3_steps": 0,
+   "pass_if_githunt": 11,
+   "pass_if_no_githunt": 39,
+   "reply_mentions_listing_or_times_first5": 1
+  },
+  "NORM": {
+   "n": 73,
+   "runs_githunt": 23,
+   "githunt_before_first_edit": 20,
+   "githunt_in_first_3_steps": 0,
+   "pass_if_githunt": 15,
+   "pass_if_no_githunt": 32,
+   "reply_mentions_listing_or_times_first5": 0
+  },
+  "INF-ORIG": {
+   "n": 73,
+   "runs_githunt": 25,
+   "githunt_before_first_edit": 24,
+   "githunt_in_first_3_steps": 0,
+   "pass_if_githunt": 15,
+   "pass_if_no_githunt": 35,
+   "reply_mentions_listing_or_times_first5": 0
+  },
+  "INF-NORM": {
+   "n": 73,
+   "runs_githunt": 24,
+   "githunt_before_first_edit": 24,
+   "githunt_in_first_3_steps": 0,
+   "pass_if_githunt": 7,
+   "pass_if_no_githunt": 38,
+   "reply_mentions_listing_or_times_first5": 1
+  },
+  "SCF-ORIG": {
+   "n": 73,
+   "runs_githunt": 13,
+   "githunt_before_first_edit": 11,
+   "githunt_in_first_3_steps": 0,
+   "pass_if_githunt": 8,
+   "pass_if_no_githunt": 43,
+   "reply_mentions_listing_or_times_first5": 1
+  },
+  "SCF-NORM": {
+   "n": 73,
+   "runs_githunt": 29,
+   "githunt_before_first_edit": 28,
+   "githunt_in_first_3_steps": 1,
+   "pass_if_githunt": 14,
+   "pass_if_no_githunt": 28,
+   "reply_mentions_listing_or_times_first5": 0
+  }
+ }
+}

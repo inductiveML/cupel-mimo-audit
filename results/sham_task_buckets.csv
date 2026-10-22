@@ -1,0 +1,74 @@
+task_id,primary,stratum,n_late,n_late_source,late_overlaps_test_patch,has_R_fix,bucket,orig_list_lines,rank1_is_late,sham_has_late,sham_has_rfix,pass_SCF_ORIG,pass_SCF_SHAM,pass_SCF_NORM,first_edit_SCF_ORIG,first_edit_SCF_SHAM,steps_SCF_ORIG,steps_SCF_SHAM,stop_SCF_ORIG,stop_SCF_SHAM
+format-code-task-000162,True,strong,3,1,True,True,Higher,3,True,False,False,1,1,1,7,15,19,19,submitted,submitted
+format-code-task-000230,True,strong,2,1,True,True,Higher,14,True,False,False,1,1,0,5,6,11,30,submitted,submitted
+format-code-task-000290,False,random,4,4,False,False,Higher,4,True,False,False,0,1,1,13,18,17,40,submitted,step_cap
+format-code-task-000342,False,strong,3,2,True,False,Higher,3,True,False,False,1,1,1,11,10,18,13,submitted,submitted
+format-code-task-000377,False,random,1,1,False,False,Higher,2,False,False,False,1,1,1,6,5,18,40,submitted,step_cap
+format-code-task-000409,True,strong,2,1,True,False,Higher,3,True,False,False,0,1,0,41,38,40,40,step_cap,step_cap
+format-code-task-000414,True,strong,4,3,True,False,Higher,5,True,False,False,0,1,1,6,13,9,25,submitted,submitted
+format-code-task-000459,True,random,4,4,False,False,Higher,4,True,False,False,1,0,1,20,12,27,25,submitted,submitted
+format-code-task-000498,True,strong,4,2,True,False,Higher,4,True,False,False,1,0,0,9,7,13,9,submitted,submitted
+format-code-task-000501,False,random,8,6,False,True,Higher,8,True,False,False,0,1,0,41,40,40,40,step_cap,step_cap
+format-code-task-000510,False,strong,5,3,True,False,Higher,5,True,False,False,1,1,0,3,6,7,9,submitted,submitted
+format-code-task-000520,True,random,4,4,False,False,Higher,4,True,False,False,1,1,0,25,25,35,40,submitted,submitted
+format-code-task-000531,False,random,1,1,False,False,Higher,1,True,False,False,1,1,1,18,20,29,29,submitted,submitted
+format-code-task-000613,True,random,1,1,False,False,Higher,1,True,False,False,0,0,0,15,13,24,21,submitted,submitted
+format-code-task-000670,False,random,4,3,False,False,Higher,4,True,False,False,1,0,1,19,15,25,21,submitted,submitted
+format-code-task-000691,False,strong,4,3,True,True,Higher,4,True,False,False,0,1,1,9,7,12,10,submitted,submitted
+format-code-task-000877,True,random,4,4,False,False,Higher,4,True,False,False,1,1,1,15,26,30,40,submitted,step_cap
+format-code-task-001197,True,random,2,2,False,False,Higher,2,True,False,False,1,1,1,9,5,13,10,submitted,submitted
+format-code-task-001214,False,random,10,10,False,False,Higher,10,True,False,False,1,1,1,14,23,22,27,submitted,submitted
+format-code-task-001285,True,random,1,1,False,False,Higher,1,True,False,False,1,1,1,25,23,40,33,step_cap,submitted
+format-code-task-001409,False,random,8,5,False,True,Higher,8,True,False,False,1,1,1,4,7,6,9,submitted,submitted
+format-code-task-001420,False,strong,2,1,True,False,Higher,2,True,False,False,1,1,0,10,25,14,30,submitted,submitted
+format-code-task-001424,True,random,10,7,False,False,Higher,10,True,False,False,1,1,1,16,16,36,28,submitted,submitted
+format-code-task-001486,False,strong,5,3,True,False,Higher,30,True,False,False,0,0,0,37,41,40,40,step_cap,step_cap
+format-code-task-001495,True,strong,4,3,True,False,Higher,4,True,False,False,1,0,0,6,11,19,16,submitted,submitted
+format-code-task-001547,True,strong,3,1,True,False,Higher,4,True,False,False,1,0,1,13,20,27,40,submitted,step_cap
+format-code-task-001566,True,random,4,1,False,False,Higher,4,True,False,False,0,0,0,11,41,18,38,submitted,run_cost_cap
+format-code-task-001568,False,random,21,21,False,False,Low,21,True,False,False,1,1,1,26,25,40,32,step_cap,submitted
+format-code-task-001642,False,strong,4,2,True,False,Higher,30,True,False,False,1,1,1,5,20,7,38,submitted,submitted
+format-code-task-001685,False,random,23,18,True,False,Low,26,True,False,False,0,1,1,18,24,25,40,submitted,step_cap
+format-code-task-001686,False,strong,3,2,True,False,Higher,3,True,False,False,1,0,0,5,3,13,6,submitted,submitted
+format-code-task-001692,True,strong,2,1,True,True,Higher,2,True,False,True,1,1,1,5,5,10,11,submitted,submitted
+format-code-task-001699,False,strong,6,1,True,True,Higher,6,True,False,False,1,0,1,9,5,17,13,submitted,submitted
+format-code-task-001743,True,strong,4,2,True,False,Higher,4,True,False,False,1,1,1,10,12,14,22,submitted,submitted
+format-code-task-001804,False,strong,5,1,False,True,Higher,5,True,False,False,1,1,1,11,15,16,18,submitted,submitted
+format-code-task-001872,True,random,2,2,False,False,Higher,2,True,False,False,1,1,0,13,23,20,30,submitted,submitted
+format-code-task-001883,True,strong,8,7,True,False,Higher,11,True,False,False,1,1,0,14,35,17,40,submitted,submitted
+format-code-task-001905,False,random,3,3,False,False,Higher,3,True,False,False,0,1,0,15,21,18,28,submitted,submitted
+format-code-task-002051,False,strong,2,1,True,False,Higher,2,True,False,False,0,1,1,6,5,8,7,submitted,submitted
+format-code-task-002098,True,strong,5,3,True,False,Higher,5,True,False,False,0,0,0,33,24,40,40,step_cap,step_cap
+format-code-task-002109,False,strong,7,4,True,True,Higher,7,True,False,False,1,0,0,23,30,39,40,submitted,step_cap
+format-code-task-002197,True,strong,5,2,True,False,Higher,30,True,False,False,0,1,1,13,14,31,28,submitted,submitted
+format-code-task-002199,True,strong,3,1,True,False,Higher,30,True,False,False,0,0,1,19,12,40,19,step_cap,submitted
+format-code-task-002201,False,strong,3,1,True,False,Higher,30,True,False,False,0,0,0,9,7,14,14,submitted,submitted
+format-code-task-002220,False,strong,3,1,True,True,Higher,30,True,False,False,1,1,1,6,12,19,16,submitted,submitted
+format-code-task-002256,False,strong,4,2,True,True,Higher,4,True,False,False,1,1,1,3,7,6,10,submitted,submitted
+format-code-task-002285,False,random,2,2,False,False,Higher,2,True,False,False,1,1,1,20,6,26,13,submitted,submitted
+format-code-task-002322,False,random,6,4,False,False,Higher,7,True,False,False,0,1,0,15,18,22,34,submitted,submitted
+format-code-task-002443,False,random,3,2,False,False,Higher,3,True,False,False,0,0,0,6,6,11,40,submitted,step_cap
+format-code-task-002598,False,random,19,3,False,False,Low,19,True,False,False,1,1,1,8,14,18,24,submitted,submitted
+format-code-task-002599,False,random,7,2,False,False,Higher,7,True,False,False,1,0,1,31,15,40,40,step_cap,step_cap
+format-code-task-002649,False,strong,4,3,True,True,Higher,4,True,False,False,0,0,0,41,41,40,40,step_cap,step_cap
+format-code-task-002659,False,strong,2,1,True,True,Higher,2,True,False,False,1,1,1,8,23,11,40,submitted,submitted
+format-code-task-002661,True,strong,2,1,True,True,Higher,2,True,False,False,0,0,0,4,8,6,11,submitted,submitted
+format-code-task-002673,False,random,4,3,False,False,Higher,4,True,False,False,1,1,1,15,19,24,25,submitted,submitted
+format-code-task-002739,True,strong,2,1,True,False,Higher,29,True,False,False,1,1,0,19,22,25,27,submitted,submitted
+format-code-task-002768,True,strong,2,1,True,False,Higher,2,True,False,False,1,1,0,8,8,21,24,submitted,submitted
+format-code-task-002797,True,strong,5,2,True,True,Higher,7,True,False,False,1,1,0,10,10,17,19,submitted,submitted
+format-code-task-002808,True,strong,2,1,True,True,Higher,2,True,False,False,1,1,0,20,34,40,40,step_cap,step_cap
+format-code-task-002820,True,strong,2,1,True,True,Higher,2,True,False,False,1,1,1,9,11,11,16,submitted,submitted
+format-code-task-002860,False,strong,4,2,True,False,Higher,5,True,False,False,1,1,0,12,14,16,20,submitted,submitted
+format-code-task-002919,False,random,2,2,False,False,Higher,2,True,False,False,1,1,1,24,32,26,40,submitted,submitted
+format-code-task-002933,False,random,1,1,False,False,Higher,1,True,False,False,1,1,1,6,8,11,10,submitted,submitted
+format-code-task-002935,True,random,4,3,False,False,Higher,4,True,False,False,1,1,0,20,19,33,40,submitted,step_cap
+format-code-task-002974,False,random,2,1,False,False,Higher,2,True,False,False,0,0,1,19,41,35,40,submitted,step_cap
+format-code-task-003043,True,strong,2,1,True,False,Higher,2,True,False,False,1,0,0,8,9,31,40,submitted,step_cap
+format-code-task-002461,False,random,3,2,False,False,Higher,3,True,False,False,1,,1,,,,,,not run under the $2.00 cap
+format-code-task-003017,False,random,2,2,False,False,Higher,2,True,False,False,0,,1,,,,,,not run under the $2.00 cap
+format-code-task-000828,False,random,3,3,False,False,Higher,3,True,False,False,1,,1,,,,,,not run under the $2.00 cap
+format-code-task-002833,False,random,1,1,False,False,Higher,1,True,False,False,1,,1,,,,,,not run under the $2.00 cap
+format-code-task-002798,False,random,3,3,False,False,Higher,3,True,False,False,1,,1,,,,,,not run under the $2.00 cap
+format-code-task-002335,False,random,4,4,False,False,Higher,4,True,False,False,1,,0,,,,,,not run under the $2.00 cap
+format-code-task-001935,False,random,8,8,False,False,Higher,8,True,False,False,0,,0,,,,,,not run under the $2.00 cap

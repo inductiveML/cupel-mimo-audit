@@ -1,0 +1,709 @@
+{
+ "n_commands": 3488,
+ "broad_hits": [
+  {
+   "task": "format-code-task-000290",
+   "cond": "NORM",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && find . -maxdepth 2 -type f | grep -v node_modules | gre"
+  },
+  {
+   "task": "format-code-task-000290",
+   "cond": "ORIG",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "ls -la && find . -maxdepth 2 -type f | sort | sed 's#^./##'"
+  },
+  {
+   "task": "format-code-task-000290",
+   "cond": "ORIG",
+   "step": 9,
+   "targeted": false,
+   "visible": false,
+   "snippet": "v /workspace/repo | head; ls ~/.npm 2>/dev/null; git show --stat HEAD"
+  },
+  {
+   "task": "format-code-task-000409",
+   "cond": "ORIG",
+   "step": 22,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git diff --stat; git diff | head -60"
+  },
+  {
+   "task": "format-code-task-000414",
+   "cond": "NORM",
+   "step": 24,
+   "targeted": false,
+   "visible": false,
+   "snippet": "api_connexion/endpoints/event_log_endpoint.py && git diff --stat"
+  },
+  {
+   "task": "format-code-task-000414",
+   "cond": "NORM",
+   "step": 29,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && python - <<HEREDOC\ngit diff --stat"
+  },
+  {
+   "task": "format-code-task-000414",
+   "cond": "ORIG",
+   "step": 16,
+   "targeted": false,
+   "visible": false,
+   "snippet": "estbed && python - <<HEREDOC\ngit diff --check && git diff --stat && sed -n '18,30p;55,110p' airflow/api_connexion/endpoints/"
+  },
+  {
+   "task": "format-code-task-000459",
+   "cond": "NORM",
+   "step": 14,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && find . -iname \"*test*\" -maxdepth 2 2>/dev/null && echo "
+  },
+  {
+   "task": "format-code-task-000459",
+   "cond": "NORM",
+   "step": 24,
+   "targeted": false,
+   "visible": true,
+   "snippet": "big2dec_test annex-h.jbig2 -o /tmp/out.pbm 2>&1 | tail -5 ; ls -l /tmp/out.pbm && head -c 20 /tmp/out.pbm | xxd"
+  },
+  {
+   "task": "format-code-task-000459",
+   "cond": "ORIG",
+   "step": 13,
+   "targeted": false,
+   "visible": true,
+   "snippet": "ls -la; find . -maxdepth 2 -type d; grep -rn \"complete_page\\|page"
+  },
+  {
+   "task": "format-code-task-000459",
+   "cond": "ORIG",
+   "step": 14,
+   "targeted": false,
+   "visible": false,
+   "snippet": " wc -l jbig2_page.c; echo '--- git diff base?' ; git diff --stat; git show aa83d89:jbig2.h | tail -40; git log --all --oneli"
+  },
+  {
+   "task": "format-code-task-000459",
+   "cond": "ORIG",
+   "step": 24,
+   "targeted": false,
+   "visible": true,
+   "snippet": "p/out.pbm 2>/tmp/err.txt; echo rc=$?; head -5 /tmp/err.txt; ls -l /tmp/out.pbm 2>/dev/null; head -2 /tmp/out.pbm 2>/dev/null"
+  },
+  {
+   "task": "format-code-task-000459",
+   "cond": "ORIG",
+   "step": 25,
+   "targeted": false,
+   "visible": true,
+   "snippet": "./jbig2dec -o /tmp/out.pbm annex-h.jbig2 2>&1 | tail -20; ls -l /tmp/out.pbm; head -2 /tmp/out.pbm"
+  },
+  {
+   "task": "format-code-task-000459",
+   "cond": "ORIG",
+   "step": 30,
+   "targeted": false,
+   "visible": false,
+   "snippet": "/tmp/t3 2>&1 | head -8; echo '---'; git diff --stat"
+  },
+  {
+   "task": "format-code-task-000459",
+   "cond": "ORIG",
+   "step": 31,
+   "targeted": false,
+   "visible": false,
+   "snippet": ".unix clean >/dev/null 2>&1; git status --short; git diff --stat; echo SUBMIT"
+  },
+  {
+   "task": "format-code-task-000498",
+   "cond": "NORM",
+   "step": 21,
+   "targeted": false,
+   "visible": false,
+   "snippet": "dencies/test_api_gateway.py -q 2>&1 | tail -3 && git diff --stat"
+  },
+  {
+   "task": "format-code-task-000498",
+   "cond": "ORIG",
+   "step": 23,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git diff --stat && python -m pytest tests/functional/event_handler/required"
+  },
+  {
+   "task": "format-code-task-000531",
+   "cond": "ORIG",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && find . -maxdepth 2 -type f | head -100"
+  },
+  {
+   "task": "format-code-task-000613",
+   "cond": "ORIG",
+   "step": 2,
+   "targeted": false,
+   "visible": true,
+   "snippet": "ls -la"
+  },
+  {
+   "task": "format-code-task-000613",
+   "cond": "ORIG",
+   "step": 18,
+   "targeted": false,
+   "visible": false,
+   "snippet": "f format --diff camelot/core.py 2>&1 | head -80; git diff --stat; git diff -- camelot/core.py | head -260"
+  },
+  {
+   "task": "format-code-task-000670",
+   "cond": "NORM",
+   "step": 26,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /workspace/repo && git diff --stat"
+  },
+  {
+   "task": "format-code-task-000691",
+   "cond": "NORM",
+   "step": 12,
+   "targeted": false,
+   "visible": false,
+   "snippet": "go pkg/app/server/option.go && go build ./... && git diff --stat"
+  },
+  {
+   "task": "format-code-task-000691",
+   "cond": "ORIG",
+   "step": 3,
+   "targeted": false,
+   "visible": false,
+   "snippet": "git diff --stat; git diff; grep -R \"debugPrintRoute\\|printRoute\\|debugPrint"
+  },
+  {
+   "task": "format-code-task-000691",
+   "cond": "ORIG",
+   "step": 12,
+   "targeted": false,
+   "visible": false,
+   "snippet": "git diff --stat"
+  },
+  {
+   "task": "format-code-task-000877",
+   "cond": "NORM",
+   "step": 2,
+   "targeted": false,
+   "visible": true,
+   "snippet": "ls -la && find include -maxdepth 4 -type f | sort | head -200"
+  },
+  {
+   "task": "format-code-task-000877",
+   "cond": "ORIG",
+   "step": 32,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /workspace/repo && git diff --stat && git diff include/rapidcheck/gen/Container.h"
+  },
+  {
+   "task": "format-code-task-000877",
+   "cond": "ORIG",
+   "step": 34,
+   "targeted": false,
+   "visible": false,
+   "snippet": "nd src -name '*.cpp') -o /tmp/run && /tmp/run && git diff --stat"
+  },
+  {
+   "task": "format-code-task-001214",
+   "cond": "NORM",
+   "step": 20,
+   "targeted": false,
+   "visible": true,
+   "snippet": " | grep -E 'CommandLineInterface|UserInterface' | head -10; ls -l Main/*.o 2>/dev/null | head -20"
+  },
+  {
+   "task": "format-code-task-001285",
+   "cond": "ORIG",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && find . -maxdepth 2 -type f | head -50"
+  },
+  {
+   "task": "format-code-task-001424",
+   "cond": "ORIG",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && cat package.json | head -50"
+  },
+  {
+   "task": "format-code-task-001424",
+   "cond": "ORIG",
+   "step": 24,
+   "targeted": false,
+   "visible": true,
+   "snippet": "tmp/out/rez.all --no-color 2>&1 | tail -30; echo \"EXIT=$?\"; ls -la /tmp/out 2>/dev/null"
+  },
+  {
+   "task": "format-code-task-001495",
+   "cond": "NORM",
+   "step": 11,
+   "targeted": false,
+   "visible": false,
+   "snippet": "-5; rm tests/components/scene/test_apply_tmp.py; git diff --stat"
+  },
+  {
+   "task": "format-code-task-001547",
+   "cond": "NORM",
+   "step": 27,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git diff --stat && echo SUBMIT"
+  },
+  {
+   "task": "format-code-task-001566",
+   "cond": "NORM",
+   "step": 11,
+   "targeted": false,
+   "visible": false,
+   "snippet": "g -1 --oneline && git log -1 --oneline master && git diff --stat HEAD master -- models/buffer.go models/buffer_test.go"
+  },
+  {
+   "task": "format-code-task-001566",
+   "cond": "ORIG",
+   "step": 17,
+   "targeted": false,
+   "visible": false,
+   "snippet": "els/buffer.go && go vet ./models/ 2>&1 | head && git diff --stat"
+  },
+  {
+   "task": "format-code-task-001566",
+   "cond": "ORIG",
+   "step": 18,
+   "targeted": false,
+   "visible": false,
+   "snippet": " $(go env GOROOT)/bin/gofmt -l models/buffer.go; git diff --stat"
+  },
+  {
+   "task": "format-code-task-001685",
+   "cond": "NORM",
+   "step": 17,
+   "targeted": false,
+   "visible": false,
+   "snippet": "d /testbed && find . -name go.mod -maxdepth 3 && git diff --stat"
+  },
+  {
+   "task": "format-code-task-001685",
+   "cond": "NORM",
+   "step": 21,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && python3 - <<HEREDOC\ngit diff --stat"
+  },
+  {
+   "task": "format-code-task-001685",
+   "cond": "ORIG",
+   "step": 12,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git status --short; git log --oneline -3 --stat | head -60; grep -rn \"KLTNamespace\\|GetTaskDefinition\\|GetE"
+  },
+  {
+   "task": "format-code-task-001685",
+   "cond": "ORIG",
+   "step": 29,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && python3 - <<HEREDOC\ngit diff --stat"
+  },
+  {
+   "task": "format-code-task-001699",
+   "cond": "NORM",
+   "step": 25,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && python3 - <<HEREDOC\ngit diff --stat"
+  },
+  {
+   "task": "format-code-task-001699",
+   "cond": "ORIG",
+   "step": 26,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git diff --stat && timeout 110 go test -mod=vendor ./pkg/kn/commands/servic"
+  },
+  {
+   "task": "format-code-task-001743",
+   "cond": "ORIG",
+   "step": 16,
+   "targeted": false,
+   "visible": false,
+   "snippet": "andler/... ./pkg/handler3/... ) 2>&1 | head -20; git diff --stat"
+  },
+  {
+   "task": "format-code-task-001804",
+   "cond": "NORM",
+   "step": 12,
+   "targeted": false,
+   "visible": false,
+   "snippet": "rary_client.py').read()); print('syntax ok')\" && git diff --stat && git diff llama_stack/core/library_client.py"
+  },
+  {
+   "task": "format-code-task-001905",
+   "cond": "ORIG",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && find . -path ./node_modules -prune -o -type f -print | "
+  },
+  {
+   "task": "format-code-task-001905",
+   "cond": "ORIG",
+   "step": 29,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /workspace/repo && git diff --stat && git diff src/index.js | head -60"
+  },
+  {
+   "task": "format-code-task-001935",
+   "cond": "NORM",
+   "step": 30,
+   "targeted": false,
+   "visible": true,
+   "snippet": "d=mod go build -o /tmp/goyacc ./cmd/goyacc 2>&1 | tail -10; ls -l /tmp/goyacc 2>/dev/null"
+  },
+  {
+   "task": "format-code-task-002051",
+   "cond": "ORIG",
+   "step": 29,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git diff --stat"
+  },
+  {
+   "task": "format-code-task-002197",
+   "cond": "ORIG",
+   "step": 30,
+   "targeted": false,
+   "visible": false,
+   "snippet": "ytest pandas/tests/reshape -q 2>&1 | tail -10 && git diff --stat"
+  },
+  {
+   "task": "format-code-task-002285",
+   "cond": "NORM",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && echo \"---\" && find . -maxdepth 2 -name '*.go' | head -5"
+  },
+  {
+   "task": "format-code-task-002285",
+   "cond": "ORIG",
+   "step": 18,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /workspace/repo && git diff --stat && git diff webp/encode.go | head -120"
+  },
+  {
+   "task": "format-code-task-002322",
+   "cond": "ORIG",
+   "step": 37,
+   "targeted": false,
+   "visible": false,
+   "snippet": "ern\" tests tests_integration 2>/dev/null | head; git diff --stat"
+  },
+  {
+   "task": "format-code-task-002335",
+   "cond": "NORM",
+   "step": 13,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && git show --stat HEAD | head -50 && ls -la /workspace && find /workspace -ma"
+  },
+  {
+   "task": "format-code-task-002335",
+   "cond": "ORIG",
+   "step": 2,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la TaskPrompter/evaluation InvPT/evaluation && wc -l TaskProm"
+  },
+  {
+   "task": "format-code-task-002335",
+   "cond": "ORIG",
+   "step": 18,
+   "targeted": false,
+   "visible": true,
+   "snippet": "eval_sal.py > InvPT/evaluation/eval_sal.py\necho \"created:\"; ls -l TaskPrompter/evaluation/eval_sal.py InvPT/evaluation/eval_s"
+  },
+  {
+   "task": "format-code-task-002443",
+   "cond": "ORIG",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /testbed && ls -la && git log --oneline -5"
+  },
+  {
+   "task": "format-code-task-002443",
+   "cond": "ORIG",
+   "step": 37,
+   "targeted": false,
+   "visible": false,
+   "snippet": "log --oneline -10 -- mypy/stubgen.py && git show 21f4516a --stat && git log --oneline -5 -- mypy/stubgenc.py"
+  },
+  {
+   "task": "format-code-task-002461",
+   "cond": "NORM",
+   "step": 26,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /workspace/repo && git diff --stat; echo \"---\"; git show HEAD:cirq-core/cirq/experiments/rando"
+  },
+  {
+   "task": "format-code-task-002598",
+   "cond": "NORM",
+   "step": 11,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /workspace/repo && git diff --stat && git diff main.go | head -120 && echo '---HELP---' && go "
+  },
+  {
+   "task": "format-code-task-002598",
+   "cond": "NORM",
+   "step": 19,
+   "targeted": false,
+   "visible": false,
+   "snippet": " -n \"skip-sc\\|Manual SuperCollider\" README.md && git diff --stat"
+  },
+  {
+   "task": "format-code-task-002598",
+   "cond": "ORIG",
+   "step": 20,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /workspace/repo && git diff --stat && git diff main.go | head -120"
+  },
+  {
+   "task": "format-code-task-002599",
+   "cond": "NORM",
+   "step": 26,
+   "targeted": false,
+   "visible": true,
+   "snippet": "git fsck --lost-found 2>&1 | head -50; git show --stat --oneline HEAD | head -50; ls -la"
+  },
+  {
+   "task": "format-code-task-002649",
+   "cond": "NORM",
+   "step": 22,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git show 8b12ba5a --stat && git show 8b12ba5a | head -200"
+  },
+  {
+   "task": "format-code-task-002661",
+   "cond": "NORM",
+   "step": 8,
+   "targeted": false,
+   "visible": false,
+   "snippet": "sed -n '54,62p' flask_dance/contrib/google.py && git diff --stat"
+  },
+  {
+   "task": "format-code-task-002661",
+   "cond": "ORIG",
+   "step": 9,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git diff --stat && git diff flask_dance/contrib/google.py"
+  },
+  {
+   "task": "format-code-task-002673",
+   "cond": "NORM",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && echo \"---\" && find . -maxdepth 2 -type f -name \"*.go\" |"
+  },
+  {
+   "task": "format-code-task-002673",
+   "cond": "NORM",
+   "step": 15,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /workspace/repo && git diff 69d9e46 3635770 --stat && echo \"--- docs ---\" && find docs -type f | head && echo "
+  },
+  {
+   "task": "format-code-task-002673",
+   "cond": "NORM",
+   "step": 18,
+   "targeted": false,
+   "visible": true,
+   "snippet": "space/repo && ls internal/ && echo \"--- testsupport ---\" && ls -la internal/testsupport 2>/dev/null; find . -path ./.git -pru"
+  },
+  {
+   "task": "format-code-task-002673",
+   "cond": "NORM",
+   "step": 23,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /workspace/repo && git show 69d9e46 --stat | head -60 && echo \"=== files at base ===\" && git ls-tree -"
+  },
+  {
+   "task": "format-code-task-002673",
+   "cond": "ORIG",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && echo \"---\" && find . -maxdepth 2 -type f -name \"*.go\" |"
+  },
+  {
+   "task": "format-code-task-002673",
+   "cond": "ORIG",
+   "step": 16,
+   "targeted": false,
+   "visible": true,
+   "snippet": "=\"; find . -path ./.git -prune -o -name \"*fixture*\" -print; ls -la .git/refs/heads"
+  },
+  {
+   "task": "format-code-task-002798",
+   "cond": "NORM",
+   "step": 26,
+   "targeted": false,
+   "visible": false,
+   "snippet": "npm test -- --runInBand && git diff --stat && git diff -- src/core/constants.js | head -40"
+  },
+  {
+   "task": "format-code-task-002798",
+   "cond": "ORIG",
+   "step": 2,
+   "targeted": false,
+   "visible": true,
+   "snippet": "ls -la"
+  },
+  {
+   "task": "format-code-task-002798",
+   "cond": "ORIG",
+   "step": 4,
+   "targeted": true,
+   "visible": false,
+   "snippet": "stat -c '%n %s' src/utils/index.js src/utils/string.js src/utils"
+  },
+  {
+   "task": "format-code-task-002808",
+   "cond": "NORM",
+   "step": 21,
+   "targeted": false,
+   "visible": false,
+   "snippet": "onciler/v1alpha1/eventlistener/eventlistener.go; git diff --stat"
+  },
+  {
+   "task": "format-code-task-002820",
+   "cond": "NORM",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "ls -la && git status --short && cat package.json | head -80"
+  },
+  {
+   "task": "format-code-task-002833",
+   "cond": "NORM",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && find . -maxdepth 2 -type f -name \"*.py\" | head -50"
+  },
+  {
+   "task": "format-code-task-002833",
+   "cond": "ORIG",
+   "step": 21,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la tests src && find src -type f | head -30"
+  },
+  {
+   "task": "format-code-task-002833",
+   "cond": "ORIG",
+   "step": 35,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la ~/.cache/ms-playwright 2>&1; ls -la /root/.cache 2>&1; /op"
+  },
+  {
+   "task": "format-code-task-002833",
+   "cond": "ORIG",
+   "step": 38,
+   "targeted": false,
+   "visible": false,
+   "snippet": "urlwatch/jobs.py 2>&1 | head; echo \"---diff---\"; git diff --stat"
+  },
+  {
+   "task": "format-code-task-002919",
+   "cond": "NORM",
+   "step": 31,
+   "targeted": false,
+   "visible": false,
+   "snippet": ".go dir/server/access.go | head; git stash list; git diff --stat"
+  },
+  {
+   "task": "format-code-task-002919",
+   "cond": "ORIG",
+   "step": 2,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la"
+  },
+  {
+   "task": "format-code-task-002935",
+   "cond": "NORM",
+   "step": 22,
+   "targeted": false,
+   "visible": false,
+   "snippet": "python - <<HEREDOC\ngit diff --stat; git diff -- altair/utils/data.py"
+  },
+  {
+   "task": "format-code-task-003017",
+   "cond": "ORIG",
+   "step": 1,
+   "targeted": false,
+   "visible": true,
+   "snippet": "cd /workspace/repo && ls -la && find . -type f -name \"*.py\" | head -50"
+  },
+  {
+   "task": "format-code-task-003043",
+   "cond": "NORM",
+   "step": 10,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git diff --stat && sed -n '1,25p' provisioner/clusterpy.go && grep -n \"anno"
+  },
+  {
+   "task": "format-code-task-003043",
+   "cond": "ORIG",
+   "step": 10,
+   "targeted": false,
+   "visible": false,
+   "snippet": "visioner/clusterpy_test.go && git status && git diff HEAD --stat"
+  },
+  {
+   "task": "format-code-task-003043",
+   "cond": "ORIG",
+   "step": 13,
+   "targeted": false,
+   "visible": false,
+   "snippet": "cd /testbed && git diff --stat && grep -n \"annotateNamespace\\|isNamespace\\|types\\\"\" provis"
+  }
+ ],
+ "githunt_runs": {
+  "ORIG": 21,
+  "NORM": 23
+ },
+ "n_broad_hits": 87,
+ "n_broad_hits_targeted": 1,
+ "n_broad_hits_visible": 33,
+ "n_broad_hits_neither": 53
+}

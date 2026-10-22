@@ -1,0 +1,768 @@
+{
+ "cond_seed": 20261021,
+ "n": 73,
+ "primary_set": [
+  "format-code-task-000162",
+  "format-code-task-000230",
+  "format-code-task-000409",
+  "format-code-task-000414",
+  "format-code-task-000459",
+  "format-code-task-000498",
+  "format-code-task-000520",
+  "format-code-task-000613",
+  "format-code-task-000877",
+  "format-code-task-001197",
+  "format-code-task-001285",
+  "format-code-task-001424",
+  "format-code-task-001495",
+  "format-code-task-001547",
+  "format-code-task-001566",
+  "format-code-task-001692",
+  "format-code-task-001743",
+  "format-code-task-001872",
+  "format-code-task-001883",
+  "format-code-task-002098",
+  "format-code-task-002197",
+  "format-code-task-002199",
+  "format-code-task-002661",
+  "format-code-task-002739",
+  "format-code-task-002768",
+  "format-code-task-002797",
+  "format-code-task-002808",
+  "format-code-task-002820",
+  "format-code-task-002935",
+  "format-code-task-003043"
+ ],
+ "order": [
+  {
+   "i": 1,
+   "task_id": "format-code-task-002739",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 2,
+   "task_id": "format-code-task-002808",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 3,
+   "task_id": "format-code-task-000877",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 4,
+   "task_id": "format-code-task-001692",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 5,
+   "task_id": "format-code-task-000498",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 6,
+   "task_id": "format-code-task-001285",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 7,
+   "task_id": "format-code-task-002661",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 8,
+   "task_id": "format-code-task-002197",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 9,
+   "task_id": "format-code-task-002935",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 10,
+   "task_id": "format-code-task-001883",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 11,
+   "task_id": "format-code-task-002797",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 12,
+   "task_id": "format-code-task-000459",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 13,
+   "task_id": "format-code-task-000162",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 14,
+   "task_id": "format-code-task-001495",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 15,
+   "task_id": "format-code-task-000520",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 16,
+   "task_id": "format-code-task-002199",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 17,
+   "task_id": "format-code-task-000414",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 18,
+   "task_id": "format-code-task-001566",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 19,
+   "task_id": "format-code-task-002098",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 20,
+   "task_id": "format-code-task-001743",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 21,
+   "task_id": "format-code-task-001197",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 22,
+   "task_id": "format-code-task-003043",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 23,
+   "task_id": "format-code-task-000230",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 24,
+   "task_id": "format-code-task-001424",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 25,
+   "task_id": "format-code-task-002820",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 26,
+   "task_id": "format-code-task-001547",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 27,
+   "task_id": "format-code-task-001872",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 28,
+   "task_id": "format-code-task-000409",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 29,
+   "task_id": "format-code-task-002768",
+   "primary": true,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 30,
+   "task_id": "format-code-task-000613",
+   "primary": true,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 31,
+   "task_id": "format-code-task-002649",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 32,
+   "task_id": "format-code-task-001420",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 33,
+   "task_id": "format-code-task-002256",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 34,
+   "task_id": "format-code-task-002201",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 35,
+   "task_id": "format-code-task-002673",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 36,
+   "task_id": "format-code-task-001642",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 37,
+   "task_id": "format-code-task-001486",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 38,
+   "task_id": "format-code-task-002285",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 39,
+   "task_id": "format-code-task-002220",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 40,
+   "task_id": "format-code-task-000691",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 41,
+   "task_id": "format-code-task-001685",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 42,
+   "task_id": "format-code-task-002860",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 43,
+   "task_id": "format-code-task-001804",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 44,
+   "task_id": "format-code-task-000377",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 45,
+   "task_id": "format-code-task-002051",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 46,
+   "task_id": "format-code-task-002659",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 47,
+   "task_id": "format-code-task-000501",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 48,
+   "task_id": "format-code-task-001699",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 49,
+   "task_id": "format-code-task-000510",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 50,
+   "task_id": "format-code-task-000290",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 51,
+   "task_id": "format-code-task-001686",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 52,
+   "task_id": "format-code-task-002109",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 53,
+   "task_id": "format-code-task-002598",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 54,
+   "task_id": "format-code-task-000342",
+   "primary": false,
+   "stratum": "strong",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 55,
+   "task_id": "format-code-task-001905",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 56,
+   "task_id": "format-code-task-002919",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 57,
+   "task_id": "format-code-task-001409",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 58,
+   "task_id": "format-code-task-000531",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 59,
+   "task_id": "format-code-task-002599",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 60,
+   "task_id": "format-code-task-002443",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 61,
+   "task_id": "format-code-task-002974",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 62,
+   "task_id": "format-code-task-002933",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 63,
+   "task_id": "format-code-task-002322",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 64,
+   "task_id": "format-code-task-001214",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 65,
+   "task_id": "format-code-task-001568",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 66,
+   "task_id": "format-code-task-000670",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 67,
+   "task_id": "format-code-task-002461",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 68,
+   "task_id": "format-code-task-003017",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 69,
+   "task_id": "format-code-task-000828",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 70,
+   "task_id": "format-code-task-002833",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 71,
+   "task_id": "format-code-task-002798",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-ORIG",
+    "SCF-NORM"
+   ]
+  },
+  {
+   "i": 72,
+   "task_id": "format-code-task-002335",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  },
+  {
+   "i": 73,
+   "task_id": "format-code-task-001935",
+   "primary": false,
+   "stratum": "random",
+   "cond_order": [
+    "SCF-NORM",
+    "SCF-ORIG"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3354 @@
+{
+ "n_pairs": 73,
+ "excluded_pilot_tasks": [],
+ "primary_set": [
+  "format-code-task-000162",
+  "format-code-task-000230",
+  "format-code-task-000409",
+  "format-code-task-000414",
+  "format-code-task-000459",
+  "format-code-task-000498",
+  "format-code-task-000520",
+  "format-code-task-000613",
+  "format-code-task-000877",
+  "format-code-task-001197",
+  "format-code-task-001285",
+  "format-code-task-001424",
+  "format-code-task-001495",
+  "format-code-task-001547",
+  "format-code-task-001566",
+  "format-code-task-001692",
+  "format-code-task-001743",
+  "format-code-task-001872",
+  "format-code-task-001883",
+  "format-code-task-002098",
+  "format-code-task-002197",
+  "format-code-task-002199",
+  "format-code-task-002661",
+  "format-code-task-002739",
+  "format-code-task-002768",
+  "format-code-task-002797",
+  "format-code-task-002808",
+  "format-code-task-002820",
+  "format-code-task-002935",
+  "format-code-task-003043"
+ ],
+ "primary_set_complete": true,
+ "primary": {
+  "label": "primary: pre-registered 20 strong + 10 random (Amendment 2 corrected)",
+  "n_pairs": 30,
+  "pass_ORIG": 21,
+  "pass_NORM": 20,
+  "both_pass": 17,
+  "both_fail": 6,
+  "b_ORIGonly": 4,
+  "c_NORMonly": 3,
+  "mcnemar_exact_p": 1.0,
+  "diff_ORIG_minus_NORM": [
+   0.0333,
+   -0.1333,
+   0.2
+  ],
+  "steps_both_pass": {
+   "n": 17,
+   "median_ORIG": 31.0,
+   "median_NORM": 27.0,
+   "mean_ORIG": 27.824,
+   "mean_NORM": 26.235,
+   "mean_diff_ci": [
+    1.5882,
+    -1.8824,
+    5.2353
+   ],
+   "median_diff_ci": [
+    0.0,
+    -3.0,
+    5.0
+   ]
+  },
+  "steps_all_fail_at_cap": {
+   "n": 30,
+   "median_ORIG": 35.0,
+   "median_NORM": 30.5,
+   "mean_ORIG": 30.733,
+   "mean_NORM": 29.933,
+   "mean_diff_ci": [
+    0.8,
+    -3.5667,
+    5.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    4.5
+   ]
+  },
+  "steps_eff_both_pass": {
+   "n": 17,
+   "median_ORIG": 31.0,
+   "median_NORM": 24.0,
+   "mean_ORIG": 27.412,
+   "mean_NORM": 25.412,
+   "mean_diff_ci": [
+    2.0,
+    -1.0588,
+    5.1779
+   ],
+   "median_diff_ci": [
+    1.0,
+    -2.0,
+    5.0
+   ]
+  },
+  "steps_eff_all_fail_at_cap": {
+   "n": 30,
+   "median_ORIG": 34.5,
+   "median_NORM": 29.5,
+   "mean_ORIG": 30.5,
+   "mean_NORM": 29.467,
+   "mean_diff_ci": [
+    1.0333,
+    -3.2333,
+    5.1333
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    4.0
+   ]
+  },
+  "prompt_tokens": {
+   "n": 30,
+   "median_ORIG": 243252.5,
+   "median_NORM": 268451.0,
+   "mean_ORIG": 381317.8,
+   "mean_NORM": 314366.967,
+   "mean_diff_ci": [
+    66950.8333,
+    -45207.1917,
+    199501.365
+   ],
+   "median_diff_ci": [
+    37820.5,
+    -52283.0,
+    72612.5
+   ]
+  },
+  "completion_tokens": {
+   "n": 30,
+   "median_ORIG": 17219.0,
+   "median_NORM": 11836.5,
+   "mean_ORIG": 22008.967,
+   "mean_NORM": 20443.7,
+   "mean_diff_ci": [
+    1565.2667,
+    -5819.7933,
+    9631.6492
+   ],
+   "median_diff_ci": [
+    848.0,
+    -4997.0,
+    7937.0
+   ]
+  },
+  "cost": {
+   "n": 30,
+   "median_ORIG": 0.01353417417,
+   "median_NORM": 0.01043268336,
+   "mean_ORIG": 0.017,
+   "mean_NORM": 0.016,
+   "mean_diff_ci": [
+    0.0015,
+    -0.0035,
+    0.0074
+   ],
+   "median_diff_ci": [
+    0.0009,
+    -0.0038,
+    0.0052
+   ]
+  },
+  "wall_s": {
+   "n": 30,
+   "median_ORIG": 152.5,
+   "median_NORM": 129.05,
+   "mean_ORIG": 185.637,
+   "mean_NORM": 170.45,
+   "mean_diff_ci": [
+    15.1867,
+    -23.9447,
+    53.8345
+   ],
+   "median_diff_ci": [
+    20.35,
+    -21.0,
+    37.6
+   ]
+  },
+  "files_opened_before_first_edit": {
+   "n": 30,
+   "median_ORIG": 5.0,
+   "median_NORM": 5.5,
+   "mean_ORIG": 6.833,
+   "mean_NORM": 7.367,
+   "mean_diff_ci": [
+    -0.5333,
+    -1.9,
+    0.7
+   ],
+   "median_diff_ci": [
+    0.0,
+    -1.5,
+    1.5
+   ]
+  },
+  "first_edit_step_noedit_as_41": {
+   "n": 30,
+   "median_ORIG": 14.0,
+   "median_NORM": 15.5,
+   "mean_ORIG": 15.4,
+   "mean_NORM": 16.567,
+   "mean_diff_ci": [
+    -1.1667,
+    -3.1333,
+    0.8333
+   ],
+   "median_diff_ci": [
+    -1.0,
+    -3.5,
+    1.0
+   ]
+  },
+  "opened_late_file_before_first_edit": {
+   "n": 30,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.967,
+   "mean_NORM": 1.0,
+   "mean_diff_ci": [
+    -0.0333,
+    -0.1,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "final_touches_late": {
+   "n": 30,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.967,
+   "mean_NORM": 0.967,
+   "mean_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "rate_ORIG": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 4,
+   "n": 30,
+   "submitted": 25,
+   "stop_reasons": {
+    "submitted": 25,
+    "step_cap": 5
+   }
+  },
+  "rate_NORM": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 3,
+   "n": 30,
+   "submitted": 23,
+   "stop_reasons": {
+    "submitted": 23,
+    "step_cap": 7
+   }
+  }
+ },
+ "prereg_as_run": {
+  "label": "sensitivity: the 30 tasks as originally run (with the network-regex bug)",
+  "n_pairs": 30,
+  "pass_ORIG": 21,
+  "pass_NORM": 19,
+  "both_pass": 17,
+  "both_fail": 7,
+  "b_ORIGonly": 4,
+  "c_NORMonly": 2,
+  "mcnemar_exact_p": 0.6875,
+  "diff_ORIG_minus_NORM": [
+   0.0667,
+   -0.1,
+   0.2333
+  ],
+  "steps_both_pass": {
+   "n": 17,
+   "median_ORIG": 31.0,
+   "median_NORM": 27.0,
+   "mean_ORIG": 27.824,
+   "mean_NORM": 26.235,
+   "mean_diff_ci": [
+    1.5882,
+    -1.8824,
+    5.2353
+   ],
+   "median_diff_ci": [
+    0.0,
+    -3.0,
+    5.0
+   ]
+  },
+  "steps_all_fail_at_cap": {
+   "n": 30,
+   "median_ORIG": 35.0,
+   "median_NORM": 34.0,
+   "mean_ORIG": 30.733,
+   "mean_NORM": 30.7,
+   "mean_diff_ci": [
+    0.0333,
+    -4.0667,
+    3.9333
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    2.5
+   ]
+  },
+  "steps_eff_both_pass": {
+   "n": 17,
+   "median_ORIG": 31.0,
+   "median_NORM": 24.0,
+   "mean_ORIG": 27.412,
+   "mean_NORM": 25.412,
+   "mean_diff_ci": [
+    2.0,
+    -1.0588,
+    5.1779
+   ],
+   "median_diff_ci": [
+    1.0,
+    -2.0,
+    5.0
+   ]
+  },
+  "steps_eff_all_fail_at_cap": {
+   "n": 30,
+   "median_ORIG": 34.5,
+   "median_NORM": 34.0,
+   "mean_ORIG": 30.5,
+   "mean_NORM": 30.233,
+   "mean_diff_ci": [
+    0.2667,
+    -3.7,
+    4.0342
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    2.5
+   ]
+  },
+  "prompt_tokens": {
+   "n": 30,
+   "median_ORIG": 283327.0,
+   "median_NORM": 298838.5,
+   "mean_ORIG": 393099.733,
+   "mean_NORM": 328141.433,
+   "mean_diff_ci": [
+    64958.3,
+    -47932.4458,
+    197894.1625
+   ],
+   "median_diff_ci": [
+    27192.0,
+    -52283.0,
+    72612.5
+   ]
+  },
+  "completion_tokens": {
+   "n": 30,
+   "median_ORIG": 17219.0,
+   "median_NORM": 12193.0,
+   "mean_ORIG": 22387.367,
+   "mean_NORM": 21212.9,
+   "mean_diff_ci": [
+    1174.4667,
+    -6153.7917,
+    9241.8608
+   ],
+   "median_diff_ci": [
+    848.0,
+    -4997.0,
+    6914.5
+   ]
+  },
+  "cost": {
+   "n": 30,
+   "median_ORIG": 0.01353417417,
+   "median_NORM": 0.010913903550000001,
+   "mean_ORIG": 0.018,
+   "mean_NORM": 0.017,
+   "mean_diff_ci": [
+    0.0012,
+    -0.0037,
+    0.0071
+   ],
+   "median_diff_ci": [
+    0.0009,
+    -0.0038,
+    0.0045
+   ]
+  },
+  "wall_s": {
+   "n": 30,
+   "median_ORIG": 153.8,
+   "median_NORM": 138.3,
+   "mean_ORIG": 188.997,
+   "mean_NORM": 176.42,
+   "mean_diff_ci": [
+    12.5767,
+    -26.3536,
+    50.9643
+   ],
+   "median_diff_ci": [
+    12.8,
+    -21.0,
+    33.65
+   ]
+  },
+  "files_opened_before_first_edit": {
+   "n": 30,
+   "median_ORIG": 5.0,
+   "median_NORM": 5.5,
+   "mean_ORIG": 6.867,
+   "mean_NORM": 7.367,
+   "mean_diff_ci": [
+    -0.5,
+    -1.9,
+    0.7342
+   ],
+   "median_diff_ci": [
+    0.0,
+    -1.5,
+    1.5
+   ]
+  },
+  "first_edit_step_noedit_as_41": {
+   "n": 30,
+   "median_ORIG": 14.5,
+   "median_NORM": 16.5,
+   "mean_ORIG": 16.3,
+   "mean_NORM": 17.733,
+   "mean_diff_ci": [
+    -1.4333,
+    -3.3,
+    0.5
+   ],
+   "median_diff_ci": [
+    -1.0,
+    -3.5,
+    0.5
+   ]
+  },
+  "opened_late_file_before_first_edit": {
+   "n": 30,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.967,
+   "mean_NORM": 1.0,
+   "mean_diff_ci": [
+    -0.0333,
+    -0.1,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "final_touches_late": {
+   "n": 30,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.933,
+   "mean_NORM": 0.933,
+   "mean_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "rate_ORIG": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 4,
+   "n": 30,
+   "submitted": 24,
+   "stop_reasons": {
+    "submitted": 24,
+    "step_cap": 6
+   }
+  },
+  "rate_NORM": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 3,
+   "n": 30,
+   "submitted": 22,
+   "stop_reasons": {
+    "submitted": 22,
+    "step_cap": 8
+   }
+  }
+ },
+ "all_pairs": {
+  "label": "secondary: all pairs incl. extension (Amendment 3)",
+  "n_pairs": 73,
+  "pass_ORIG": 50,
+  "pass_NORM": 47,
+  "both_pass": 41,
+  "both_fail": 17,
+  "b_ORIGonly": 9,
+  "c_NORMonly": 6,
+  "mcnemar_exact_p": 0.6072,
+  "diff_ORIG_minus_NORM": [
+   0.0411,
+   -0.0548,
+   0.1507
+  ],
+  "steps_both_pass": {
+   "n": 41,
+   "median_ORIG": 23.0,
+   "median_NORM": 27.0,
+   "mean_ORIG": 25.098,
+   "mean_NORM": 25.293,
+   "mean_diff_ci": [
+    -0.1951,
+    -3.122,
+    2.6829
+   ],
+   "median_diff_ci": [
+    0.0,
+    -3.0,
+    3.0
+   ]
+  },
+  "steps_all_fail_at_cap": {
+   "n": 73,
+   "median_ORIG": 35.0,
+   "median_NORM": 36.0,
+   "mean_ORIG": 29.959,
+   "mean_NORM": 30.247,
+   "mean_diff_ci": [
+    -0.2877,
+    -2.8767,
+    2.2058
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "steps_eff_both_pass": {
+   "n": 41,
+   "median_ORIG": 21.0,
+   "median_NORM": 23.0,
+   "mean_ORIG": 24.049,
+   "mean_NORM": 24.195,
+   "mean_diff_ci": [
+    -0.1463,
+    -2.3171,
+    1.9512
+   ],
+   "median_diff_ci": [
+    0.0,
+    -3.0,
+    2.0
+   ]
+  },
+  "steps_eff_all_fail_at_cap": {
+   "n": 73,
+   "median_ORIG": 31.0,
+   "median_NORM": 32.0,
+   "mean_ORIG": 28.589,
+   "mean_NORM": 29.466,
+   "mean_diff_ci": [
+    -0.8767,
+    -3.4932,
+    1.6579
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "prompt_tokens": {
+   "n": 73,
+   "median_ORIG": 268734.0,
+   "median_NORM": 258691.0,
+   "mean_ORIG": 338164.918,
+   "mean_NORM": 305194.452,
+   "mean_diff_ci": [
+    32970.4658,
+    -21801.6027,
+    95165.8911
+   ],
+   "median_diff_ci": [
+    26699.0,
+    -5653.0,
+    52447.0
+   ]
+  },
+  "completion_tokens": {
+   "n": 73,
+   "median_ORIG": 11109.0,
+   "median_NORM": 11958.0,
+   "mean_ORIG": 21696.384,
+   "mean_NORM": 18432.712,
+   "mean_diff_ci": [
+    3263.6712,
+    -2612.6873,
+    10487.4729
+   ],
+   "median_diff_ci": [
+    519.0,
+    -2228.0,
+    2109.0
+   ]
+  },
+  "cost": {
+   "n": 73,
+   "median_ORIG": 0.01280258892,
+   "median_NORM": 0.01414526652,
+   "mean_ORIG": 0.021,
+   "mean_NORM": 0.018,
+   "mean_diff_ci": [
+    0.0027,
+    -0.0016,
+    0.0079
+   ],
+   "median_diff_ci": [
+    0.0004,
+    -0.002,
+    0.003
+   ]
+  },
+  "wall_s": {
+   "n": 73,
+   "median_ORIG": 151.8,
+   "median_NORM": 124.7,
+   "mean_ORIG": 186.377,
+   "mean_NORM": 159.493,
+   "mean_diff_ci": [
+    26.8836,
+    -1.4755,
+    56.696
+   ],
+   "median_diff_ci": [
+    8.8,
+    0.3,
+    35.4
+   ]
+  },
+  "files_opened_before_first_edit": {
+   "n": 73,
+   "median_ORIG": 6.0,
+   "median_NORM": 5.0,
+   "mean_ORIG": 7.411,
+   "mean_NORM": 7.466,
+   "mean_diff_ci": [
+    -0.0548,
+    -0.8082,
+    0.6438
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "first_edit_step_noedit_as_41": {
+   "n": 73,
+   "median_ORIG": 14.0,
+   "median_NORM": 15.0,
+   "mean_ORIG": 16.877,
+   "mean_NORM": 17.0,
+   "mean_diff_ci": [
+    -0.1233,
+    -1.5616,
+    1.3699
+   ],
+   "median_diff_ci": [
+    0.0,
+    -1.0,
+    1.0
+   ]
+  },
+  "opened_late_file_before_first_edit": {
+   "n": 73,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.973,
+   "mean_NORM": 0.986,
+   "mean_diff_ci": [
+    -0.0137,
+    -0.0411,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "final_touches_late": {
+   "n": 73,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.89,
+   "mean_NORM": 0.877,
+   "mean_diff_ci": [
+    0.0137,
+    0.0,
+    0.0411
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "rate_ORIG": {
+   "mtime_targeted": 1,
+   "mtime_targeted_before_first_edit": 1,
+   "mtime_visible": 14,
+   "n": 73,
+   "submitted": 55,
+   "stop_reasons": {
+    "submitted": 55,
+    "run_cost_cap": 1,
+    "step_cap": 17
+   }
+  },
+  "rate_NORM": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 11,
+   "n": 73,
+   "submitted": 55,
+   "stop_reasons": {
+    "submitted": 55,
+    "step_cap": 18
+   }
+  }
+ },
+ "primary_stratum_strong": {
+  "label": "primary, stratum strong",
+  "n_pairs": 20,
+  "pass_ORIG": 12,
+  "pass_NORM": 13,
+  "both_pass": 10,
+  "both_fail": 5,
+  "b_ORIGonly": 2,
+  "c_NORMonly": 3,
+  "mcnemar_exact_p": 1.0,
+  "diff_ORIG_minus_NORM": [
+   -0.05,
+   -0.25,
+   0.15
+  ],
+  "steps_both_pass": {
+   "n": 10,
+   "median_ORIG": 27.5,
+   "median_NORM": 25.0,
+   "mean_ORIG": 27.8,
+   "mean_NORM": 25.1,
+   "mean_diff_ci": [
+    2.7,
+    -2.3,
+    8.0
+   ],
+   "median_diff_ci": [
+    2.0,
+    -3.0,
+    8.0
+   ]
+  },
+  "steps_all_fail_at_cap": {
+   "n": 20,
+   "median_ORIG": 38.5,
+   "median_NORM": 30.5,
+   "mean_ORIG": 31.35,
+   "mean_NORM": 29.15,
+   "mean_diff_ci": [
+    2.2,
+    -3.6,
+    7.85
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    5.5
+   ]
+  },
+  "steps_eff_both_pass": {
+   "n": 10,
+   "median_ORIG": 27.5,
+   "median_NORM": 25.0,
+   "mean_ORIG": 27.2,
+   "mean_NORM": 24.8,
+   "mean_diff_ci": [
+    2.4,
+    -2.3,
+    7.5
+   ],
+   "median_diff_ci": [
+    2.5,
+    -3.0,
+    6.0
+   ]
+  },
+  "steps_eff_all_fail_at_cap": {
+   "n": 20,
+   "median_ORIG": 36.0,
+   "median_NORM": 29.5,
+   "mean_ORIG": 31.05,
+   "mean_NORM": 29.0,
+   "mean_diff_ci": [
+    2.05,
+    -3.7012,
+    7.65
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    5.5
+   ]
+  },
+  "prompt_tokens": {
+   "n": 20,
+   "median_ORIG": 166613.5,
+   "median_NORM": 218880.0,
+   "mean_ORIG": 212801.2,
+   "mean_NORM": 238572.3,
+   "mean_diff_ci": [
+    -25771.1,
+    -95441.4075,
+    42114.84
+   ],
+   "median_diff_ci": [
+    27192.0,
+    -91167.0,
+    58474.5
+   ]
+  },
+  "completion_tokens": {
+   "n": 20,
+   "median_ORIG": 12423.5,
+   "median_NORM": 11190.0,
+   "mean_ORIG": 16697.55,
+   "mean_NORM": 16444.95,
+   "mean_diff_ci": [
+    252.6,
+    -6893.1462,
+    7628.1375
+   ],
+   "median_diff_ci": [
+    848.0,
+    -3841.5,
+    6914.5
+   ]
+  },
+  "cost": {
+   "n": 20,
+   "median_ORIG": 0.009948484260000001,
+   "median_NORM": 0.00957497706,
+   "mean_ORIG": 0.013,
+   "mean_NORM": 0.013,
+   "mean_diff_ci": [
+    -0.0002,
+    -0.005,
+    0.0048
+   ],
+   "median_diff_ci": [
+    0.0009,
+    -0.0039,
+    0.0045
+   ]
+  },
+  "wall_s": {
+   "n": 20,
+   "median_ORIG": 147.60000000000002,
+   "median_NORM": 116.1,
+   "mean_ORIG": 165.665,
+   "mean_NORM": 153.815,
+   "mean_diff_ci": [
+    11.85,
+    -26.93,
+    53.1732
+   ],
+   "median_diff_ci": [
+    14.45,
+    -30.5,
+    43.75
+   ]
+  },
+  "files_opened_before_first_edit": {
+   "n": 20,
+   "median_ORIG": 4.0,
+   "median_NORM": 4.5,
+   "mean_ORIG": 5.3,
+   "mean_NORM": 5.2,
+   "mean_diff_ci": [
+    0.1,
+    -1.3,
+    1.4
+   ],
+   "median_diff_ci": [
+    1.0,
+    -1.5,
+    2.0
+   ]
+  },
+  "first_edit_step_noedit_as_41": {
+   "n": 20,
+   "median_ORIG": 14.0,
+   "median_NORM": 13.0,
+   "mean_ORIG": 15.45,
+   "mean_NORM": 15.35,
+   "mean_diff_ci": [
+    0.1,
+    -2.35,
+    2.6
+   ],
+   "median_diff_ci": [
+    0.0,
+    -3.0,
+    3.5
+   ]
+  },
+  "opened_late_file_before_first_edit": {
+   "n": 20,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.95,
+   "mean_NORM": 1.0,
+   "mean_diff_ci": [
+    -0.05,
+    -0.15,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "final_touches_late": {
+   "n": 20,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.95,
+   "mean_NORM": 0.95,
+   "mean_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "rate_ORIG": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 0,
+   "n": 20,
+   "submitted": 18,
+   "stop_reasons": {
+    "submitted": 18,
+    "step_cap": 2
+   }
+  },
+  "rate_NORM": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 1,
+   "n": 20,
+   "submitted": 17,
+   "stop_reasons": {
+    "submitted": 17,
+    "step_cap": 3
+   }
+  }
+ },
+ "all_stratum_strong": {
+  "label": "all pairs, stratum strong",
+  "n_pairs": 37,
+  "pass_ORIG": 23,
+  "pass_NORM": 22,
+  "both_pass": 18,
+  "both_fail": 10,
+  "b_ORIGonly": 5,
+  "c_NORMonly": 4,
+  "mcnemar_exact_p": 1.0,
+  "diff_ORIG_minus_NORM": [
+   0.027,
+   -0.1351,
+   0.1892
+  ],
+  "steps_both_pass": {
+   "n": 18,
+   "median_ORIG": 20.0,
+   "median_NORM": 20.0,
+   "mean_ORIG": 23.333,
+   "mean_NORM": 21.111,
+   "mean_diff_ci": [
+    2.2222,
+    -1.1111,
+    5.7792
+   ],
+   "median_diff_ci": [
+    2.0,
+    -2.0125,
+    5.5
+   ]
+  },
+  "steps_all_fail_at_cap": {
+   "n": 37,
+   "median_ORIG": 35.0,
+   "median_NORM": 29.0,
+   "mean_ORIG": 29.432,
+   "mean_NORM": 28.243,
+   "mean_diff_ci": [
+    1.1892,
+    -2.8108,
+    5.1892
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    3.0
+   ]
+  },
+  "steps_eff_both_pass": {
+   "n": 18,
+   "median_ORIG": 20.0,
+   "median_NORM": 19.5,
+   "mean_ORIG": 22.889,
+   "mean_NORM": 20.944,
+   "mean_diff_ci": [
+    1.9444,
+    -1.2778,
+    5.4444
+   ],
+   "median_diff_ci": [
+    1.5,
+    -2.0125,
+    5.5
+   ]
+  },
+  "steps_eff_all_fail_at_cap": {
+   "n": 37,
+   "median_ORIG": 31.0,
+   "median_NORM": 28.0,
+   "mean_ORIG": 28.243,
+   "mean_NORM": 28.162,
+   "mean_diff_ci": [
+    0.0811,
+    -4.2973,
+    4.4865
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    2.0
+   ]
+  },
+  "prompt_tokens": {
+   "n": 37,
+   "median_ORIG": 165386.0,
+   "median_NORM": 117530.0,
+   "mean_ORIG": 220713.297,
+   "mean_NORM": 207256.973,
+   "mean_diff_ci": [
+    13456.3243,
+    -32580.2108,
+    56491.6818
+   ],
+   "median_diff_ci": [
+    36619.0,
+    2849.0,
+    52447.0
+   ]
+  },
+  "completion_tokens": {
+   "n": 37,
+   "median_ORIG": 8960.0,
+   "median_NORM": 9900.0,
+   "mean_ORIG": 14044.351,
+   "mean_NORM": 14061.324,
+   "mean_diff_ci": [
+    -16.973,
+    -4268.6851,
+    4364.4074
+   ],
+   "median_diff_ci": [
+    1784.0,
+    -505.0,
+    3650.0
+   ]
+  },
+  "cost": {
+   "n": 37,
+   "median_ORIG": 0.010170574920000001,
+   "median_NORM": 0.00794720916,
+   "mean_ORIG": 0.014,
+   "mean_NORM": 0.013,
+   "mean_diff_ci": [
+    0.0005,
+    -0.0029,
+    0.0038
+   ],
+   "median_diff_ci": [
+    0.0022,
+    -0.0007,
+    0.0043
+   ]
+  },
+  "wall_s": {
+   "n": 37,
+   "median_ORIG": 132.9,
+   "median_NORM": 96.5,
+   "mean_ORIG": 159.905,
+   "mean_NORM": 131.746,
+   "mean_diff_ci": [
+    28.1595,
+    0.6566,
+    57.2544
+   ],
+   "median_diff_ci": [
+    22.9,
+    -1.4,
+    52.1
+   ]
+  },
+  "files_opened_before_first_edit": {
+   "n": 37,
+   "median_ORIG": 4.0,
+   "median_NORM": 4.0,
+   "mean_ORIG": 5.162,
+   "mean_NORM": 4.973,
+   "mean_diff_ci": [
+    0.1892,
+    -0.7297,
+    1.0541
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    2.0
+   ]
+  },
+  "first_edit_step_noedit_as_41": {
+   "n": 37,
+   "median_ORIG": 13.0,
+   "median_NORM": 11.0,
+   "mean_ORIG": 15.216,
+   "mean_NORM": 15.243,
+   "mean_diff_ci": [
+    -0.027,
+    -2.2432,
+    2.027
+   ],
+   "median_diff_ci": [
+    0.0,
+    -2.0,
+    3.0
+   ]
+  },
+  "opened_late_file_before_first_edit": {
+   "n": 37,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.973,
+   "mean_NORM": 1.0,
+   "mean_diff_ci": [
+    -0.027,
+    -0.0811,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "final_touches_late": {
+   "n": 37,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.919,
+   "mean_NORM": 0.892,
+   "mean_diff_ci": [
+    0.027,
+    0.0,
+    0.0811
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "rate_ORIG": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 0,
+   "n": 37,
+   "submitted": 30,
+   "stop_reasons": {
+    "submitted": 30,
+    "step_cap": 7
+   }
+  },
+  "rate_NORM": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 1,
+   "n": 37,
+   "submitted": 31,
+   "stop_reasons": {
+    "submitted": 31,
+    "step_cap": 6
+   }
+  }
+ },
+ "primary_stratum_random": {
+  "label": "primary, stratum random",
+  "n_pairs": 10,
+  "pass_ORIG": 9,
+  "pass_NORM": 7,
+  "both_pass": 7,
+  "both_fail": 1,
+  "b_ORIGonly": 2,
+  "c_NORMonly": 0,
+  "mcnemar_exact_p": 0.5,
+  "diff_ORIG_minus_NORM": [
+   0.2,
+   0.0,
+   0.5
+  ],
+  "steps_both_pass": {
+   "n": 7,
+   "median_ORIG": 31.0,
+   "median_NORM": 27.0,
+   "mean_ORIG": 27.857,
+   "mean_NORM": 27.857,
+   "mean_diff_ci": [
+    0.0,
+    -4.2857,
+    4.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    -5.0,
+    5.0
+   ]
+  },
+  "steps_all_fail_at_cap": {
+   "n": 10,
+   "median_ORIG": 31.5,
+   "median_NORM": 34.0,
+   "mean_ORIG": 29.5,
+   "mean_NORM": 31.5,
+   "mean_diff_ci": [
+    -2.0,
+    -7.2,
+    2.3
+   ],
+   "median_diff_ci": [
+    0.0,
+    -6.0,
+    5.0
+   ]
+  },
+  "steps_eff_both_pass": {
+   "n": 7,
+   "median_ORIG": 31.0,
+   "median_NORM": 24.0,
+   "mean_ORIG": 27.714,
+   "mean_NORM": 26.286,
+   "mean_diff_ci": [
+    1.4286,
+    -1.4286,
+    4.2857
+   ],
+   "median_diff_ci": [
+    1.0,
+    -2.0,
+    5.0
+   ]
+  },
+  "steps_eff_all_fail_at_cap": {
+   "n": 10,
+   "median_ORIG": 31.0,
+   "median_NORM": 33.5,
+   "mean_ORIG": 29.4,
+   "mean_NORM": 30.4,
+   "mean_diff_ci": [
+    -1.0,
+    -6.0,
+    2.7
+   ],
+   "median_diff_ci": [
+    0.0,
+    -2.5,
+    4.0
+   ]
+  },
+  "prompt_tokens": {
+   "n": 10,
+   "median_ORIG": 413085.0,
+   "median_NORM": 400218.0,
+   "mean_ORIG": 718351.0,
+   "mean_NORM": 465956.3,
+   "mean_diff_ci": [
+    252394.7,
+    -40199.7,
+    587841.5625
+   ],
+   "median_diff_ci": [
+    96928.0,
+    -177367.0,
+    670628.0
+   ]
+  },
+  "completion_tokens": {
+   "n": 10,
+   "median_ORIG": 24461.5,
+   "median_NORM": 21356.5,
+   "mean_ORIG": 32631.8,
+   "mean_NORM": 28441.2,
+   "mean_diff_ci": [
+    4190.6,
+    -12498.4275,
+    24024.7675
+   ],
+   "median_diff_ci": [
+    3063.5,
+    -14062.5,
+    15388.0
+   ]
+  },
+  "cost": {
+   "n": 10,
+   "median_ORIG": 0.01911657429,
+   "median_NORM": 0.0187147125,
+   "mean_ORIG": 0.027,
+   "mean_NORM": 0.022,
+   "mean_diff_ci": [
+    0.005,
+    -0.006,
+    0.0197
+   ],
+   "median_diff_ci": [
+    0.0022,
+    -0.0106,
+    0.011
+   ]
+  },
+  "wall_s": {
+   "n": 10,
+   "median_ORIG": 174.1,
+   "median_NORM": 174.5,
+   "mean_ORIG": 225.58,
+   "mean_NORM": 203.72,
+   "mean_diff_ci": [
+    21.86,
+    -63.131,
+    106.8502
+   ],
+   "median_diff_ci": [
+    25.3,
+    -45.5,
+    85.4
+   ]
+  },
+  "files_opened_before_first_edit": {
+   "n": 10,
+   "median_ORIG": 7.5,
+   "median_NORM": 8.5,
+   "mean_ORIG": 9.9,
+   "mean_NORM": 11.7,
+   "mean_diff_ci": [
+    -1.8,
+    -4.8,
+    0.4
+   ],
+   "median_diff_ci": [
+    0.0,
+    -4.0,
+    1.0
+   ]
+  },
+  "first_edit_step_noedit_as_41": {
+   "n": 10,
+   "median_ORIG": 16.5,
+   "median_NORM": 17.5,
+   "mean_ORIG": 15.3,
+   "mean_NORM": 19.0,
+   "mean_diff_ci": [
+    -3.7,
+    -6.2,
+    -1.2
+   ],
+   "median_diff_ci": [
+    -3.5,
+    -7.0,
+    0.0
+   ]
+  },
+  "opened_late_file_before_first_edit": {
+   "n": 10,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 1.0,
+   "mean_NORM": 1.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "final_touches_late": {
+   "n": 10,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 1.0,
+   "mean_NORM": 1.0,
+   "mean_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "rate_ORIG": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 4,
+   "n": 10,
+   "submitted": 7,
+   "stop_reasons": {
+    "submitted": 7,
+    "step_cap": 3
+   }
+  },
+  "rate_NORM": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 2,
+   "n": 10,
+   "submitted": 6,
+   "stop_reasons": {
+    "submitted": 6,
+    "step_cap": 4
+   }
+  }
+ },
+ "all_stratum_random": {
+  "label": "all pairs, stratum random",
+  "n_pairs": 36,
+  "pass_ORIG": 27,
+  "pass_NORM": 25,
+  "both_pass": 23,
+  "both_fail": 7,
+  "b_ORIGonly": 4,
+  "c_NORMonly": 2,
+  "mcnemar_exact_p": 0.6875,
+  "diff_ORIG_minus_NORM": [
+   0.0556,
+   -0.0833,
+   0.1944
+  ],
+  "steps_both_pass": {
+   "n": 23,
+   "median_ORIG": 28.0,
+   "median_NORM": 28.0,
+   "mean_ORIG": 26.478,
+   "mean_NORM": 28.565,
+   "mean_diff_ci": [
+    -2.087,
+    -6.3478,
+    2.1304
+   ],
+   "median_diff_ci": [
+    -2.0,
+    -5.0,
+    0.0
+   ]
+  },
+  "steps_all_fail_at_cap": {
+   "n": 36,
+   "median_ORIG": 33.5,
+   "median_NORM": 39.0,
+   "mean_ORIG": 30.5,
+   "mean_NORM": 32.306,
+   "mean_diff_ci": [
+    -1.8056,
+    -4.9722,
+    1.2222
+   ],
+   "median_diff_ci": [
+    0.0,
+    -3.0,
+    0.0
+   ]
+  },
+  "steps_eff_both_pass": {
+   "n": 23,
+   "median_ORIG": 26.0,
+   "median_NORM": 26.0,
+   "mean_ORIG": 24.957,
+   "mean_NORM": 26.739,
+   "mean_diff_ci": [
+    -1.7826,
+    -4.5217,
+    0.6087
+   ],
+   "median_diff_ci": [
+    0.0,
+    -3.0,
+    1.0
+   ]
+  },
+  "steps_eff_all_fail_at_cap": {
+   "n": 36,
+   "median_ORIG": 31.0,
+   "median_NORM": 35.0,
+   "mean_ORIG": 28.944,
+   "mean_NORM": 30.806,
+   "mean_diff_ci": [
+    -1.8611,
+    -4.5278,
+    0.5833
+   ],
+   "median_diff_ci": [
+    0.0,
+    -3.0,
+    0.0
+   ]
+  },
+  "prompt_tokens": {
+   "n": 36,
+   "median_ORIG": 329620.5,
+   "median_NORM": 366548.0,
+   "mean_ORIG": 458879.083,
+   "mean_NORM": 405852.417,
+   "mean_diff_ci": [
+    53026.6667,
+    -48096.3174,
+    170950.1174
+   ],
+   "median_diff_ci": [
+    915.0,
+    -69419.5,
+    90953.5
+   ]
+  },
+  "completion_tokens": {
+   "n": 36,
+   "median_ORIG": 12073.5,
+   "median_NORM": 15727.0,
+   "mean_ORIG": 29560.972,
+   "mean_NORM": 22925.528,
+   "mean_diff_ci": [
+    6635.4444,
+    -4480.3,
+    20006.1361
+   ],
+   "median_diff_ci": [
+    -2060.0,
+    -5705.825,
+    3533.0
+   ]
+  },
+  "cost": {
+   "n": 36,
+   "median_ORIG": 0.01710779994,
+   "median_NORM": 0.019320654870000002,
+   "mean_ORIG": 0.028,
+   "mean_NORM": 0.023,
+   "mean_diff_ci": [
+    0.0049,
+    -0.003,
+    0.0149
+   ],
+   "median_diff_ci": [
+    -0.0023,
+    -0.005,
+    0.0039
+   ]
+  },
+  "wall_s": {
+   "n": 36,
+   "median_ORIG": 165.75,
+   "median_NORM": 161.6,
+   "mean_ORIG": 213.583,
+   "mean_NORM": 188.011,
+   "mean_diff_ci": [
+    25.5722,
+    -24.5815,
+    78.276
+   ],
+   "median_diff_ci": [
+    6.45,
+    -19.0,
+    46.3
+   ]
+  },
+  "files_opened_before_first_edit": {
+   "n": 36,
+   "median_ORIG": 7.5,
+   "median_NORM": 8.0,
+   "mean_ORIG": 9.722,
+   "mean_NORM": 10.028,
+   "mean_diff_ci": [
+    -0.3056,
+    -1.5,
+    0.8056
+   ],
+   "median_diff_ci": [
+    0.0,
+    -1.0,
+    1.5
+   ]
+  },
+  "first_edit_step_noedit_as_41": {
+   "n": 36,
+   "median_ORIG": 17.5,
+   "median_NORM": 16.5,
+   "mean_ORIG": 18.583,
+   "mean_NORM": 18.806,
+   "mean_diff_ci": [
+    -0.2222,
+    -2.1667,
+    1.8889
+   ],
+   "median_diff_ci": [
+    -0.5,
+    -3.0,
+    0.5
+   ]
+  },
+  "opened_late_file_before_first_edit": {
+   "n": 36,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.972,
+   "mean_NORM": 0.972,
+   "mean_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "final_touches_late": {
+   "n": 36,
+   "median_ORIG": 1.0,
+   "median_NORM": 1.0,
+   "mean_ORIG": 0.861,
+   "mean_NORM": 0.861,
+   "mean_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "median_diff_ci": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "rate_ORIG": {
+   "mtime_targeted": 1,
+   "mtime_targeted_before_first_edit": 1,
+   "mtime_visible": 14,
+   "n": 36,
+   "submitted": 25,
+   "stop_reasons": {
+    "submitted": 25,
+    "run_cost_cap": 1,
+    "step_cap": 10
+   }
+  },
+  "rate_NORM": {
+   "mtime_targeted": 0,
+   "mtime_targeted_before_first_edit": 0,
+   "mtime_visible": 10,
+   "n": 36,
+   "submitted": 24,
+   "stop_reasons": {
+    "submitted": 24,
+    "step_cap": 12
+   }
+  }
+ },
+ "observational_ORIG_mtime_targeted": {
+  "ORIG_mtime_targeted=True": {
+   "n": 1,
+   "ORIG_pass": 1,
+   "NORM_pass_same_tasks": 1
+  },
+  "ORIG_mtime_targeted=False": {
+   "n": 72,
+   "ORIG_pass": 49,
+   "NORM_pass_same_tasks": 46
+  }
+ },
+ "total_cost_runs": 2.8612,
+ "per_pair": [
+  {
+   "task_id": "format-code-task-002739",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    24,
+    36
+   ],
+   "cost": [
+    0.0071,
+    0.0256
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002808",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    16,
+    29
+   ],
+   "cost": [
+    0.0038,
+    0.0104
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    false,
+    false
+   ]
+  },
+  {
+   "task_id": "format-code-task-000877",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    35,
+    40
+   ],
+   "cost": [
+    0.0289,
+    0.0345
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001692",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    20,
+    10
+   ],
+   "cost": [
+    0.0037,
+    0.0022
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000498",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    25,
+    40
+   ],
+   "cost": [
+    0.0102,
+    0.0114
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001285",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    26,
+    21
+   ],
+   "cost": [
+    0.0187,
+    0.0076
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002661",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": false,
+   "steps": [
+    11,
+    9
+   ],
+   "cost": [
+    0.0036,
+    0.0032
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002197",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    31,
+    27
+   ],
+   "cost": [
+    0.0162,
+    0.0148
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002935",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    31,
+    24
+   ],
+   "cost": [
+    0.0084,
+    0.0104
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001883",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    19,
+    15
+   ],
+   "cost": [
+    0.0069,
+    0.0033
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002797",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": true,
+   "steps": [
+    27,
+    19
+   ],
+   "cost": [
+    0.0126,
+    0.0079
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000459",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    32,
+    27
+   ],
+   "cost": [
+    0.0362,
+    0.0252
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000162",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    21,
+    21
+   ],
+   "cost": [
+    0.0161,
+    0.0089
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000520",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0184,
+    0.0322
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002199",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    37,
+    32
+   ],
+   "cost": [
+    0.0159,
+    0.0101
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000414",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": false,
+   "steps": [
+    18,
+    31
+   ],
+   "cost": [
+    0.0125,
+    0.0201
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001566",
+   "stratum": "random",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    40,
+    35
+   ],
+   "cost": [
+    0.0385,
+    0.055
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002098",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0077,
+    0.0145
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001743",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    19,
+    23
+   ],
+   "cost": [
+    0.0095,
+    0.009
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001197",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    13,
+    15
+   ],
+   "cost": [
+    0.0033,
+    0.014
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-003043",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": true,
+   "steps": [
+    19,
+    16
+   ],
+   "cost": [
+    0.004,
+    0.0213
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000230",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    35,
+    15
+   ],
+   "cost": [
+    0.0385,
+    0.0076
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001424",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": false,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0839,
+    0.0235
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002820",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    14,
+    17
+   ],
+   "cost": [
+    0.0043,
+    0.005
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001547",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    40,
+    29
+   ],
+   "cost": [
+    0.0276,
+    0.0233
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001872",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    18,
+    28
+   ],
+   "cost": [
+    0.0144,
+    0.0081
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000409",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0271,
+    0.0494
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002768",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    17,
+    11
+   ],
+   "cost": [
+    0.0097,
+    0.0038
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000613",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": false,
+   "steps": [
+    20,
+    40
+   ],
+   "cost": [
+    0.0195,
+    0.0102
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002649",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0267,
+    0.0245
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    false,
+    false
+   ]
+  },
+  {
+   "task_id": "format-code-task-001495",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": true,
+   "steps": [
+    21,
+    17
+   ],
+   "cost": [
+    0.0173,
+    0.0074
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001420",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    12,
+    21
+   ],
+   "cost": [
+    0.0033,
+    0.0054
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002256",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": false,
+   "steps": [
+    40,
+    4
+   ],
+   "cost": [
+    0.0045,
+    0.0004
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002201",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    12,
+    25
+   ],
+   "cost": [
+    0.0041,
+    0.0063
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002673",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    35,
+    38
+   ],
+   "cost": [
+    0.0233,
+    0.0261
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001642",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    18,
+    14
+   ],
+   "cost": [
+    0.0048,
+    0.0062
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001486",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0164,
+    0.0263
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    false,
+    false
+   ]
+  },
+  {
+   "task_id": "format-code-task-002285",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    21,
+    28
+   ],
+   "cost": [
+    0.017,
+    0.0173
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002220",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    21,
+    9
+   ],
+   "cost": [
+    0.0089,
+    0.006
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000691",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    13,
+    17
+   ],
+   "cost": [
+    0.0161,
+    0.0062
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001685",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    31,
+    23
+   ],
+   "cost": [
+    0.0172,
+    0.0282
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002860",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    19,
+    16
+   ],
+   "cost": [
+    0.0064,
+    0.0042
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001804",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    17,
+    19
+   ],
+   "cost": [
+    0.0435,
+    0.0281
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000377",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    14,
+    21
+   ],
+   "cost": [
+    0.0085,
+    0.0102
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002051",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": true,
+   "steps": [
+    40,
+    13
+   ],
+   "cost": [
+    0.0128,
+    0.006
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002659",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    31,
+    28
+   ],
+   "cost": [
+    0.037,
+    0.0255
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000501",
+   "stratum": "random",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    36,
+    40
+   ],
+   "cost": [
+    0.0581,
+    0.028
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001699",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": false,
+   "steps": [
+    28,
+    26
+   ],
+   "cost": [
+    0.0195,
+    0.0141
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000510",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    12,
+    11
+   ],
+   "cost": [
+    0.004,
+    0.0041
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000290",
+   "stratum": "random",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    13,
+    14
+   ],
+   "cost": [
+    0.0123,
+    0.0156
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001686",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": false,
+   "steps": [
+    12,
+    6
+   ],
+   "cost": [
+    0.0046,
+    0.0016
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002109",
+   "stratum": "strong",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0353,
+    0.0655
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    false
+   ]
+  },
+  {
+   "task_id": "format-code-task-002598",
+   "stratum": "random",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    21,
+    20
+   ],
+   "cost": [
+    0.0167,
+    0.0129
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000342",
+   "stratum": "strong",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    18,
+    10
+   ],
+   "cost": [
+    0.0103,
+    0.0049
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001905",
+   "stratum": "random",
+   "ORIG": false,
+   "NORM": true,
+   "steps": [
+    30,
+    40
+   ],
+   "cost": [
+    0.041,
+    0.0361
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002919",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    38,
+    38
+   ],
+   "cost": [
+    0.1566,
+    0.0363
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001409",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    22,
+    28
+   ],
+   "cost": [
+    0.017,
+    0.0196
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000531",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": false,
+   "steps": [
+    29,
+    22
+   ],
+   "cost": [
+    0.025,
+    0.0432
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002599",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    23,
+    32
+   ],
+   "cost": [
+    0.0114,
+    0.0258
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    false,
+    false
+   ]
+  },
+  {
+   "task_id": "format-code-task-002443",
+   "stratum": "random",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0117,
+    0.0103
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    false,
+    false
+   ]
+  },
+  {
+   "task_id": "format-code-task-002974",
+   "stratum": "random",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    29,
+    17
+   ],
+   "cost": [
+    0.0077,
+    0.0037
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    false,
+    false
+   ]
+  },
+  {
+   "task_id": "format-code-task-002933",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    12,
+    15
+   ],
+   "cost": [
+    0.0096,
+    0.0373
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002322",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0251,
+    0.019
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001214",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": false,
+   "steps": [
+    40,
+    25
+   ],
+   "cost": [
+    0.0068,
+    0.0114
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-001568",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    28,
+    32
+   ],
+   "cost": [
+    0.0097,
+    0.0142
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000670",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    12,
+    40
+   ],
+   "cost": [
+    0.0045,
+    0.0149
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002461",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    18,
+    40
+   ],
+   "cost": [
+    0.0067,
+    0.0296
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-003017",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    10,
+    7
+   ],
+   "cost": [
+    0.0024,
+    0.002
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-000828",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    40,
+    12
+   ],
+   "cost": [
+    0.0059,
+    0.0161
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002833",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0658,
+    0.0137
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002798",
+   "stratum": "random",
+   "ORIG": true,
+   "NORM": true,
+   "steps": [
+    30,
+    28
+   ],
+   "cost": [
+    0.032,
+    0.0359
+   ],
+   "mt_targeted": [
+    true,
+    false
+   ],
+   "late_touched": [
+    true,
+    true
+   ]
+  },
+  {
+   "task_id": "format-code-task-002335",
+   "stratum": "random",
+   "ORIG": false,
+   "NORM": true,
+   "steps": [
+    40,
+    26
+   ],
+   "cost": [
+    0.1342,
+    0.0803
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    false,
+    false
+   ]
+  },
+  {
+   "task_id": "format-code-task-001935",
+   "stratum": "random",
+   "ORIG": false,
+   "NORM": false,
+   "steps": [
+    40,
+    40
+   ],
+   "cost": [
+    0.0193,
+    0.03
+   ],
+   "mt_targeted": [
+    false,
+    false
+   ],
+   "late_touched": [
+    false,
+    false
+   ]
+  }
+ ]
+}

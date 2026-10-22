@@ -1,0 +1,5175 @@
+{
+ "summary": {
+  "n_attempted": 196,
+  "n_mapped": 75,
+  "exact_match": 61,
+  "anchors": {
+   "commit_parent_is_head": 65,
+   "pr_base_is_head": 10
+  },
+  "mean_precision": 0.915,
+  "mean_recall": 0.964,
+  "status_counts": {
+   "head_not_found_on_github": 50,
+   "ok": 75,
+   "no_anchor_found": 71
+  }
+ },
+ "tasks": [
+  {
+   "task_id": "format-code-task-001416",
+   "head": "d1b8639bbe6559a5ae21eab7119c110cb33102e4",
+   "late_files": [
+    "asx_gym/envs/asx_gym_env.py",
+    "asx_gym/envs/asx_image_viewer.py",
+    "asx_gym/envs/models.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000024",
+   "head": "a9b8869b255957ddf932ef11b066b0fb4570bd6b",
+   "late_files": [
+    "src/modules/create-market/selectors/form-steps/step-2.js",
+    "src/modules/create-market/selectors/form-steps/step-3.js",
+    "src/modules/market/validators/validate-categorical-outcomes.js",
+    "src/modules/market/validators/validate-description.js",
+    "src/modules/market/validators/validate-end-date.js",
+    "src/modules/market/validators/validate-scalar-big-num.js",
+    "src/modules/market/validators/validate-scalar-small-num.js",
+    "test/create-market/selectors/form-steps/step-2-test.js",
+    "test/market/validators/validate-categorical-outcomes-test.js",
+    "test/market/validators/validate-description-test.js",
+    "test/market/validators/validate-end-date-test.js",
+    "test/market/validators/validate-scalar-big-num-test.js",
+    "test/market/validators/validate-scalar-small-num-test.js"
+   ],
+   "repo": "justinbarry/augur-copy",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002073",
+   "head": "084be8933d6d6eb6a6dea726671e0fef94472ee9",
+   "late_files": [
+    "pkg/apis/numaflow/v1alpha1/vertex_types.go",
+    "pkg/apis/numaflow/v1alpha1/vertex_types_test.go",
+    "pkg/reconciler/validator/pipeline_validate.go",
+    "pkg/reconciler/validator/pipeline_validate_test.go",
+    "rust/serving/src/app/callback/store/redisstore.rs",
+    "rust/serving/src/config.rs"
+   ],
+   "repo": "numaproj/numaflow",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000096",
+   "head": "c5ab3219bcefeebffd448595b8cdf1fe199fa01e",
+   "late_files": [
+    "core/lib/lantern/types/lantern.d.ts",
+    "core/lib/network-request.js",
+    "core/test/lib/network-recorder-test.js",
+    "core/test/network-records-to-devtools-log.js"
+   ],
+   "repo": "NO-HUMAN-MASTERS-AI-FAMILY/AI_FAMILIA_CAMMORA_MACHINA",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001197",
+   "head": "ab0a3de6a65959784ec38d326489bf38fe7093f3",
+   "late_files": [
+    "go.sum",
+    "nes/mapper.go"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000582",
+   "head": "c98884e34c2935204c374dd4833dba060cd117ed",
+   "late_files": [
+    "boxsdk/util/chunked_uploader.py",
+    "docs/usage/files.md",
+    "test/unit/object/test_chunked_upload.py"
+   ],
+   "repo": "box/box-python-sdk",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "cf6d4201469929c389e26114f78515b92bda1ded",
+   "fix_subject": "added abort functionality and tests (#381)",
+   "fix_files": [
+    "boxsdk/util/chunked_uploader.py",
+    "docs/usage/files.md",
+    "test/unit/object/test_chunked_upload.py"
+   ],
+   "fix_files_existing_at_base": [
+    "boxsdk/util/chunked_uploader.py",
+    "docs/usage/files.md",
+    "test/unit/object/test_chunked_upload.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000133",
+   "head": "800daca8c2ae38692cd512de6803c0268b57b2aa",
+   "late_files": [
+    "app/common/__tests__/dns.test.js",
+    "app/common/__tests__/network.test.js",
+    "app/common/cookies.js",
+    "app/common/dns.js",
+    "app/common/network.js",
+    "app/ui/components/modals/SignupModal.js",
+    "app/ui/css/constants/colors.less",
+    "package.json"
+   ],
+   "repo": "ardifx01/insomnia",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002954",
+   "head": "f988fd141173a32cf30a159d05bb1847e346dcc7",
+   "late_files": [
+    "pkg/builder/container_builder.go",
+    "pkg/builder/container_builder_test.go"
+   ],
+   "repo": "anil7000/velero",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "32c3820b8a07f4753901e9414affe83a79075c4f",
+   "fix_subject": "\ud83d\udc1b  Fix plugin name derivation from image name (#3711)",
+   "fix_files": [
+    "changelogs/unreleased/3711-ashish-amarnath",
+    "pkg/builder/container_builder.go",
+    "pkg/builder/container_builder_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "pkg/builder/container_builder.go",
+    "pkg/builder/container_builder_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001699",
+   "head": "9bbce80ffa2cab08bf2f0270bbd064b1388b1737",
+   "late_files": [
+    "CHANGELOG.adoc",
+    "docs/cmd/kn_service_delete.md",
+    "pkg/kn/commands/service/delete.go",
+    "pkg/kn/commands/service/delete_mock_test.go",
+    "pkg/kn/commands/service/list_mock_test.go",
+    "test/e2e/service_test.go"
+   ],
+   "repo": "knative/client",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "6f615c6595e256d4d28e083124d3a34d1ae08ded",
+   "fix_subject": "add kn service delete --all (#836)",
+   "fix_files": [
+    "CHANGELOG.adoc",
+    "docs/cmd/kn_service_delete.md",
+    "pkg/kn/commands/service/delete.go",
+    "pkg/kn/commands/service/delete_mock_test.go",
+    "pkg/kn/commands/service/list_mock_test.go",
+    "test/e2e/service_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "CHANGELOG.adoc",
+    "docs/cmd/kn_service_delete.md",
+    "pkg/kn/commands/service/delete.go",
+    "pkg/kn/commands/service/delete_mock_test.go",
+    "pkg/kn/commands/service/list_mock_test.go",
+    "test/e2e/service_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002898",
+   "head": "cc2d6ecd53daf4e5c04cc4265234e3d15c3df77e",
+   "late_files": [
+    "packages/eslint-plugin/src/rules/prefer-nullish-coalescing.ts",
+    "packages/eslint-plugin/tests/rules/prefer-nullish-coalescing.test.ts"
+   ],
+   "repo": "typescript-eslint/typescript-eslint",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#11098",
+   "fix_subject": "fix(eslint-plugin): [prefer-nullish-coalescing] fix parenthesization bug in suggestion",
+   "fix_files": [
+    "packages/eslint-plugin/src/rules/prefer-nullish-coalescing.ts",
+    "packages/eslint-plugin/tests/rules/prefer-nullish-coalescing.test.ts"
+   ],
+   "fix_files_existing_at_base": [
+    "packages/eslint-plugin/src/rules/prefer-nullish-coalescing.ts",
+    "packages/eslint-plugin/tests/rules/prefer-nullish-coalescing.test.ts"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001185",
+   "head": "f714167d23fc2b2e33a58c9c5a5374ed9805f280",
+   "late_files": [
+    "cmd/mev-boost/main.go",
+    "server/service.go",
+    "server/service_test.go"
+   ],
+   "repo": "flashbots/mev-boost",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "fa8967eecb847c205344bbdc3f8b6b830e27c525",
+   "fix_subject": "Default MaxHeaderSize to 4kb (#206)",
+   "fix_files": [
+    "cmd/mev-boost/main.go",
+    "server/service.go",
+    "server/service_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "cmd/mev-boost/main.go",
+    "server/service.go",
+    "server/service_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001804",
+   "head": "ac25e35124df747a11de0315a25854ee7bb34dc4",
+   "late_files": [
+    "docs/source/distributions/importing_as_library.md",
+    "llama_stack/core/library_client.py",
+    "tests/integration/fixtures/common.py",
+    "tests/integration/non_ci/responses/fixtures/fixtures.py",
+    "tests/unit/distribution/test_library_client_initialization.py"
+   ],
+   "repo": "forked-by-avivkeller/llama-stack",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "1790fc0f250a8ec2e3ab9f06257bd24024ebeba2",
+   "fix_subject": "feat: Remove initialize() Method from LlamaStackAsLibrary (#2979)",
+   "fix_files": [
+    "docs/source/distributions/importing_as_library.md",
+    "llama_stack/core/library_client.py",
+    "tests/integration/fixtures/common.py",
+    "tests/integration/non_ci/responses/fixtures/fixtures.py",
+    "tests/unit/distribution/test_library_client_initialization.py"
+   ],
+   "fix_files_existing_at_base": [
+    "docs/source/distributions/importing_as_library.md",
+    "llama_stack/core/library_client.py",
+    "tests/integration/fixtures/common.py",
+    "tests/integration/non_ci/responses/fixtures/fixtures.py",
+    "tests/unit/distribution/test_library_client_initialization.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000440",
+   "head": "c894f90b1334f69c85977dce6a855ca876a2096a",
+   "late_files": [
+    "pkg/scanners/cloudformation/parser/intrinsics.go"
+   ],
+   "repo": "aquasecurity/defsec",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "b18871da5af8bac0975a2c5e26b4dae30fb6dcac",
+   "fix_subject": "feat(cloudformation): add support for the condition function (#1394)",
+   "fix_files": [
+    "pkg/scanners/cloudformation/parser/fn_condition.go",
+    "pkg/scanners/cloudformation/parser/fn_condition_test.go",
+    "pkg/scanners/cloudformation/parser/intrinsics.go"
+   ],
+   "fix_files_existing_at_base": [
+    "pkg/scanners/cloudformation/parser/intrinsics.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002873",
+   "head": "a36ff9dcf9457a56cf8e694b6dce40ac79566242",
+   "late_files": [
+    "src/tox/config/sets.py",
+    "tests/config/test_sets.py"
+   ],
+   "repo": "reyanthony062001-ops/py-tox",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "bf87bea75f2becbbcb29346567e6bf249da2b063",
+   "fix_subject": "Override toxworkdir with --workdir. (#2776)",
+   "fix_files": [
+    "docs/changelog/2654.bugfix.rst",
+    "src/tox/config/sets.py",
+    "tests/config/test_sets.py"
+   ],
+   "fix_files_existing_at_base": [
+    "src/tox/config/sets.py",
+    "tests/config/test_sets.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000984",
+   "head": "6699bcdc3f5ed1c6a566a9d875ba87fc3463b0e0",
+   "late_files": [
+    "docker/run_crontabber.sh",
+    "docker/run_update_data.sh",
+    "socorro/app/for_application_defaults.py",
+    "socorro/cron/crontabber_app.py",
+    "socorro/unittest/cron/crontabber_tests_base.py",
+    "socorro/unittest/cron/jobs/test_bugzilla.py",
+    "socorro/unittest/cron/jobs/test_clean_missing_symbols.py",
+    "socorro/unittest/cron/jobs/test_clean_raw_adi.py",
+    "socorro/unittest/cron/jobs/test_clean_raw_adi_logs.py",
+    "socorro/unittest/cron/jobs/test_drop_old_partitions.py",
+    "socorro/unittest/cron/jobs/test_elasticsearch_cleanup.py",
+    "socorro/unittest/cron/jobs/test_featured_versions_automatic.py",
+    "socorro/unittest/cron/jobs/test_fetch_adi_from_hive.py",
+    "socorro/unittest/cron/jobs/test_ftpscraper.py",
+    "socorro/unittest/cron/jobs/test_matviews.py",
+    "socorro/unittest/cron/jobs/test_missingsymbols.py",
+    "socorro/unittest/cron/jobs/test_truncate_partitions.py",
+    "socorro/unittest/cron/jobs/test_upload_crash_report_json_schema.py",
+    "socorro/unittest/cron/jobs/test_weekly_reports_partitions.py",
+    "socorro/unittest/cron/setup_configman.py"
+   ],
+   "repo": "swe-train/mozilla-services__socorro",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "97fee909bbe463d1cbfd559dd9b9cc3726970af2",
+   "fix_subject": "fixes bug 1388130 - redo crontabber jobs configuration (#4207)",
+   "fix_files": [
+    "docker/run_crontabber.sh",
+    "docker/run_update_data.sh",
+    "socorro/app/for_application_defaults.py",
+    "socorro/cron/crontabber_app.py",
+    "socorro/unittest/cron/crontabber_tests_base.py",
+    "socorro/unittest/cron/jobs/test_bugzilla.py",
+    "socorro/unittest/cron/jobs/test_clean_missing_symbols.py",
+    "socorro/unittest/cron/jobs/test_clean_raw_adi.py",
+    "socorro/unittest/cron/jobs/test_clean_raw_adi_logs.py",
+    "socorro/unittest/cron/jobs/test_drop_old_partitions.py",
+    "socorro/unittest/cron/jobs/test_elasticsearch_cleanup.py",
+    "socorro/unittest/cron/jobs/test_featured_versions_automatic.py",
+    "socorro/unittest/cron/jobs/test_fetch_adi_from_hive.py",
+    "socorro/unittest/cron/jobs/test_ftpscraper.py",
+    "socorro/unittest/cron/jobs/test_matviews.py",
+    "socorro/unittest/cron/jobs/test_missingsymbols.py",
+    "socorro/unittest/cron/jobs/test_truncate_partitions.py",
+    "socorro/unittest/cron/jobs/test_upload_crash_report_json_schema.py",
+    "socorro/unittest/cron/jobs/test_weekly_reports_partitions.py",
+    "socorro/unittest/cron/setup_configman.py",
+    "socorro/unittest/cron/test_crontabber_app.py"
+   ],
+   "fix_files_existing_at_base": [
+    "docker/run_crontabber.sh",
+    "docker/run_update_data.sh",
+    "socorro/app/for_application_defaults.py",
+    "socorro/cron/crontabber_app.py",
+    "socorro/unittest/cron/crontabber_tests_base.py",
+    "socorro/unittest/cron/jobs/test_bugzilla.py",
+    "socorro/unittest/cron/jobs/test_clean_missing_symbols.py",
+    "socorro/unittest/cron/jobs/test_clean_raw_adi.py",
+    "socorro/unittest/cron/jobs/test_clean_raw_adi_logs.py",
+    "socorro/unittest/cron/jobs/test_drop_old_partitions.py",
+    "socorro/unittest/cron/jobs/test_elasticsearch_cleanup.py",
+    "socorro/unittest/cron/jobs/test_featured_versions_automatic.py",
+    "socorro/unittest/cron/jobs/test_fetch_adi_from_hive.py",
+    "socorro/unittest/cron/jobs/test_ftpscraper.py",
+    "socorro/unittest/cron/jobs/test_matviews.py",
+    "socorro/unittest/cron/jobs/test_missingsymbols.py",
+    "socorro/unittest/cron/jobs/test_truncate_partitions.py",
+    "socorro/unittest/cron/jobs/test_upload_crash_report_json_schema.py",
+    "socorro/unittest/cron/jobs/test_weekly_reports_partitions.py",
+    "socorro/unittest/cron/setup_configman.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000498",
+   "head": "d9ff49ce01a3836800f3cca0cb325054532a77d6",
+   "late_files": [
+    "aws_lambda_powertools/event_handler/exceptions.py",
+    "docs/core/event_handler/api_gateway.md",
+    "examples/event_handler_rest/src/raising_http_errors.py",
+    "tests/functional/event_handler/required_dependencies/test_api_gateway.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000842",
+   "head": "b9fb09b0a96551a060f874019672e2f044587e2a",
+   "late_files": [
+    "libsaas/services/base.py",
+    "libsaas/services/twilio/resource.py"
+   ],
+   "repo": "ducksboard/libsaas",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "629621a0daa473b2cc20478d0dec96876ddde3b9",
+   "fix_subject": "base: add a translation function to get_params",
+   "fix_files": [
+    "libsaas/services/base.py",
+    "libsaas/services/twilio/resource.py"
+   ],
+   "fix_files_existing_at_base": [
+    "libsaas/services/base.py",
+    "libsaas/services/twilio/resource.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002599",
+   "head": "30c11fe078edabcabd8f9397d0b20b6bc2e3e891",
+   "late_files": [
+    "pybossa/core.py",
+    "setup.cfg",
+    "test/test_auditlog.py",
+    "test/test_model/test_model_project.py",
+    "test/test_pro_feature_handler.py",
+    "test/test_util.py",
+    "test/test_web.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000563",
+   "head": "5c2980c2c88cf51a295ab799f86ad80af6d7081a",
+   "late_files": [
+    "CHANGELOG",
+    "docs/ws2.md",
+    "examples/ws2/ob_checksum.js",
+    "lib/transports/ws2.js",
+    "package.json",
+    "test/lib/transports/ws2-unit.js"
+   ],
+   "repo": "bitfinexcom/bitfinex-api-node",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#516",
+   "fix_subject": "Generate checksum using strings",
+   "fix_files": [
+    "CHANGELOG",
+    "docs/ws2.md",
+    "examples/ws2/ob_checksum.js",
+    "lib/transports/ws2.js",
+    "package.json",
+    "test/lib/transports/ws2-unit.js"
+   ],
+   "fix_files_existing_at_base": [
+    "CHANGELOG",
+    "docs/ws2.md",
+    "examples/ws2/ob_checksum.js",
+    "lib/transports/ws2.js",
+    "package.json",
+    "test/lib/transports/ws2-unit.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-003032",
+   "head": "1404f79dd9bfda5fbab3d4474e3132e1bfff31a7",
+   "late_files": [
+    "index.js",
+    "test/yargs-parser.js"
+   ],
+   "repo": "NickCarneiro/yargs-parser-ansi",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002919",
+   "head": "ae2b53bf67b362fa2c28c65304cf49e257cba55a",
+   "late_files": [
+    "access/access.go",
+    "go.sum"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001568",
+   "head": "dabd86a3a834430419c7770ba958c6998581409d",
+   "late_files": [
+    "examples/05_aws_batch/.redun/redun.ini",
+    "examples/06_bioinfo_batch/.redun/redun.ini",
+    "examples/aws_batch_array_jobs/.redun/redun.ini",
+    "examples/aws_batch_multinode/.redun/redun.ini",
+    "examples/aws_glue/.redun/redun.ini",
+    "examples/conda/.redun/redun.ini",
+    "examples/context/.redun/context.json",
+    "examples/context/.redun/redun.ini",
+    "examples/docker/.redun/redun.ini",
+    "examples/federated_task/.redun/redun.ini",
+    "examples/federated_task/published_config/.redun/redun.ini",
+    "examples/federated_task/remote_repo/.redun/redun.ini",
+    "examples/gcp_batch/.redun/redun.ini",
+    "examples/k8s/.redun/redun.ini",
+    "examples/launch/.redun/redun.ini",
+    "examples/launch/docker/.redun/redun.ini",
+    "examples/postgres/.redun/redun.ini",
+    "examples/scraping/.redun/redun.ini",
+    "examples/setup_scheduler/.redun/redun.ini",
+    "examples/subrun/.redun/redun.ini",
+    "redun/scheduler.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001000",
+   "head": "75e2c1cbe04e8c8cb06d8245b4d25a3f51eef7ec",
+   "late_files": [
+    "porch/repository/pkg/git/git.go",
+    "porch/repository/pkg/git/git_test.go",
+    "porch/repository/pkg/git/testing_repo.go"
+   ],
+   "repo": "orgTestCodacy11KRepos110MB/repo-5411-kpt",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001074",
+   "head": "f12d5b28096260e84baeaf51a3d1ac393caf976b",
+   "late_files": [
+    "deploy/all.yaml",
+    "pkg/controller/rbacdefinition/parser.go",
+    "pkg/controller/rbacdefinition/reconciler_test.go",
+    "version/version.go"
+   ],
+   "repo": "FairwindsOps/rbac-manager",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "4380b3ad3a1131cba801ad429b75e2512dde8e0b",
+   "fix_subject": "Adding MatchExpressions to parselabels.  Fixes #48",
+   "fix_files": [
+    "deploy/all.yaml",
+    "pkg/controller/rbacdefinition/parser.go",
+    "pkg/controller/rbacdefinition/reconciler_test.go",
+    "version/version.go"
+   ],
+   "fix_files_existing_at_base": [
+    "deploy/all.yaml",
+    "pkg/controller/rbacdefinition/parser.go",
+    "pkg/controller/rbacdefinition/reconciler_test.go",
+    "version/version.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001409",
+   "head": "3d8324eed2cd135d33ee7b83a61350baa53af7f0",
+   "late_files": [
+    "src/js/all/stories/AllComponents.js",
+    "src/js/components/DataChart/DataChart.js",
+    "src/js/components/DataChart/__tests__/__snapshots__/DataChart-test.js.snap",
+    "src/js/components/Grid/Grid.js",
+    "src/js/components/Grid/README.md",
+    "src/js/components/Grid/index.d.ts",
+    "src/js/components/Grid/stories/typescript/App.tsx",
+    "src/js/components/__tests__/__snapshots__/components-test.js.snap"
+   ],
+   "repo": "SWE-bench-repos/grommet__grommet",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "714daeb33f606762fd68cc33df43c2f3d83e5c99",
+   "fix_subject": "Removed grid.available since IE is no longer supported (#6196)",
+   "fix_files": [
+    "src/js/all/stories/AllComponents.js",
+    "src/js/components/DataChart/DataChart.js",
+    "src/js/components/DataChart/__tests__/__snapshots__/DataChart-test.js.snap",
+    "src/js/components/Grid/Grid.js",
+    "src/js/components/Grid/README.md",
+    "src/js/components/Grid/index.d.ts",
+    "src/js/components/Grid/stories/typescript/App.tsx",
+    "src/js/components/__tests__/__snapshots__/components-test.js.snap"
+   ],
+   "fix_files_existing_at_base": [
+    "src/js/all/stories/AllComponents.js",
+    "src/js/components/DataChart/DataChart.js",
+    "src/js/components/DataChart/__tests__/__snapshots__/DataChart-test.js.snap",
+    "src/js/components/Grid/Grid.js",
+    "src/js/components/Grid/README.md",
+    "src/js/components/Grid/index.d.ts",
+    "src/js/components/Grid/stories/typescript/App.tsx",
+    "src/js/components/__tests__/__snapshots__/components-test.js.snap"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000877",
+   "head": "2b031f791e5097f232c3157d47d66fda8012feaf",
+   "late_files": [
+    "examples/mapparser/MapParser.cpp",
+    "ext/get_boost.sh",
+    "include/rapidcheck/gen/Container.h",
+    "include/rapidcheck/gen/Container.hpp"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000771",
+   "head": "c73e2c0c5156fd054af342673ca612664f3df114",
+   "late_files": [
+    "packages/dcos-launch/extra/conftest.py",
+    "packages/dcos-launch/extra/launch/__init__.py",
+    "packages/dcos-launch/extra/launch/aws.py",
+    "packages/dcos-launch/extra/launch/azure.py",
+    "packages/dcos-launch/extra/launch/cli.py",
+    "packages/dcos-launch/extra/test_aws.py"
+   ],
+   "repo": "Qadirnesirov/QadirDC",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "2c75b6868691cde37bc01c4d7f233789633640e9",
+   "fix_subject": "Simplify parameter input in dcos-launch",
+   "fix_files": [
+    "packages/dcos-launch/extra/conftest.py",
+    "packages/dcos-launch/extra/launch/__init__.py",
+    "packages/dcos-launch/extra/launch/aws.py",
+    "packages/dcos-launch/extra/launch/azure.py",
+    "packages/dcos-launch/extra/launch/cli.py",
+    "packages/dcos-launch/extra/test_aws.py"
+   ],
+   "fix_files_existing_at_base": [
+    "packages/dcos-launch/extra/conftest.py",
+    "packages/dcos-launch/extra/launch/__init__.py",
+    "packages/dcos-launch/extra/launch/aws.py",
+    "packages/dcos-launch/extra/launch/azure.py",
+    "packages/dcos-launch/extra/launch/cli.py",
+    "packages/dcos-launch/extra/test_aws.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002051",
+   "head": "8d2c5ac4dc4b3015bfd11912d793cee4a19f65aa",
+   "late_files": [
+    "nilearn/glm/first_level/first_level.py",
+    "nilearn/glm/tests/test_first_level.py"
+   ],
+   "repo": "SWE-Gym-Raw/nilearn__nilearn",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000414",
+   "head": "525b3c71d9f519af953a88b5635ed6dad70e68dd",
+   "late_files": [
+    "airflow/api_connexion/endpoints/event_log_endpoint.py",
+    "airflow/api_connexion/openapi/v1.yaml",
+    "airflow/www/static/js/types/api-generated.ts",
+    "tests/api_connexion/endpoints/test_event_log_endpoint.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001460",
+   "head": "a79635bbb0511bd27546935bdd13073e4b097238",
+   "late_files": [
+    "README.md",
+    "docs/guides/04-Examples.md",
+    "examples/views/department_views.py",
+    "examples/views/employee_views.py",
+    "ninja_crud/testing/views/create_model_view_test.py",
+    "ninja_crud/testing/views/delete_model_view_test.py",
+    "ninja_crud/testing/views/helpers/test_assertion_helper.py",
+    "ninja_crud/testing/views/list_model_view_test.py",
+    "ninja_crud/testing/views/retrieve_model_view_test.py",
+    "ninja_crud/testing/views/update_model_view_test.py",
+    "ninja_crud/testing/viewsets/model_viewset_test_case.py",
+    "ninja_crud/views/abstract_model_view.py",
+    "ninja_crud/views/create_model_view.py",
+    "ninja_crud/views/delete_model_view.py",
+    "ninja_crud/views/list_model_view.py",
+    "ninja_crud/views/retrieve_model_view.py",
+    "ninja_crud/views/update_model_view.py",
+    "ninja_crud/viewsets/base_model_viewset.py",
+    "ninja_crud/viewsets/model_viewset.py",
+    "tests/test_app/views/collection_views.py",
+    "tests/test_app/views/item_views.py",
+    "tests/test_app/views/user_views.py",
+    "tests/testing/viewsets/test_model_viewset_test_case.py",
+    "tests/views/test_retrieve_model_view.py"
+   ],
+   "repo": "hbakri/django-ninja-crud",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "e9b1ccd1c641922a26211e1f3ab883e09fbc8ca8",
+   "fix_subject": "refactor(viewsets)!: \u2692\ufe0f rename `model_class` to `model` (#284)",
+   "fix_files": [
+    "README.md",
+    "docs/guides/04-Examples.md",
+    "examples/views/department_views.py",
+    "examples/views/employee_views.py",
+    "ninja_crud/testing/views/create_model_view_test.py",
+    "ninja_crud/testing/views/delete_model_view_test.py",
+    "ninja_crud/testing/views/helpers/test_assertion_helper.py",
+    "ninja_crud/testing/views/list_model_view_test.py",
+    "ninja_crud/testing/views/retrieve_model_view_test.py",
+    "ninja_crud/testing/views/update_model_view_test.py",
+    "ninja_crud/testing/viewsets/model_viewset_test_case.py",
+    "ninja_crud/views/abstract_model_view.py",
+    "ninja_crud/views/create_model_view.py",
+    "ninja_crud/views/delete_model_view.py",
+    "ninja_crud/views/list_model_view.py",
+    "ninja_crud/views/retrieve_model_view.py",
+    "ninja_crud/views/update_model_view.py",
+    "ninja_crud/viewsets/base_model_viewset.py",
+    "ninja_crud/viewsets/model_viewset.py",
+    "tests/test_app/views/collection_views.py",
+    "tests/test_app/views/item_views.py",
+    "tests/test_app/views/user_views.py",
+    "tests/testing/viewsets/test_model_viewset_test_case.py",
+    "tests/views/test_retrieve_model_view.py"
+   ],
+   "fix_files_existing_at_base": [
+    "README.md",
+    "docs/guides/04-Examples.md",
+    "examples/views/department_views.py",
+    "examples/views/employee_views.py",
+    "ninja_crud/testing/views/create_model_view_test.py",
+    "ninja_crud/testing/views/delete_model_view_test.py",
+    "ninja_crud/testing/views/helpers/test_assertion_helper.py",
+    "ninja_crud/testing/views/list_model_view_test.py",
+    "ninja_crud/testing/views/retrieve_model_view_test.py",
+    "ninja_crud/testing/views/update_model_view_test.py",
+    "ninja_crud/testing/viewsets/model_viewset_test_case.py",
+    "ninja_crud/views/abstract_model_view.py",
+    "ninja_crud/views/create_model_view.py",
+    "ninja_crud/views/delete_model_view.py",
+    "ninja_crud/views/list_model_view.py",
+    "ninja_crud/views/retrieve_model_view.py",
+    "ninja_crud/views/update_model_view.py",
+    "ninja_crud/viewsets/base_model_viewset.py",
+    "ninja_crud/viewsets/model_viewset.py",
+    "tests/test_app/views/collection_views.py",
+    "tests/test_app/views/item_views.py",
+    "tests/test_app/views/user_views.py",
+    "tests/testing/viewsets/test_model_viewset_test_case.py",
+    "tests/views/test_retrieve_model_view.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002974",
+   "head": "aca6557e9ccb34ac5c96a02e377fd590d7aef2eb",
+   "late_files": [
+    "tests/parser/functions/test_return_tuple.py",
+    "vyper/parser/parser_utils.py"
+   ],
+   "repo": "CorridorSusvibesMirrors/vyperlang__vyper__851f7a1b3aa2",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001190",
+   "head": "f8b027663998fb7c5bf87a28d24d297d9334cd10",
+   "late_files": [
+    "packages/core/src/enums/taskName.ts",
+    "packages/core/src/tasks/taskOptions.ts",
+    "packages/engine-core/src/index.ts"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001872",
+   "head": "0563e1386be36275a1db830db64e758b3e487602",
+   "late_files": [
+    "ligan/__init__.py",
+    "ligan/atom_types.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000486",
+   "head": "6fc68ee317de3077d751ae1c5ab8d2110cf7a127",
+   "late_files": [
+    "Code/autopkg",
+    "Code/autopkglib/MunkiInstallsItemsCreator.py",
+    "Code/autopkglib/MunkiSetDefaultCatalog.py",
+    "Code/autopkglib/StopProcessingIf.py",
+    "Code/autopkglib/__init__.py",
+    "Code/tests/test_autopkg_processor_base.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000459",
+   "head": "aa83d89fc2524ca37aec38a1d3e42fafb6f74543",
+   "late_files": [
+    "Makefile.am",
+    "jbig2.h",
+    "jbig2_page.c",
+    "jbig2dec.c"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002808",
+   "head": "5d66141b1e3cb5f0562d41235c406dfb01442bd1",
+   "late_files": [
+    "pkg/apis/triggers/v1alpha1/event_listener_validation.go",
+    "pkg/apis/triggers/v1alpha1/event_listener_validation_test.go"
+   ],
+   "repo": "tektoncd/triggers",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "3595846adc09473572e0312c498ce57342fa28ad",
+   "fix_subject": "Add validation to the length of EventListener name",
+   "fix_files": [
+    "pkg/apis/triggers/v1alpha1/event_listener_validation.go",
+    "pkg/apis/triggers/v1alpha1/event_listener_validation_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "pkg/apis/triggers/v1alpha1/event_listener_validation.go",
+    "pkg/apis/triggers/v1alpha1/event_listener_validation_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000186",
+   "head": "52b9b65adb026e65d7176f6c07c268bff0b27221",
+   "late_files": [
+    "cmd/validator/accounts/import.go",
+    "cmd/validator/accounts/wallet_utils_test.go",
+    "cmd/validator/wallet/BUILD.bazel",
+    "cmd/validator/wallet/create_test.go",
+    "validator/accounts/BUILD.bazel",
+    "validator/accounts/accounts_import.go",
+    "validator/accounts/wallet/BUILD.bazel",
+    "validator/accounts/wallet/wallet.go",
+    "validator/accounts/wallet/wallet_test.go",
+    "validator/accounts/wallet_create.go",
+    "validator/keymanager/local/keymanager.go",
+    "validator/node/node.go"
+   ],
+   "repo": "valve-tech/prysm-pulse",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "4cbe144a6cea520e7809d122f51ae6495b5792e4",
+   "fix_subject": "CLI: fixing account import ux bugs (#13328)",
+   "fix_files": [
+    "cmd/validator/accounts/import.go",
+    "cmd/validator/accounts/wallet_utils_test.go",
+    "cmd/validator/wallet/BUILD.bazel",
+    "cmd/validator/wallet/create_test.go",
+    "validator/accounts/BUILD.bazel",
+    "validator/accounts/accounts_import.go",
+    "validator/accounts/wallet/BUILD.bazel",
+    "validator/accounts/wallet/wallet.go",
+    "validator/accounts/wallet/wallet_test.go",
+    "validator/accounts/wallet_create.go",
+    "validator/keymanager/local/keymanager.go",
+    "validator/node/node.go"
+   ],
+   "fix_files_existing_at_base": [
+    "cmd/validator/accounts/import.go",
+    "cmd/validator/accounts/wallet_utils_test.go",
+    "cmd/validator/wallet/BUILD.bazel",
+    "cmd/validator/wallet/create_test.go",
+    "validator/accounts/BUILD.bazel",
+    "validator/accounts/accounts_import.go",
+    "validator/accounts/wallet/BUILD.bazel",
+    "validator/accounts/wallet/wallet.go",
+    "validator/accounts/wallet/wallet_test.go",
+    "validator/accounts/wallet_create.go",
+    "validator/keymanager/local/keymanager.go",
+    "validator/node/node.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000277",
+   "head": "0123b4c0509ce253e41e5abd2c75a64c06389640",
+   "late_files": [
+    ".gas-snapshot",
+    "src/accounts/ERC6551.sol",
+    "test/ERC6551.t.sol"
+   ],
+   "repo": "dreamsoft07/solady",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002972",
+   "head": "8de898808cfc470a62e9a030257fe155f8ee2bee",
+   "late_files": [
+    "fetcher/nvd/json/nvd.go",
+    "fetcher/nvd/util.go",
+    "fetcher/nvd/util_test.go"
+   ],
+   "repo": "vulsio/go-cve-dictionary",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "73ae33c21ac6a920ab714a43dc72c957eebc299a",
+   "fix_subject": " Support nvd json data format version 1.1 (#157)",
+   "fix_files": [
+    "fetcher/nvd/json/nvd.go",
+    "fetcher/nvd/util.go",
+    "fetcher/nvd/util_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "fetcher/nvd/json/nvd.go",
+    "fetcher/nvd/util.go",
+    "fetcher/nvd/util_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001024",
+   "head": "3b756f5773fd45ff92bdcc1162a2b75d576c3ea0",
+   "late_files": [
+    "docs/configuration.rst",
+    "supervisor/datatypes.py",
+    "supervisor/options.py",
+    "supervisor/socket_manager.py",
+    "supervisor/tests/base.py",
+    "supervisor/tests/test_options.py"
+   ],
+   "repo": "Supervisor/supervisor",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "dfdb5cd0c1b4920664fc87955b89b38065b5f8e7",
+   "fix_subject": "Add ability to specify listen(2) socket backlog for FastCGI sockets (#897)",
+   "fix_files": [
+    "docs/configuration.rst",
+    "supervisor/datatypes.py",
+    "supervisor/options.py",
+    "supervisor/socket_manager.py",
+    "supervisor/tests/base.py",
+    "supervisor/tests/test_options.py"
+   ],
+   "fix_files_existing_at_base": [
+    "docs/configuration.rst",
+    "supervisor/datatypes.py",
+    "supervisor/options.py",
+    "supervisor/socket_manager.py",
+    "supervisor/tests/base.py",
+    "supervisor/tests/test_options.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002982",
+   "head": "7f2baee41e3eb7c313b29609c31db2a143ff55ad",
+   "late_files": [
+    "docs/docs/sdk/auth.md",
+    "docs/docs/sdk/version.md",
+    "grpc-node/node-server/package.json",
+    "grpc-node/node-server/yarn.lock",
+    "package.json",
+    "sdk/base/index.js",
+    "sdk/base/package.json",
+    "sdk/contracts/package.json",
+    "sdk/contracts/weavedb-bpt/actions/write/addAddressLink.js",
+    "sdk/contracts/weavedb-bpt/initial-state.json",
+    "sdk/contracts/weavedb-bpt/lib/version.js",
+    "sdk/light-client-node/package.json",
+    "sdk/light-client-node/yarn.lock",
+    "sdk/light-client-web/package.json",
+    "sdk/light-client-web/yarn.lock",
+    "sdk/offchain/index.js",
+    "sdk/offchain/package.json",
+    "sdk/offchain/yarn.lock",
+    "sdk/sdk-node/package.json",
+    "sdk/sdk-node/yarn.lock",
+    "sdk/sdk-web/package.json",
+    "sdk/sdk-web/yarn.lock",
+    "test/common-bpt.js",
+    "test/offchain-bpt.js",
+    "test/polygon-id.js",
+    "tools/package.json",
+    "tools/workspace/package.json",
+    "tools/workspace/yarn.lock"
+   ],
+   "repo": "weavedb/weavedb",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#844",
+   "fix_subject": "[contracts] v0.39 addAddressLink with PolygonID",
+   "fix_files": [
+    "docs/docs/sdk/auth.md",
+    "docs/docs/sdk/version.md",
+    "grpc-node/node-server/package.json",
+    "grpc-node/node-server/yarn.lock",
+    "package.json",
+    "sdk/base/index.js",
+    "sdk/base/package.json",
+    "sdk/contracts/package.json",
+    "sdk/contracts/weavedb-bpt/actions/write/addAddressLink.js",
+    "sdk/contracts/weavedb-bpt/initial-state.json",
+    "sdk/contracts/weavedb-bpt/lib/version.js",
+    "sdk/light-client-node/package.json",
+    "sdk/light-client-node/yarn.lock",
+    "sdk/light-client-web/package.json",
+    "sdk/light-client-web/yarn.lock",
+    "sdk/offchain/index.js",
+    "sdk/offchain/package.json",
+    "sdk/offchain/yarn.lock",
+    "sdk/sdk-node/package.json",
+    "sdk/sdk-node/yarn.lock",
+    "sdk/sdk-web/package.json",
+    "sdk/sdk-web/yarn.lock",
+    "test/common-bpt.js",
+    "test/offchain-bpt.js",
+    "test/polygon-id.js",
+    "tools/package.json",
+    "tools/workspace/package.json",
+    "tools/workspace/yarn.lock"
+   ],
+   "fix_files_existing_at_base": [
+    "docs/docs/sdk/auth.md",
+    "docs/docs/sdk/version.md",
+    "grpc-node/node-server/package.json",
+    "grpc-node/node-server/yarn.lock",
+    "package.json",
+    "sdk/base/index.js",
+    "sdk/base/package.json",
+    "sdk/contracts/package.json",
+    "sdk/contracts/weavedb-bpt/actions/write/addAddressLink.js",
+    "sdk/contracts/weavedb-bpt/initial-state.json",
+    "sdk/contracts/weavedb-bpt/lib/version.js",
+    "sdk/light-client-node/package.json",
+    "sdk/light-client-node/yarn.lock",
+    "sdk/light-client-web/package.json",
+    "sdk/light-client-web/yarn.lock",
+    "sdk/offchain/index.js",
+    "sdk/offchain/package.json",
+    "sdk/offchain/yarn.lock",
+    "sdk/sdk-node/package.json",
+    "sdk/sdk-node/yarn.lock",
+    "sdk/sdk-web/package.json",
+    "sdk/sdk-web/yarn.lock",
+    "test/common-bpt.js",
+    "test/offchain-bpt.js",
+    "test/polygon-id.js",
+    "tools/package.json",
+    "tools/workspace/package.json",
+    "tools/workspace/yarn.lock"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002154",
+   "head": "8a97b53f95e05564f58672dad406885a9cd7956f",
+   "late_files": [
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/Godeps/Godeps.json",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/Godeps/Readme",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/LICENSE",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/README.md",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/admission/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/admission/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/admissionregistration/v1alpha1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/admissionregistration/v1alpha1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/admissionregistration/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/admissionregistration/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/apps/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/apps/v1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/apps/v1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/apps/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/apps/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/apps/v1beta2/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/apps/v1beta2/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authentication/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authentication/v1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authentication/v1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authentication/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authentication/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authorization/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authorization/v1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authorization/v1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authorization/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/authorization/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/autoscaling/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/autoscaling/v1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/autoscaling/v1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/autoscaling/v2beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/autoscaling/v2beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/batch/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/batch/v1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/batch/v1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/batch/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/batch/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/batch/v2alpha1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/batch/v2alpha1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/certificates/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/certificates/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/certificates/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/core/v1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/core/v1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/events/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/events/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/events/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/extensions/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/extensions/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/extensions/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/imagepolicy/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/imagepolicy/v1alpha1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/imagepolicy/v1alpha1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/networking/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/networking/v1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/networking/v1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/policy/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/policy/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/policy/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/rbac/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/rbac/v1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/rbac/v1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/rbac/v1alpha1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/rbac/v1alpha1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/rbac/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/rbac/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/scheduling/v1alpha1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/scheduling/v1alpha1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/settings/v1alpha1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/settings/v1alpha1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/storage/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/storage/v1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/storage/v1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/storage/v1alpha1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/storage/v1alpha1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/storage/v1beta1/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/api/storage/v1beta1/generated.proto",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/Godeps/Godeps.json",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/Godeps/Readme",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/LICENSE",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/OWNERS",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/README.md",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/customresource-01/noxu-apiservice.yaml",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/customresource-01/noxu-resource-definition.yaml",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/customresource-01/noxu.yaml",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/example/apiservice.yaml",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/example/auth-delegator.yaml",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/example/auth-reader.yaml",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/example/rc.yaml",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/example/sa.yaml",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/example/service.yaml",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/artifacts/simple-image/Dockerfile",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/examples/client-go/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/examples/client-go/README.md",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/examples/client-go/hack/update-codegen.sh",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/examples/client-go/hack/verify-codegen.sh",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/examples/client-go/pkg/apis/cr/BUILD",
+    "vendor/k8s.io/kubernetes/staging/src/k8s.io/apiextensions-apiserver/examples/client-go/pkg/apis/cr/v1/BUILD"
+   ],
+   "repo": "bithedz/origin",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000968",
+   "head": "3be39d66e5852568115dcfcf06398db26369a4d7",
+   "late_files": [
+    "f5/bigip/ltm/monitor.py",
+    "f5/bigip/ltm/nat.py",
+    "f5/bigip/ltm/policy.py",
+    "f5/bigip/ltm/pool.py",
+    "f5/bigip/ltm/rule.py",
+    "f5/bigip/ltm/snat.py",
+    "f5/bigip/ltm/virtual.py",
+    "f5/bigip/net/selfip.py",
+    "f5/bigip/net/vlan.py",
+    "f5/bigip/resource.py",
+    "f5/bigip/sys/application.py",
+    "f5/bigip/sys/folder.py",
+    "test/functional/test_ltm_policy.py"
+   ],
+   "repo": "yuanfm/f5-common-python",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "4340d6a9bd983ec7037722014b374033842f3abd",
+   "fix_subject": "collection_registry --> attribute_registry",
+   "fix_files": [
+    "f5/bigip/ltm/monitor.py",
+    "f5/bigip/ltm/nat.py",
+    "f5/bigip/ltm/policy.py",
+    "f5/bigip/ltm/pool.py",
+    "f5/bigip/ltm/rule.py",
+    "f5/bigip/ltm/snat.py",
+    "f5/bigip/ltm/virtual.py",
+    "f5/bigip/net/selfip.py",
+    "f5/bigip/net/vlan.py",
+    "f5/bigip/resource.py",
+    "f5/bigip/sys/application.py",
+    "f5/bigip/sys/folder.py",
+    "test/functional/test_ltm_policy.py"
+   ],
+   "fix_files_existing_at_base": [
+    "f5/bigip/ltm/monitor.py",
+    "f5/bigip/ltm/nat.py",
+    "f5/bigip/ltm/policy.py",
+    "f5/bigip/ltm/pool.py",
+    "f5/bigip/ltm/rule.py",
+    "f5/bigip/ltm/snat.py",
+    "f5/bigip/ltm/virtual.py",
+    "f5/bigip/net/selfip.py",
+    "f5/bigip/net/vlan.py",
+    "f5/bigip/resource.py",
+    "f5/bigip/sys/application.py",
+    "f5/bigip/sys/folder.py",
+    "test/functional/test_ltm_policy.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000828",
+   "head": "3107a6f88e634ff0cf23bd17472f2aef8636d2e3",
+   "late_files": [
+    "bun.lock",
+    "package.json",
+    "src/utils.ts"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002531",
+   "head": "08ec3a6e52b2fb3b4e89a9b4283de620a76c22c7",
+   "late_files": [
+    "pkg/operator/ceph/cluster/nodedaemon/crash.go",
+    "pkg/operator/ceph/cluster/nodedaemon/crash_test.go"
+   ],
+   "repo": "clyso/rook",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002021",
+   "head": "97c862f72c2480437fbf5ab4d9978d02452d1df2",
+   "late_files": [
+    "src/cell.py",
+    "src/code_cell.py",
+    "src/markdown_cell.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001366",
+   "head": "98f7a13fb501df907462041eb39ae93cac472ebd",
+   "late_files": [
+    "internal/gengapic/client_init_test.go",
+    "internal/gengapic/example.go",
+    "internal/gengapic/example_test.go",
+    "internal/gengapic/generator.go",
+    "internal/gengapic/genrest.go",
+    "internal/gengapic/genrest_test.go",
+    "internal/gengapic/lro.go",
+    "internal/gengapic/mixins.go",
+    "internal/gengapic/testdata/empty_example.want",
+    "internal/gengapic/testdata/empty_example_grpc.want",
+    "internal/gengapic/testdata/foo_example.want",
+    "internal/gengapic/testdata/foo_example_rest.want"
+   ],
+   "repo": "googleapis/gapic-generator-go",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "2584c29a5a545d25622962fae983e2b16640df9d",
+   "fix_subject": "feat: update generator for new iam and longrunning locations (#1247)",
+   "fix_files": [
+    "internal/gengapic/client_init_test.go",
+    "internal/gengapic/example.go",
+    "internal/gengapic/example_test.go",
+    "internal/gengapic/generator.go",
+    "internal/gengapic/genrest.go",
+    "internal/gengapic/genrest_test.go",
+    "internal/gengapic/lro.go",
+    "internal/gengapic/mixins.go",
+    "internal/gengapic/testdata/empty_example.want",
+    "internal/gengapic/testdata/empty_example_grpc.want",
+    "internal/gengapic/testdata/foo_example.want",
+    "internal/gengapic/testdata/foo_example_rest.want"
+   ],
+   "fix_files_existing_at_base": [
+    "internal/gengapic/client_init_test.go",
+    "internal/gengapic/example.go",
+    "internal/gengapic/example_test.go",
+    "internal/gengapic/generator.go",
+    "internal/gengapic/genrest.go",
+    "internal/gengapic/genrest_test.go",
+    "internal/gengapic/lro.go",
+    "internal/gengapic/mixins.go",
+    "internal/gengapic/testdata/empty_example.want",
+    "internal/gengapic/testdata/empty_example_grpc.want",
+    "internal/gengapic/testdata/foo_example.want",
+    "internal/gengapic/testdata/foo_example_rest.want"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002285",
+   "head": "6d5bd49b042a17bf8b7518f91c8c85f70213f5a3",
+   "late_files": [
+    "examples/decode/decode.go",
+    "webp/encode.go"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000245",
+   "head": "a11ccdaca2cc6bf4a0972d29a27ac562f61a9eb5",
+   "late_files": [
+    "polaris-migrator/bin/migrator-cli.js",
+    "polaris-react/locales/cs.json",
+    "polaris-react/locales/da.json",
+    "polaris-react/locales/de.json",
+    "polaris-react/locales/en.json",
+    "polaris-react/locales/es.json",
+    "polaris-react/locales/fi.json",
+    "polaris-react/locales/fr.json",
+    "polaris-react/locales/it.json",
+    "polaris-react/locales/ja.json",
+    "polaris-react/locales/ko.json",
+    "polaris-react/locales/nb.json",
+    "polaris-react/locales/nl.json",
+    "polaris-react/locales/pl.json",
+    "polaris-react/locales/pt-BR.json",
+    "polaris-react/locales/pt-PT.json",
+    "polaris-react/locales/sv.json",
+    "polaris-react/locales/th.json",
+    "polaris-react/locales/tr.json",
+    "polaris-react/locales/vi.json",
+    "polaris-react/locales/zh-CN.json",
+    "polaris-react/locales/zh-TW.json",
+    "polaris-react/src/components/IndexFilters/IndexFilters.stories.tsx",
+    "polaris-react/src/components/IndexFilters/IndexFilters.tsx",
+    "polaris-react/src/components/IndexFilters/tests/IndexFilters.test.tsx",
+    "yarn.lock"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002132",
+   "head": "213c7ac5c68f1724eca9e18d211127adaa2a7253",
+   "late_files": [
+    "ygot/struct_validation_map.go",
+    "ygot/struct_validation_map_test.go"
+   ],
+   "repo": "openconfig/ygot",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "6c6d7de0040239d399d419fb12f539837aa7bc15",
+   "fix_subject": "Add overwrite handling for merging structs (#420)",
+   "fix_files": [
+    "ygot/struct_validation_map.go",
+    "ygot/struct_validation_map_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "ygot/struct_validation_map.go",
+    "ygot/struct_validation_map_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001372",
+   "head": "5114b3c8bd92d594785948e2e4c78246d28f8d9d",
+   "late_files": [
+    ".pre-commit-config.yaml",
+    "CHANGELOG.md",
+    "README.rst",
+    "bigframes/_config/bigquery_options.py",
+    "bigframes/_config/compute_options.py",
+    "bigframes/_config/display_options.py",
+    "bigframes/bigquery/__init__.py",
+    "bigframes/bigquery/_operations/json.py",
+    "bigframes/clients.py",
+    "bigframes/core/bigframe_node.py",
+    "bigframes/core/blocks.py",
+    "bigframes/core/compile/compiler.py",
+    "bigframes/core/compile/googlesql/query.py",
+    "bigframes/core/compile/polars/compiler.py",
+    "bigframes/core/compile/scalar_op_compiler.py",
+    "bigframes/core/compile/sqlglot/compiler.py",
+    "bigframes/core/compile/sqlglot/scalar_compiler.py",
+    "bigframes/core/compile/sqlglot/sqlglot_ir.py",
+    "bigframes/core/expression.py",
+    "bigframes/core/global_session.py",
+    "bigframes/core/indexes/base.py",
+    "bigframes/core/local_data.py",
+    "bigframes/core/nodes.py",
+    "bigframes/core/pyformat.py",
+    "bigframes/core/rewrite/__init__.py",
+    "bigframes/core/rewrite/pruning.py",
+    "bigframes/core/rewrite/schema_binding.py",
+    "bigframes/core/utils.py",
+    "bigframes/core/window_spec.py",
+    "bigframes/dataframe.py",
+    "bigframes/dtypes.py",
+    "bigframes/exceptions.py",
+    "bigframes/functions/_function_session.py",
+    "bigframes/ml/core.py",
+    "bigframes/ml/sql.py",
+    "bigframes/operations/__init__.py",
+    "bigframes/operations/ai.py",
+    "bigframes/operations/blob.py",
+    "bigframes/operations/json_ops.py",
+    "bigframes/pandas/__init__.py",
+    "bigframes/pandas/io/api.py",
+    "bigframes/series.py",
+    "bigframes/session/__init__.py",
+    "bigframes/session/bq_caching_executor.py",
+    "bigframes/session/direct_gbq_execution.py",
+    "bigframes/session/executor.py",
+    "bigframes/session/local_scan_executor.py",
+    "bigframes/session/polars_executor.py",
+    "bigframes/session/read_api_execution.py",
+    "bigframes/testing/mocks.py",
+    "bigframes/testing/polars_session.py",
+    "bigframes/version.py",
+    "mypy.ini",
+    "notebooks/experimental/ai_operators.ipynb",
+    "notebooks/getting_started/bq_dataframes_template.ipynb",
+    "notebooks/multimodal/multimodal_dataframe.ipynb",
+    "noxfile.py",
+    "samples/snippets/multimodal_test.py",
+    "scripts/readme-gen/readme_gen.py",
+    "setup.py",
+    "testing/constraints-3.10.txt",
+    "tests/system/large/blob/test_function.py",
+    "tests/system/large/operations/test_ai.py",
+    "tests/system/small/bigquery/test_json.py",
+    "tests/system/small/operations/test_ai.py",
+    "tests/system/small/session/test_read_gbq_colab.py",
+    "tests/system/small/test_dataframe.py",
+    "tests/system/small/test_pandas_options.py",
+    "tests/system/small/test_progress_bar.py",
+    "tests/system/small/test_series.py",
+    "tests/unit/core/compile/sqlglot/conftest.py",
+    "tests/unit/core/compile/sqlglot/snapshots/test_compile_projection/test_compile_projection/out.sql",
+    "tests/unit/core/compile/sqlglot/snapshots/test_compile_readlocal/test_compile_readlocal/out.sql",
+    "tests/unit/core/compile/sqlglot/snapshots/test_compile_readlocal/test_compile_readlocal_w_json_df/out.sql",
+    "tests/unit/core/compile/sqlglot/snapshots/test_compile_readlocal/test_compile_readlocal_w_lists_df/out.sql",
+    "tests/unit/core/compile/sqlglot/snapshots/test_compile_readlocal/test_compile_readlocal_w_structs_df/out.sql",
+    "tests/unit/core/compile/sqlglot/snapshots/test_compile_readtable/test_compile_readtable/out.sql",
+    "tests/unit/core/compile/sqlglot/test_compile_projection.py",
+    "tests/unit/core/compile/sqlglot/test_compile_readlocal.py",
+    "tests/unit/core/compile/sqlglot/test_compile_readtable.py",
+    "tests/unit/core/test_bf_utils.py",
+    "tests/unit/core/test_pyformat.py",
+    "tests/unit/functions/test_remote_function.py",
+    "tests/unit/ml/test_sql.py",
+    "tests/unit/pandas/io/test_api.py",
+    "tests/unit/session/test_read_gbq_colab.py",
+    "tests/unit/test_clients.py",
+    "tests/unit/test_dataframe_polars.py",
+    "tests/unit/test_local_data.py",
+    "third_party/bigframes_vendored/google_cloud_bigquery/_pandas_helpers.py",
+    "third_party/bigframes_vendored/pandas/core/frame.py",
+    "third_party/bigframes_vendored/pandas/core/series.py",
+    "third_party/bigframes_vendored/pandas/io/gbq.py",
+    "third_party/bigframes_vendored/version.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000670",
+   "head": "1bf31c496da59de7c796318a8a9e13fe82995a65",
+   "late_files": [
+    "docs/conf.py",
+    "pympress/app.py",
+    "pympress/document.py",
+    "pympress/share/locale/pympress.pot"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001212",
+   "head": "8e77b2664122840e61bcbe63f40d20992f7a57b4",
+   "late_files": [
+    ".github/workflows/server-tests-mariadb.yml",
+    "erpnext/accounts/doctype/account/account.json",
+    "erpnext/accounts/doctype/account/chart_of_accounts/verified/ch_240812_schulkontenrahmen_veb_de.json",
+    "erpnext/accounts/doctype/accounting_dimension/accounting_dimension.json",
+    "erpnext/accounts/doctype/accounts_settings/accounts_settings.js",
+    "erpnext/accounts/doctype/accounts_settings/accounts_settings.json",
+    "erpnext/accounts/doctype/accounts_settings/accounts_settings.py",
+    "erpnext/accounts/doctype/bank_clearance/bank_clearance.py",
+    "erpnext/accounts/doctype/bank_statement_import/bank_statement_import.py",
+    "erpnext/accounts/doctype/bank_transaction/auto_match_party.py",
+    "erpnext/accounts/doctype/cost_center/cost_center.json",
+    "erpnext/accounts/doctype/opening_invoice_creation_tool/opening_invoice_creation_tool.py",
+    "erpnext/accounts/doctype/payment_entry/payment_entry.py",
+    "erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.py",
+    "erpnext/accounts/doctype/pos_invoice/pos_invoice.json",
+    "erpnext/accounts/doctype/pos_invoice/pos_invoice.py",
+    "erpnext/accounts/doctype/pos_invoice/test_pos_invoice.py",
+    "erpnext/accounts/doctype/pricing_rule/pricing_rule.py",
+    "erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.json",
+    "erpnext/accounts/doctype/process_payment_reconciliation_log_allocations/process_payment_reconciliation_log_allocations.py",
+    "erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py",
+    "erpnext/accounts/doctype/purchase_invoice/purchase_invoice_list.js",
+    "erpnext/accounts/doctype/purchase_invoice/test_purchase_invoice.py",
+    "erpnext/accounts/doctype/sales_invoice/sales_invoice.js",
+    "erpnext/accounts/doctype/sales_invoice/sales_invoice.json",
+    "erpnext/accounts/doctype/sales_invoice/sales_invoice.py",
+    "erpnext/accounts/doctype/sales_invoice/sales_invoice_list.js",
+    "erpnext/accounts/doctype/sales_invoice/test_sales_invoice.py",
+    "erpnext/accounts/doctype/subscription/subscription.py",
+    "erpnext/accounts/general_ledger.py",
+    "erpnext/accounts/report/financial_statements.py",
+    "erpnext/accounts/report/general_ledger/general_ledger.py",
+    "erpnext/accounts/report/trial_balance/trial_balance.json",
+    "erpnext/accounts/report/trial_balance/trial_balance.py",
+    "erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.js",
+    "erpnext/assets/doctype/location/location.json",
+    "erpnext/buying/doctype/purchase_order/purchase_order_list.js",
+    "erpnext/buying/doctype/supplier_quotation/supplier_quotation_list.js",
+    "erpnext/controllers/accounts_controller.py",
+    "erpnext/controllers/sales_and_purchase_return.py",
+    "erpnext/controllers/selling_controller.py",
+    "erpnext/controllers/tests/test_accounts_controller.py",
+    "erpnext/crm/report/lead_details/lead_details.py",
+    "erpnext/erpnext_integrations/doctype/plaid_settings/plaid_connector.py",
+    "erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js",
+    "erpnext/locale/ar.po",
+    "erpnext/locale/bs.po",
+    "erpnext/locale/de.po",
+    "erpnext/locale/eo.po",
+    "erpnext/locale/es.po",
+    "erpnext/locale/fa.po",
+    "erpnext/locale/fr.po",
+    "erpnext/locale/hu.po",
+    "erpnext/locale/main.pot",
+    "erpnext/locale/pl.po",
+    "erpnext/locale/ru.po",
+    "erpnext/locale/sv.po",
+    "erpnext/locale/tr.po",
+    "erpnext/locale/zh.po",
+    "erpnext/manufacturing/doctype/bom/bom.py",
+    "erpnext/manufacturing/doctype/bom/bom_item_preview.html",
+    "erpnext/manufacturing/doctype/bom/bom_tree.js",
+    "erpnext/manufacturing/doctype/bom_creator/bom_creator.py",
+    "erpnext/manufacturing/doctype/job_card/job_card.py",
+    "erpnext/manufacturing/doctype/job_card/test_job_card.py",
+    "erpnext/manufacturing/doctype/work_order/work_order.py",
+    "erpnext/patches.txt",
+    "erpnext/patches/v11_1/set_missing_title_for_quotation.py",
+    "erpnext/patches/v14_0/update_closing_balances.py",
+    "erpnext/projects/doctype/project/test_records.toml",
+    "erpnext/projects/doctype/timesheet/test_timesheet.py",
+    "erpnext/public/js/controllers/taxes_and_totals.js",
+    "erpnext/public/js/controllers/transaction.js",
+    "erpnext/public/js/queries.js",
+    "erpnext/public/js/utils.js",
+    "erpnext/regional/italy/utils.py",
+    "erpnext/selling/doctype/quotation/quotation.json",
+    "erpnext/selling/doctype/quotation/quotation.py",
+    "erpnext/selling/doctype/quotation/quotation_list.js",
+    "erpnext/selling/doctype/sales_order/sales_order.json",
+    "erpnext/selling/doctype/sales_order/sales_order.py",
+    "erpnext/selling/doctype/sales_order/sales_order_list.js",
+    "erpnext/selling/page/point_of_sale/pos_controller.js",
+    "erpnext/selling/page/point_of_sale/pos_item_cart.js",
+    "erpnext/selling/page/point_of_sale/pos_past_order_list.js",
+    "erpnext/selling/report/address_and_contacts/address_and_contacts.py",
+    "erpnext/setup/doctype/customer_group/customer_group.json",
+    "erpnext/setup/doctype/employee/employee.py",
+    "erpnext/setup/doctype/item_group/item_group.json",
+    "erpnext/setup/doctype/sales_person/sales_person.py",
+    "erpnext/setup/doctype/supplier_group/supplier_group.json",
+    "erpnext/setup/doctype/vehicle/vehicle.json",
+    "erpnext/setup/utils.py",
+    "erpnext/stock/deprecated_serial_batch.py",
+    "erpnext/stock/doctype/batch/batch.js",
+    "erpnext/stock/doctype/batch/batch.py",
+    "erpnext/stock/doctype/delivery_note/delivery_note.json",
+    "erpnext/stock/doctype/delivery_note/delivery_note.py",
+    "erpnext/stock/doctype/delivery_note/delivery_note_list.js",
+    "erpnext/stock/doctype/landed_cost_taxes_and_charges/landed_cost_taxes_and_charges.json"
+   ],
+   "repo": "unrealersnidhi-hub/main",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002109",
+   "head": "e3670a4a79e44687fdc9a01ff59657a23583f2ce",
+   "late_files": [
+    "docs/language/values-and-types.mdx",
+    "runtime/common/address.go",
+    "runtime/interpreter/interpreter.go",
+    "runtime/interpreter/value.go",
+    "runtime/sema/type.go",
+    "runtime/tests/checker/builtinfunctions_test.go",
+    "runtime/tests/interpreter/builtinfunctions_test.go"
+   ],
+   "repo": "onflow/cadence",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#2491",
+   "fix_subject": "Implement Address.fromString",
+   "fix_files": [
+    "docs/language/values-and-types.mdx",
+    "runtime/common/address.go",
+    "runtime/interpreter/interpreter.go",
+    "runtime/interpreter/value.go",
+    "runtime/sema/type.go",
+    "runtime/tests/checker/builtinfunctions_test.go",
+    "runtime/tests/interpreter/builtinfunctions_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "docs/language/values-and-types.mdx",
+    "runtime/common/address.go",
+    "runtime/interpreter/interpreter.go",
+    "runtime/interpreter/value.go",
+    "runtime/sema/type.go",
+    "runtime/tests/checker/builtinfunctions_test.go",
+    "runtime/tests/interpreter/builtinfunctions_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001566",
+   "head": "413398d1a1e59da0c2e7ef608a5f246196d02450",
+   "late_files": [
+    "CHANGELOG.md",
+    "models/buffer.go",
+    "models/buffer_test.go",
+    "models/running_output_test.go"
+   ],
+   "repo": "castelnovofdinema/telegraf",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001905",
+   "head": "634c0f86a5eb47d274d78e8bdc98dffc4b3d0850",
+   "late_files": [
+    "pnpm-workspace.yaml",
+    "src/index.js",
+    "src/main.mjs"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002220",
+   "head": "6db0b55a88a3f9b83136f0735b9a01c003af41ea",
+   "late_files": [
+    "doc/source/whatsnew/v1.2.2.rst",
+    "pandas/io/excel/_openpyxl.py",
+    "pandas/tests/io/excel/test_openpyxl.py"
+   ],
+   "repo": "Dobosz/pandas",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "95ee0b662b77e2e5f3b9f152b47a3adb7ecae12c",
+   "fix_subject": "REG: read_excel with engine specified raises on non-path/non-buffer (#39586)",
+   "fix_files": [
+    "doc/source/whatsnew/v1.2.2.rst",
+    "pandas/io/excel/_base.py",
+    "pandas/io/excel/_openpyxl.py",
+    "pandas/tests/io/excel/test_openpyxl.py",
+    "pandas/tests/io/excel/test_readers.py"
+   ],
+   "fix_files_existing_at_base": [
+    "doc/source/whatsnew/v1.2.2.rst",
+    "pandas/io/excel/_base.py",
+    "pandas/io/excel/_openpyxl.py",
+    "pandas/tests/io/excel/test_openpyxl.py",
+    "pandas/tests/io/excel/test_readers.py"
+   ],
+   "precision": 1.0,
+   "recall": 0.6,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-001519",
+   "head": "7adb4592a2cd08f24646b76ed6262707295e8f8d",
+   "late_files": [
+    "aioxmpp/muc/service.py",
+    "aioxmpp/stream.py",
+    "aioxmpp/vcard/service.py",
+    "docs/api/changelog.rst",
+    "examples/muc_moderate_message.py",
+    "tests/muc/test_service.py",
+    "tests/vcard/test_service.py"
+   ],
+   "repo": "horazont/aioxmpp",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "7b0592c1538c1cc9ac10b7e255b0aedab65bbc8e",
+   "fix_subject": "Integrate affiliation example",
+   "fix_files": [
+    "aioxmpp/muc/service.py",
+    "docs/api/changelog.rst",
+    "examples/get_muc_affiliations.py",
+    "tests/muc/test_service.py"
+   ],
+   "fix_files_existing_at_base": [
+    "aioxmpp/muc/service.py",
+    "docs/api/changelog.rst",
+    "tests/muc/test_service.py"
+   ],
+   "precision": 0.429,
+   "recall": 1.0,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-002833",
+   "head": "b7be4095d066fa231a5c2fc85f6885e186702192",
+   "late_files": [
+    "lib/urlwatch/jobs.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000193",
+   "head": "c119339caf39d228d39c5f2e7cd9efe3e1624386",
+   "late_files": [
+    "REFERENCE.md",
+    "lib/job.js",
+    "test/test_job.js"
+   ],
+   "repo": "skdd336/bul",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002948",
+   "head": "176de1954c88c8e6e2d73168ee3243552cf5f1f5",
+   "late_files": [
+    "grok.go",
+    "grok_test.go",
+    "patterns/grok-patterns"
+   ],
+   "repo": "vjeantet/grok",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "0ecf19188d50f6326d8046b627993e27269e714f",
+   "fix_subject": "cache compiled regexps, add ParseStream as batch handler",
+   "fix_files": [
+    "grok.go"
+   ],
+   "fix_files_existing_at_base": [
+    "grok.go"
+   ],
+   "precision": 0.333,
+   "recall": 1.0,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-002301",
+   "head": "fa05f2aa4ba0ea3ed49a7bccb22bc9e7cb4161c0",
+   "late_files": [
+    "README.md",
+    "addon/adapters/pouch.js",
+    "addon/utils.js",
+    "tests/integration/adapters/pouch-basics-test.js"
+   ],
+   "repo": "pouchdb-community/ember-pouch",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "0bf45752e73553e7b282f1cbd49bfb3abcee64a2",
+   "fix_subject": "test + flag + doc for eventually-consistent",
+   "fix_files": [
+    "README.md",
+    "addon/adapters/pouch.js",
+    "addon/utils.js",
+    "tests/integration/adapters/pouch-basics-test.js"
+   ],
+   "fix_files_existing_at_base": [
+    "README.md",
+    "addon/adapters/pouch.js",
+    "addon/utils.js",
+    "tests/integration/adapters/pouch-basics-test.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002746",
+   "head": "1d87fbaba9c81b02fe63aaf5872f6299dc4ebbd5",
+   "late_files": [
+    "src/transaction.js",
+    "test/unit/transaction_test.js"
+   ],
+   "repo": "bullioncapital/js-kinesis-base",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "162da4ac2e3ef241aeea1a562bea7f14aa26da38",
+   "fix_subject": "Throw error on invalid network passphrases (#284)",
+   "fix_files": [
+    "src/transaction.js",
+    "test/unit/transaction_test.js"
+   ],
+   "fix_files_existing_at_base": [
+    "src/transaction.js",
+    "test/unit/transaction_test.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001685",
+   "head": "737d4782c6c90c77930f58590dcd1098b68b6ef1",
+   "late_files": [
+    "README.md",
+    "docs/content/en/docs/concepts/evaluations/_index.md",
+    "operator/apis/lifecycle/v1alpha1/zz_generated.deepcopy.go",
+    "operator/apis/lifecycle/v1alpha2/zz_generated.deepcopy.go",
+    "operator/apis/lifecycle/v1alpha3/zz_generated.deepcopy.go",
+    "operator/apis/options/v1alpha1/zz_generated.deepcopy.go",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptnappcreationrequests.yaml",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptnapps.yaml",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptnappversions.yaml",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptnevaluationdefinitions.yaml",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptnevaluationproviders.yaml",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptnevaluations.yaml",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptntaskdefinitions.yaml",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptntasks.yaml",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptnworkloadinstances.yaml",
+    "operator/config/crd/bases/lifecycle.keptn.sh_keptnworkloads.yaml",
+    "operator/config/crd/bases/options.keptn.sh_keptnconfigs.yaml",
+    "operator/config/rbac/role.yaml",
+    "operator/controllers/common/helperfunctions.go",
+    "operator/controllers/common/helperfunctions_test.go",
+    "operator/controllers/lifecycle/keptnevaluation/controller.go",
+    "operator/controllers/lifecycle/keptnevaluation/controller_test.go",
+    "operator/test/component/evaluation/evaluation_test.go"
+   ],
+   "repo": "keptn/lifecycle-toolkit",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000611",
+   "head": "7b6e649088ca3718a4af02f36ad034b6db708bfa",
+   "late_files": [
+    "README.md",
+    "dist/communist.js",
+    "dist/communist.min.js",
+    "lib/communist.js",
+    "package.json",
+    "src/bottom.browser.js",
+    "src/communist.js",
+    "test/node-test.js",
+    "test/test.js"
+   ],
+   "repo": "npmcomponent/calvinmetcalf-catiline",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000897",
+   "head": "f46c0632855b1d6ab6549a8f8372c96fe62a5f7d",
+   "late_files": [
+    "e2e/ctl_v3_lease_test.go",
+    "etcdctl/ctlv3/command/lease_command.go"
+   ],
+   "repo": "JokeCiCi/go.etcd.io_etcd",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "cb188d0b26ec63574af176e68eebc71f9cef186a",
+   "fix_subject": "etcdctl v3: adds the --once option to the lease keep-alive command",
+   "fix_files": [
+    "etcdctl/ctlv3/command/lease_command.go"
+   ],
+   "fix_files_existing_at_base": [
+    "etcdctl/ctlv3/command/lease_command.go"
+   ],
+   "precision": 0.5,
+   "recall": 1.0,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-000664",
+   "head": "28c59c25aa7a20501b2772f7aeda60d6413d7835",
+   "late_files": [
+    "src/main/java/com/puppycrawl/tools/checkstyle/checks/SuppressWarningsHolder.java",
+    "src/test/java/com/puppycrawl/tools/checkstyle/internal/XdocsJavaDocsTest.java",
+    "src/xdocs/config_annotation.xml"
+   ],
+   "repo": "kennynguyen425/swe3643-group6-checkstyle-tests",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001219",
+   "head": "6a57296926c8d8354c205776d3da0044a19ea54d",
+   "late_files": [
+    "navsim/agents/__init__.py",
+    "navsim/common/dataloader.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001701",
+   "head": "3353afdef92794a7c238adcd01fe220f0b9cda45",
+   "late_files": [
+    "spec/dependentObservableBehaviors.js",
+    "src/binding/defaultBindings/checked.js",
+    "src/binding/defaultBindings/ifIfnotWith.js",
+    "src/subscribables/dependencyDetection.js",
+    "src/subscribables/dependentObservable.js"
+   ],
+   "repo": "justlep/knockout-stripped",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "41290b93842fb17d41ffa8978eba908a3d884893",
+   "fix_subject": "Allow computed evaluator code to get info about computed state (initial evaluation and current dependency count). Update",
+   "fix_files": [
+    "src/binding/defaultBindings/checked.js",
+    "src/binding/defaultBindings/ifIfnotWith.js",
+    "src/subscribables/dependencyDetection.js",
+    "src/subscribables/dependentObservable.js"
+   ],
+   "fix_files_existing_at_base": [
+    "src/binding/defaultBindings/checked.js",
+    "src/binding/defaultBindings/ifIfnotWith.js",
+    "src/subscribables/dependencyDetection.js",
+    "src/subscribables/dependentObservable.js"
+   ],
+   "precision": 0.8,
+   "recall": 1.0,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-000531",
+   "head": "2dd004cee21353af318565d7864c4557c1912e21",
+   "late_files": [
+    "strhub/models/utils.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000903",
+   "head": "c36e2b7cfd5a288be2f4fd9654ebcea6192a780a",
+   "late_files": [
+    "core/rawdb/freezer.go",
+    "core/rawdb/freezer_table.go",
+    "core/rawdb/freezer_table_test.go",
+    "core/rawdb/freezer_utils.go",
+    "ethdb/database.go"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002870",
+   "head": "478c22040714efa62a3f67474f4bbaf2a25f848c",
+   "late_files": [
+    "rljax/algorithm/__init__.py",
+    "rljax/algorithm/ddpg.py",
+    "rljax/algorithm/fqf.py",
+    "rljax/algorithm/misc/discor_mixin.py",
+    "rljax/algorithm/ppo.py",
+    "rljax/algorithm/sac.py",
+    "rljax/algorithm/sac_ae.py",
+    "rljax/algorithm/slac.py",
+    "rljax/util/optim.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002659",
+   "head": "1907e7c0f57cc056eb90c56bbf6af514bcfbee90",
+   "late_files": [
+    "lib/stream.js",
+    "test/stream.js"
+   ],
+   "repo": "sindresorhus/execa",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "fcc8e113f697e53cf1bdc40f80d64755eabf0c99",
+   "fix_subject": "Handle stream errors even with `buffer: false` (#729)",
+   "fix_files": [
+    "lib/stream.js",
+    "test/stream.js"
+   ],
+   "fix_files_existing_at_base": [
+    "lib/stream.js",
+    "test/stream.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002805",
+   "head": "ec655e1c6c211fcfe05d69dfb763f787c0b42f57",
+   "late_files": [
+    "pkg/version/version.go",
+    "pkg/version/version_test.go"
+   ],
+   "repo": "pulkitlife/Tekton-Cli",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "1b1c2183cea60b1daa5eb10ae6d52e5e1a5e4d74",
+   "fix_subject": "Get tekton components version from configmap",
+   "fix_files": [
+    "pkg/version/version.go",
+    "pkg/version/version_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "pkg/version/version.go",
+    "pkg/version/version_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000377",
+   "head": "ec638134489ca39d3748affdbbddb1d27aee631a",
+   "late_files": [
+    "wordcloud/wordcloud.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000703",
+   "head": "f6212e169378016446b7083e39725f4f40fad050",
+   "late_files": [
+    "conans/model/options.py",
+    "conans/test/integration/options/options_test.py",
+    "conans/test/unittests/model/options_test.py"
+   ],
+   "repo": "conan-io/conan",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "d34729f99b6d66fa5fb267a3033ea00f9018b6f6",
+   "fix_subject": "Change msg when not scoped options (#10750)",
+   "fix_files": [
+    "conans/model/options.py",
+    "conans/test/functional/toolchains/env/test_complete.py"
+   ],
+   "fix_files_existing_at_base": [
+    "conans/model/options.py",
+    "conans/test/functional/toolchains/env/test_complete.py"
+   ],
+   "precision": 0.333,
+   "recall": 0.5,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-000773",
+   "head": "bab17b8e99d3dc6265b8ca08e2848dd8b137fd41",
+   "late_files": [
+    "numpy_ml/tests/test_linear_regression.py",
+    "numpy_ml/tests/test_nn_activations.py",
+    "numpy_ml/trees/__init__.py",
+    "numpy_ml/utils/data_structures.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000023",
+   "head": "421fcf5cf20f2990083921cb95a1ce0d6ef094f8",
+   "late_files": [
+    "pyproject.toml",
+    "setup.py",
+    "src/ape_http/__init__.py",
+    "src/ape_http/providers.py",
+    "src/ape_http/py.typed",
+    "tests/functional/http/test_providers.py",
+    "tests/integration/cli/test_networks.py"
+   ],
+   "repo": "ApeWorX/ape",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000692",
+   "head": "661acc0afc8800fbfbf2a515414f42069b173e01",
+   "late_files": [
+    "README.md",
+    "docs/developer-guide.md",
+    "docs/images/clusternet-apps-concepts.png",
+    "docs/images/clusternet-arch.png",
+    "docs/images/clusternet-horizontal-color.png",
+    "docs/images/clusternet-in-a-nutshell.png",
+    "docs/tutorials/checking-cluster-registration.md",
+    "docs/tutorials/deploying-applications-to-multiple-clusters.md",
+    "docs/tutorials/installing-clusternet-the-hard-way.md",
+    "docs/tutorials/installing-clusternet-with-helm.md",
+    "docs/tutorials/quick-installing-clusternet-locally.md",
+    "docs/tutorials/replication-scheduling-to-multiple-clusters.md",
+    "docs/tutorials/setting-overrides.md",
+    "docs/tutorials/static-weight-scheduling-to-multiple-clusters.md",
+    "docs/tutorials/visiting-child-clusters-with-rbac.md",
+    "pkg/agent/deployer/generic/generic.go",
+    "pkg/apis/apps/v1alpha1/subscription.go",
+    "pkg/controllers/apps/resource/resource.go",
+    "pkg/controllers/apps/subscription/subscription.go",
+    "pkg/controllers/clusters/clusterstatus/clusterstatus_controller.go",
+    "pkg/controllers/clusters/clusterstatus/clusterstatus_controller_test.go",
+    "pkg/hub/apiserver/shadow/apiserver.go",
+    "pkg/hub/apiserver/shadow/customresource_handler.go",
+    "pkg/hub/deployer/deployer.go",
+    "pkg/hub/hub.go",
+    "pkg/registry/shadow/template/rest.go",
+    "pkg/registry/shadow/template/transformer.go",
+    "pkg/registry/shadow/template/transformer_test.go",
+    "pkg/registry/shadow/template/trimmer.go",
+    "pkg/registry/shadow/template/trimmer_test.go",
+    "pkg/registry/shadow/template/wrapper.go",
+    "pkg/utils/deployer.go"
+   ],
+   "repo": "clusternet/clusternet",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000573",
+   "head": "22ea84f2484c0d32909823c029f93a860d76e3ef",
+   "late_files": [
+    "bluesky/callbacks/core.py",
+    "bluesky/tests/test_callbacks.py"
+   ],
+   "repo": "bluesky/bluesky",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000870",
+   "head": "3c0aa35140263118f5306292f88f58ba7ce1556d",
+   "late_files": [
+    "sciencebeam_parser/processors/fulltext/config.py",
+    "sciencebeam_parser/processors/fulltext/models.py",
+    "sciencebeam_parser/processors/fulltext/processor.py",
+    "sciencebeam_parser/processors/graphic_matching.py",
+    "sciencebeam_parser/resources/default_config/config.yml"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001574",
+   "head": "98fdbbff7fa1620877222964c517dbddd726c144",
+   "late_files": [
+    ".github/CHANGELOG.md",
+    "api_app/analyzers_manager/file_analyzers/yara_scan.py",
+    "api_app/analyzers_manager/migrations/0018_sublime_security.py",
+    "api_app/analyzers_manager/migrations/0024_alter_analyzerconfig_not_supported_filetypes_and_more.py",
+    "api_app/analyzers_manager/migrations/0025_alert_tlp_and_analyzer_cleanup.py",
+    "api_app/analyzers_manager/migrations/0026_anomali_threatstream.py",
+    "api_app/analyzers_manager/migrations/0027_alter_analyzerconfig_name.py",
+    "api_app/analyzers_manager/observable_analyzers/greynoiseintel.py",
+    "api_app/connectors_manager/migrations/0016_alter_connectorconfig_name.py",
+    "api_app/core/admin.py",
+    "api_app/core/models.py",
+    "api_app/core/views.py",
+    "api_app/management/commands/dumpplugin.py",
+    "api_app/playbooks_manager/migrations/0005_static_analysis.py",
+    "api_app/playbooks_manager/migrations/0007_fix_static_analysis.py",
+    "api_app/playbooks_manager/migrations/0008_fix_free_to_use_playbook.py",
+    "api_app/playbooks_manager/migrations/0009_alter_playbookconfig_name.py",
+    "api_app/playbooks_manager/models.py",
+    "api_app/validators.py",
+    "api_app/visualizers_manager/classes.py",
+    "api_app/visualizers_manager/enums.py",
+    "api_app/visualizers_manager/migrations/0016_visualizerreport_name.py",
+    "api_app/visualizers_manager/migrations/0017_alter_visualizerreport_options_and_more.py",
+    "api_app/visualizers_manager/models.py",
+    "api_app/visualizers_manager/serializers.py",
+    "api_app/visualizers_manager/visualizers/dns.py",
+    "api_app/visualizers_manager/visualizers/yara.py",
+    "docs/source/Advanced-Usage.md",
+    "docs/source/Contribute.md",
+    "docs/source/Installation.md",
+    "docs/source/Usage.md",
+    "frontend/package-lock.json",
+    "frontend/package.json",
+    "frontend/src/components/jobs/result/api.jsx",
+    "frontend/src/components/jobs/result/utils/JobOverview.jsx",
+    "frontend/src/components/jobs/result/visualizer/elements/base.jsx",
+    "frontend/src/components/jobs/result/visualizer/elements/bool.jsx",
+    "frontend/src/components/jobs/result/visualizer/elements/title.jsx",
+    "frontend/src/components/jobs/result/visualizer/elements/verticalList.jsx",
+    "frontend/src/components/jobs/result/visualizer/icons.jsx",
+    "frontend/src/components/jobs/result/visualizer/validators.jsx",
+    "frontend/src/components/jobs/result/visualizer/visualizer.jsx",
+    "frontend/src/components/scan/ScanForm.jsx",
+    "frontend/src/stores/useJobOverviewStore.jsx",
+    "requirements/project-requirements.txt",
+    "tests/__init__.py",
+    "tests/analyzers_manager/test_classes.py",
+    "tests/analyzers_manager/test_views.py",
+    "tests/connectors_manager/test_classes.py",
+    "tests/connectors_manager/test_views.py",
+    "tests/visualizers_manager/test_classes.py"
+   ],
+   "repo": "XaydarovMarufjon/IntelOwl",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002992",
+   "head": "c38b2df335bd14df221e361d2aab0a1308f9af61",
+   "late_files": [
+    "search/cypress/integration/weedai_upload.js",
+    "weedcoco/importers/voc.py",
+    "weedcoco/schema/Makefile",
+    "weedcoco/validation.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001371",
+   "head": "f439dcbef4137d3c5ee6ba1d92b90e7c0ff2d8f5",
+   "late_files": [
+    "oauth2client/contrib/django_util/__init__.py",
+    "tests/contrib/django_util/test_django_util.py"
+   ],
+   "repo": "chromium-full-mirror/external_github.com_google_oauth2client",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "619dff806e12a616683842447fbac90a76d663a0",
+   "fix_subject": "Support new MIDDLEWARE Django 1.10 Setting (#623)",
+   "fix_files": [
+    "oauth2client/contrib/django_util/__init__.py",
+    "tests/contrib/django_util/test_django_util.py"
+   ],
+   "fix_files_existing_at_base": [
+    "oauth2client/contrib/django_util/__init__.py",
+    "tests/contrib/django_util/test_django_util.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001719",
+   "head": "8b7c74e614b3a2aad252179b1e5953fa711201b1",
+   "late_files": [
+    "cmd/conformance-tester/main.go",
+    "cmd/conformance-tester/pkg/clients/client_kube.go",
+    "cmd/conformance-tester/pkg/runner/events.go",
+    "cmd/conformance-tester/pkg/runner/result.go",
+    "cmd/conformance-tester/pkg/runner/runner.go",
+    "cmd/conformance-tester/pkg/runner/waiters.go",
+    "cmd/conformance-tester/pkg/scenarios/alibaba.go",
+    "cmd/conformance-tester/pkg/scenarios/anexia.go",
+    "cmd/conformance-tester/pkg/scenarios/aws.go",
+    "cmd/conformance-tester/pkg/scenarios/azure.go",
+    "cmd/conformance-tester/pkg/scenarios/base.go",
+    "cmd/conformance-tester/pkg/scenarios/digitalocean.go",
+    "cmd/conformance-tester/pkg/scenarios/generator.go",
+    "cmd/conformance-tester/pkg/scenarios/google.go",
+    "cmd/conformance-tester/pkg/scenarios/hetzner.go",
+    "cmd/conformance-tester/pkg/scenarios/kubevirt.go",
+    "cmd/conformance-tester/pkg/scenarios/nutanix.go",
+    "cmd/conformance-tester/pkg/scenarios/openstack.go",
+    "cmd/conformance-tester/pkg/scenarios/packet.go",
+    "cmd/conformance-tester/pkg/scenarios/vmware_cloud_director.go",
+    "cmd/conformance-tester/pkg/scenarios/vsphere.go",
+    "cmd/conformance-tester/pkg/tests/conformance.go",
+    "cmd/conformance-tester/pkg/types/options.go",
+    "cmd/kubermatic-installer/local_kind_resources.go",
+    "cmd/kubermatic-webhook/main.go",
+    "cmd/seed-controller-manager/main.go",
+    "cmd/user-cluster-controller-manager/main.go",
+    "cmd/user-cluster-webhook/main.go",
+    "codegen/example-yaml/main.go",
+    "docs/zz_generated.seed.ce.yaml",
+    "docs/zz_generated.seed.ee.yaml",
+    "go.mod",
+    "go.sum",
+    "pkg/clusterdeletion/deletion_test.go",
+    "pkg/clusterdeletion/node.go",
+    "pkg/controller/master-controller-manager/external-cluster/cluster_controller.go",
+    "pkg/controller/master-controller-manager/external-cluster/cluster_controller_test.go",
+    "pkg/controller/master-controller-manager/kubeone/controller.go",
+    "pkg/controller/seed-controller-manager/auto-update-controller/controller.go",
+    "pkg/controller/seed-controller-manager/cloud/cloud_controller.go",
+    "pkg/controller/seed-controller-manager/cluster-credentials-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/cni-application-installation-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/default-application-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/initial-application-installation-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/initial-machinedeployment-controller/controller.go",
+    "pkg/controller/seed-controller-manager/initial-machinedeployment-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/initial-machinedeployment-controller/machinedeployment.go",
+    "pkg/controller/seed-controller-manager/operating-system-manager-migrator/controller.go",
+    "pkg/controller/user-cluster-controller-manager/ccm-csi-migrator/controller.go",
+    "pkg/controller/user-cluster-controller-manager/ccm-csi-migrator/controller_test.go",
+    "pkg/controller/user-cluster-controller-manager/ipam/controller.go",
+    "pkg/controller/user-cluster-controller-manager/ipam/controller_test.go",
+    "pkg/controller/user-cluster-controller-manager/kubevirt-vmi-eviction/controller.go",
+    "pkg/controller/user-cluster-controller-manager/kubevirt-vmi-eviction/controller_test.go",
+    "pkg/controller/user-cluster-controller-manager/resources/resources/machine/webhook.go",
+    "pkg/crd/k8c.io/kubermatic.k8c.io_seeds.yaml",
+    "pkg/ee/resource-usage-controller/controller.go",
+    "pkg/ee/resource-usage-controller/controller_test.go",
+    "pkg/ee/validation/machine/fake.go",
+    "pkg/ee/validation/machine/providers.go",
+    "pkg/ee/validation/machine/providers_test.go",
+    "pkg/ee/validation/machine/resourcequota.go",
+    "pkg/ee/validation/machine/resourcequota_test.go",
+    "pkg/kubernetes/helper.go",
+    "pkg/machine/builder.go",
+    "pkg/machine/helpers.go",
+    "pkg/machine/operatingsystem/builders.go",
+    "pkg/machine/operatingsystem/builders_test.go",
+    "pkg/machine/provider/alibaba.go",
+    "pkg/machine/provider/alibaba_test.go",
+    "pkg/machine/provider/anexia.go",
+    "pkg/machine/provider/anexia_test.go",
+    "pkg/machine/provider/aws.go",
+    "pkg/machine/provider/aws_test.go",
+    "pkg/machine/provider/azure.go",
+    "pkg/machine/provider/azure_test.go",
+    "pkg/machine/provider/baremetal.go",
+    "pkg/machine/provider/digitalocean.go",
+    "pkg/machine/provider/digitalocean_test.go",
+    "pkg/machine/provider/equinixmetal.go",
+    "pkg/machine/provider/equinixmetal_test.go",
+    "pkg/machine/provider/gcp.go",
+    "pkg/machine/provider/gcp_test.go",
+    "pkg/machine/provider/helpers.go",
+    "pkg/machine/provider/hetzner.go",
+    "pkg/machine/provider/hetzner_test.go",
+    "pkg/machine/provider/kubevirt.go",
+    "pkg/machine/provider/kubevirt_test.go",
+    "pkg/machine/provider/nutanix.go",
+    "pkg/machine/provider/nutanix_test.go",
+    "pkg/machine/provider/openstack.go",
+    "pkg/machine/provider/openstack_test.go",
+    "pkg/machine/provider/vmware_cloud_director.go",
+    "pkg/machine/provider/vmware_cloud_director_test.go",
+    "pkg/machine/provider/vsphere.go",
+    "pkg/machine/provider/vsphere_test.go",
+    "pkg/provider/cloud/openstack/provider.go",
+    "pkg/provider/cloud/openstack/provider_test.go",
+    "pkg/provider/cloud/vsphere/provider_test.go",
+    "pkg/provider/kubernetes/credentials.go"
+   ],
+   "repo": "kubermatic/kubermatic",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#14283",
+   "fix_subject": "Update machine-controller dependency, rewrite to use its new SDK",
+   "fix_files": [
+    "cmd/conformance-tester/main.go",
+    "cmd/conformance-tester/pkg/clients/client_kube.go",
+    "cmd/conformance-tester/pkg/runner/events.go",
+    "cmd/conformance-tester/pkg/runner/result.go",
+    "cmd/conformance-tester/pkg/runner/runner.go",
+    "cmd/conformance-tester/pkg/runner/waiters.go",
+    "cmd/conformance-tester/pkg/scenarios/alibaba.go",
+    "cmd/conformance-tester/pkg/scenarios/anexia.go",
+    "cmd/conformance-tester/pkg/scenarios/aws.go",
+    "cmd/conformance-tester/pkg/scenarios/azure.go",
+    "cmd/conformance-tester/pkg/scenarios/base.go",
+    "cmd/conformance-tester/pkg/scenarios/digitalocean.go",
+    "cmd/conformance-tester/pkg/scenarios/generator.go",
+    "cmd/conformance-tester/pkg/scenarios/google.go",
+    "cmd/conformance-tester/pkg/scenarios/hetzner.go",
+    "cmd/conformance-tester/pkg/scenarios/kubevirt.go",
+    "cmd/conformance-tester/pkg/scenarios/nutanix.go",
+    "cmd/conformance-tester/pkg/scenarios/openstack.go",
+    "cmd/conformance-tester/pkg/scenarios/packet.go",
+    "cmd/conformance-tester/pkg/scenarios/vmware_cloud_director.go",
+    "cmd/conformance-tester/pkg/scenarios/vsphere.go",
+    "cmd/conformance-tester/pkg/tests/conformance.go",
+    "cmd/conformance-tester/pkg/types/options.go",
+    "cmd/kubermatic-installer/local_kind_resources.go",
+    "cmd/kubermatic-webhook/main.go",
+    "cmd/seed-controller-manager/main.go",
+    "cmd/user-cluster-controller-manager/main.go",
+    "cmd/user-cluster-webhook/main.go",
+    "codegen/example-yaml/main.go",
+    "docs/zz_generated.seed.ce.yaml",
+    "docs/zz_generated.seed.ee.yaml",
+    "go.mod",
+    "go.sum",
+    "pkg/clusterdeletion/deletion_test.go",
+    "pkg/clusterdeletion/node.go",
+    "pkg/controller/master-controller-manager/external-cluster/cluster_controller.go",
+    "pkg/controller/master-controller-manager/external-cluster/cluster_controller_test.go",
+    "pkg/controller/master-controller-manager/kubeone/controller.go",
+    "pkg/controller/seed-controller-manager/auto-update-controller/controller.go",
+    "pkg/controller/seed-controller-manager/cloud/cloud_controller.go",
+    "pkg/controller/seed-controller-manager/cluster-credentials-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/cni-application-installation-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/default-application-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/initial-application-installation-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/initial-machinedeployment-controller/controller.go",
+    "pkg/controller/seed-controller-manager/initial-machinedeployment-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/initial-machinedeployment-controller/machinedeployment.go",
+    "pkg/controller/seed-controller-manager/operating-system-manager-migrator/controller.go",
+    "pkg/controller/user-cluster-controller-manager/ccm-csi-migrator/controller.go",
+    "pkg/controller/user-cluster-controller-manager/ccm-csi-migrator/controller_test.go",
+    "pkg/controller/user-cluster-controller-manager/ipam/controller.go",
+    "pkg/controller/user-cluster-controller-manager/ipam/controller_test.go",
+    "pkg/controller/user-cluster-controller-manager/kubevirt-vmi-eviction/controller.go",
+    "pkg/controller/user-cluster-controller-manager/kubevirt-vmi-eviction/controller_test.go",
+    "pkg/controller/user-cluster-controller-manager/resources/resources/machine/webhook.go",
+    "pkg/crd/k8c.io/kubermatic.k8c.io_seeds.yaml",
+    "pkg/ee/resource-usage-controller/controller.go",
+    "pkg/ee/resource-usage-controller/controller_test.go",
+    "pkg/ee/validation/machine/fake.go",
+    "pkg/ee/validation/machine/providers.go",
+    "pkg/ee/validation/machine/providers_test.go",
+    "pkg/ee/validation/machine/resourcequota.go",
+    "pkg/ee/validation/machine/resourcequota_test.go",
+    "pkg/kubernetes/helper.go",
+    "pkg/machine/builder.go",
+    "pkg/machine/helpers.go",
+    "pkg/machine/operatingsystem/builders.go",
+    "pkg/machine/operatingsystem/builders_test.go",
+    "pkg/machine/provider/alibaba.go",
+    "pkg/machine/provider/alibaba_test.go",
+    "pkg/machine/provider/anexia.go",
+    "pkg/machine/provider/anexia_test.go",
+    "pkg/machine/provider/aws.go",
+    "pkg/machine/provider/aws_test.go",
+    "pkg/machine/provider/azure.go",
+    "pkg/machine/provider/azure_test.go",
+    "pkg/machine/provider/baremetal.go",
+    "pkg/machine/provider/digitalocean.go",
+    "pkg/machine/provider/digitalocean_test.go",
+    "pkg/machine/provider/equinixmetal.go",
+    "pkg/machine/provider/equinixmetal_test.go",
+    "pkg/machine/provider/gcp.go",
+    "pkg/machine/provider/gcp_test.go",
+    "pkg/machine/provider/helpers.go",
+    "pkg/machine/provider/hetzner.go",
+    "pkg/machine/provider/hetzner_test.go",
+    "pkg/machine/provider/kubevirt.go",
+    "pkg/machine/provider/kubevirt_test.go",
+    "pkg/machine/provider/nutanix.go",
+    "pkg/machine/provider/nutanix_test.go",
+    "pkg/machine/provider/openstack.go",
+    "pkg/machine/provider/openstack_test.go",
+    "pkg/machine/provider/vmware_cloud_director.go",
+    "pkg/machine/provider/vmware_cloud_director_test.go",
+    "pkg/machine/provider/vsphere.go",
+    "pkg/machine/provider/vsphere_test.go",
+    "pkg/provider/cloud/openstack/provider.go",
+    "pkg/provider/cloud/openstack/provider_test.go",
+    "pkg/provider/cloud/vsphere/provider_test.go",
+    "pkg/provider/kubernetes/credentials.go"
+   ],
+   "fix_files_existing_at_base": [
+    "cmd/conformance-tester/main.go",
+    "cmd/conformance-tester/pkg/clients/client_kube.go",
+    "cmd/conformance-tester/pkg/runner/events.go",
+    "cmd/conformance-tester/pkg/runner/result.go",
+    "cmd/conformance-tester/pkg/runner/runner.go",
+    "cmd/conformance-tester/pkg/runner/waiters.go",
+    "cmd/conformance-tester/pkg/scenarios/alibaba.go",
+    "cmd/conformance-tester/pkg/scenarios/anexia.go",
+    "cmd/conformance-tester/pkg/scenarios/aws.go",
+    "cmd/conformance-tester/pkg/scenarios/azure.go",
+    "cmd/conformance-tester/pkg/scenarios/base.go",
+    "cmd/conformance-tester/pkg/scenarios/digitalocean.go",
+    "cmd/conformance-tester/pkg/scenarios/generator.go",
+    "cmd/conformance-tester/pkg/scenarios/google.go",
+    "cmd/conformance-tester/pkg/scenarios/hetzner.go",
+    "cmd/conformance-tester/pkg/scenarios/kubevirt.go",
+    "cmd/conformance-tester/pkg/scenarios/nutanix.go",
+    "cmd/conformance-tester/pkg/scenarios/openstack.go",
+    "cmd/conformance-tester/pkg/scenarios/packet.go",
+    "cmd/conformance-tester/pkg/scenarios/vmware_cloud_director.go",
+    "cmd/conformance-tester/pkg/scenarios/vsphere.go",
+    "cmd/conformance-tester/pkg/tests/conformance.go",
+    "cmd/conformance-tester/pkg/types/options.go",
+    "cmd/kubermatic-installer/local_kind_resources.go",
+    "cmd/kubermatic-webhook/main.go",
+    "cmd/seed-controller-manager/main.go",
+    "cmd/user-cluster-controller-manager/main.go",
+    "cmd/user-cluster-webhook/main.go",
+    "codegen/example-yaml/main.go",
+    "docs/zz_generated.seed.ce.yaml",
+    "docs/zz_generated.seed.ee.yaml",
+    "go.mod",
+    "go.sum",
+    "pkg/clusterdeletion/deletion_test.go",
+    "pkg/clusterdeletion/node.go",
+    "pkg/controller/master-controller-manager/external-cluster/cluster_controller.go",
+    "pkg/controller/master-controller-manager/external-cluster/cluster_controller_test.go",
+    "pkg/controller/master-controller-manager/kubeone/controller.go",
+    "pkg/controller/seed-controller-manager/auto-update-controller/controller.go",
+    "pkg/controller/seed-controller-manager/cloud/cloud_controller.go",
+    "pkg/controller/seed-controller-manager/cluster-credentials-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/cni-application-installation-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/default-application-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/initial-application-installation-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/initial-machinedeployment-controller/controller.go",
+    "pkg/controller/seed-controller-manager/initial-machinedeployment-controller/controller_test.go",
+    "pkg/controller/seed-controller-manager/initial-machinedeployment-controller/machinedeployment.go",
+    "pkg/controller/seed-controller-manager/operating-system-manager-migrator/controller.go",
+    "pkg/controller/user-cluster-controller-manager/ccm-csi-migrator/controller.go",
+    "pkg/controller/user-cluster-controller-manager/ccm-csi-migrator/controller_test.go",
+    "pkg/controller/user-cluster-controller-manager/ipam/controller.go",
+    "pkg/controller/user-cluster-controller-manager/ipam/controller_test.go",
+    "pkg/controller/user-cluster-controller-manager/kubevirt-vmi-eviction/controller.go",
+    "pkg/controller/user-cluster-controller-manager/kubevirt-vmi-eviction/controller_test.go",
+    "pkg/controller/user-cluster-controller-manager/resources/resources/machine/webhook.go",
+    "pkg/crd/k8c.io/kubermatic.k8c.io_seeds.yaml",
+    "pkg/ee/resource-usage-controller/controller.go",
+    "pkg/ee/resource-usage-controller/controller_test.go",
+    "pkg/ee/validation/machine/fake.go",
+    "pkg/ee/validation/machine/providers.go",
+    "pkg/ee/validation/machine/providers_test.go",
+    "pkg/ee/validation/machine/resourcequota.go",
+    "pkg/ee/validation/machine/resourcequota_test.go",
+    "pkg/kubernetes/helper.go",
+    "pkg/machine/builder.go",
+    "pkg/machine/helpers.go",
+    "pkg/machine/operatingsystem/builders.go",
+    "pkg/machine/operatingsystem/builders_test.go",
+    "pkg/machine/provider/alibaba.go",
+    "pkg/machine/provider/alibaba_test.go",
+    "pkg/machine/provider/anexia.go",
+    "pkg/machine/provider/anexia_test.go",
+    "pkg/machine/provider/aws.go",
+    "pkg/machine/provider/aws_test.go",
+    "pkg/machine/provider/azure.go",
+    "pkg/machine/provider/azure_test.go",
+    "pkg/machine/provider/baremetal.go",
+    "pkg/machine/provider/digitalocean.go",
+    "pkg/machine/provider/digitalocean_test.go",
+    "pkg/machine/provider/equinixmetal.go",
+    "pkg/machine/provider/equinixmetal_test.go",
+    "pkg/machine/provider/gcp.go",
+    "pkg/machine/provider/gcp_test.go",
+    "pkg/machine/provider/helpers.go",
+    "pkg/machine/provider/hetzner.go",
+    "pkg/machine/provider/hetzner_test.go",
+    "pkg/machine/provider/kubevirt.go",
+    "pkg/machine/provider/kubevirt_test.go",
+    "pkg/machine/provider/nutanix.go",
+    "pkg/machine/provider/nutanix_test.go",
+    "pkg/machine/provider/openstack.go",
+    "pkg/machine/provider/openstack_test.go",
+    "pkg/machine/provider/vmware_cloud_director.go",
+    "pkg/machine/provider/vmware_cloud_director_test.go",
+    "pkg/machine/provider/vsphere.go",
+    "pkg/machine/provider/vsphere_test.go",
+    "pkg/provider/cloud/openstack/provider.go",
+    "pkg/provider/cloud/openstack/provider_test.go",
+    "pkg/provider/cloud/vsphere/provider_test.go",
+    "pkg/provider/kubernetes/credentials.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000936",
+   "head": "e958c8ffeb7ac5cd44e2046966c4f005911a506d",
+   "late_files": [
+    "templates/plugin/index.js",
+    "test/generate-plugin.test.js"
+   ],
+   "repo": "fastify/fastify-cli",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "09ab76d3bae26306bab4d71817c9ccc7712149cb",
+   "fix_subject": "fix: correct fastify version on plugin genration (#804)",
+   "fix_files": [
+    "templates/plugin/index.js",
+    "test/generate-plugin.test.js"
+   ],
+   "fix_files_existing_at_base": [
+    "templates/plugin/index.js",
+    "test/generate-plugin.test.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000740",
+   "head": "83224dd8ff51216c986a1e0169274020720ff075",
+   "late_files": [
+    "CHANGES.md",
+    "cylc/flow/config.py",
+    "cylc/flow/param_expand.py",
+    "tests/functional/param_expand/03-env-tmpl.t",
+    "tests/functional/param_expand/03-env-tmpl/flow.cylc",
+    "tests/functional/param_expand/03-env-tmpl/reference.log"
+   ],
+   "repo": "Fraetor/cylc-flow",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002911",
+   "head": "4ef3be9f96a3b316c064605e02178a0dceae2036",
+   "late_files": [
+    "packages/core/src/table/field/__snapshots__/date-range-field.type.test.ts.snap",
+    "packages/core/src/table/field/attachment-field-value.ts",
+    "packages/core/src/table/field/attachment-field-value.util.ts",
+    "packages/core/src/table/field/attachment-field.ts",
+    "packages/core/src/table/field/attachment-field.type.ts",
+    "packages/core/src/table/field/auto-increment-field-value.ts",
+    "packages/core/src/table/field/auto-increment-field.ts",
+    "packages/core/src/table/field/auto-increment-field.type.ts",
+    "packages/core/src/table/field/average-field-value.ts",
+    "packages/core/src/table/field/average-field.ts",
+    "packages/core/src/table/field/average-field.type.ts",
+    "packages/core/src/table/field/bool-field-value.test.ts",
+    "packages/core/src/table/field/bool-field-value.ts",
+    "packages/core/src/table/field/bool-field.ts",
+    "packages/core/src/table/field/bool-field.type.ts",
+    "packages/core/src/table/field/collaborator-field-value.ts",
+    "packages/core/src/table/field/collaborator-field.ts",
+    "packages/core/src/table/field/collaborator-field.type.ts",
+    "packages/core/src/table/field/color-field-value.ts",
+    "packages/core/src/table/field/color-field.ts",
+    "packages/core/src/table/field/color-field.type.ts",
+    "packages/core/src/table/field/count-field-value.ts",
+    "packages/core/src/table/field/count-field.ts",
+    "packages/core/src/table/field/count-field.type.ts",
+    "packages/core/src/table/field/created-at-field-value.ts",
+    "packages/core/src/table/field/created-at-field.ts",
+    "packages/core/src/table/field/created-at-field.type.ts",
+    "packages/core/src/table/field/created-by-field-value.ts",
+    "packages/core/src/table/field/created-by-field.ts",
+    "packages/core/src/table/field/created-by-field.type.ts",
+    "packages/core/src/table/field/currency-field-value.ts",
+    "packages/core/src/table/field/currency-field.ts",
+    "packages/core/src/table/field/currency-field.type.ts",
+    "packages/core/src/table/field/currency-symbol.vo.ts",
+    "packages/core/src/table/field/date-field-value.ts",
+    "packages/core/src/table/field/date-field.ts",
+    "packages/core/src/table/field/date-field.type.ts",
+    "packages/core/src/table/field/date-range-field-value.ts",
+    "packages/core/src/table/field/date-range-field.ts",
+    "packages/core/src/table/field/date-range-field.type.test.ts",
+    "packages/core/src/table/field/date-range-field.type.ts",
+    "packages/core/src/table/field/email-field-value.ts",
+    "packages/core/src/table/field/email-field.ts",
+    "packages/core/src/table/field/email-field.type.ts",
+    "packages/core/src/table/field/field-value.visitor.ts",
+    "packages/core/src/table/field/field.base.ts",
+    "packages/core/src/table/field/field.factory.test.ts",
+    "packages/core/src/table/field/field.factory.ts",
+    "packages/core/src/table/field/field.type.ts",
+    "packages/core/src/table/field/field.util.ts",
+    "packages/core/src/table/field/field.visitor.ts",
+    "packages/core/src/table/field/fields/index.ts",
+    "packages/core/src/table/field/id-field-value.ts",
+    "packages/core/src/table/field/id-field.ts",
+    "packages/core/src/table/field/id-field.type.ts",
+    "packages/core/src/table/field/index.ts",
+    "packages/core/src/table/field/json-field-value.ts",
+    "packages/core/src/table/field/json-field.ts",
+    "packages/core/src/table/field/json-field.type.ts",
+    "packages/core/src/table/field/lookup-field-value.ts",
+    "packages/core/src/table/field/lookup-field.ts",
+    "packages/core/src/table/field/lookup-field.type.ts",
+    "packages/core/src/table/field/multi-select-field-value.ts",
+    "packages/core/src/table/field/multi-select-field.ts",
+    "packages/core/src/table/field/multi-select-field.type.ts",
+    "packages/core/src/table/field/number-field-value.ts",
+    "packages/core/src/table/field/number-field.ts",
+    "packages/core/src/table/field/number-field.type.ts",
+    "packages/core/src/table/field/parent-field-value.ts",
+    "packages/core/src/table/field/parent-field.ts",
+    "packages/core/src/table/field/parent-field.type.ts",
+    "packages/core/src/table/field/rating-field-value.ts",
+    "packages/core/src/table/field/rating-field.ts",
+    "packages/core/src/table/field/rating-field.type.ts",
+    "packages/core/src/table/field/reference-field-value.ts",
+    "packages/core/src/table/field/reference-field.ts",
+    "packages/core/src/table/field/reference-field.type.ts",
+    "packages/core/src/table/field/select-field-value.ts",
+    "packages/core/src/table/field/select-field.ts",
+    "packages/core/src/table/field/select-field.type.ts",
+    "packages/core/src/table/field/select.field.test.ts",
+    "packages/core/src/table/field/specifications/currency-field.specification.ts",
+    "packages/core/src/table/field/specifications/rating-field.specification.ts",
+    "packages/core/src/table/field/specifications/reference-field.specification.ts",
+    "packages/core/src/table/field/string-field-value.ts",
+    "packages/core/src/table/field/string-field.ts",
+    "packages/core/src/table/field/string-field.type.ts",
+    "packages/core/src/table/field/string.field.test.ts",
+    "packages/core/src/table/field/sum-field-value.ts",
+    "packages/core/src/table/field/sum-field.ts",
+    "packages/core/src/table/field/sum-field.type.ts",
+    "packages/core/src/table/field/tree-field-value.ts",
+    "packages/core/src/table/field/tree-field.test.ts",
+    "packages/core/src/table/field/tree-field.ts",
+    "packages/core/src/table/field/tree-field.type.ts",
+    "packages/core/src/table/field/update-field.helper.ts",
+    "packages/core/src/table/field/updated-at-field-value.ts",
+    "packages/core/src/table/field/updated-at-field.ts",
+    "packages/core/src/table/field/updated-at-field.type.ts",
+    "packages/core/src/table/field/updated-by-field-value.ts"
+   ],
+   "repo": "wsng911/undb",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002673",
+   "head": "36357702cd45300923898c51ee2277eb060b8561",
+   "late_files": [
+    ".mise.toml",
+    "README.md",
+    "cmd/root.go",
+    "internal/prompt/prompt.go"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000641",
+   "head": "0b0d41ce3f4a3ec3410e9cc46402fcef80225081",
+   "late_files": [
+    "CHANGELOG.md",
+    "Godeps/Godeps.json",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/README.md",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/client.go",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/conn.go",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/doc.go",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/examples/chat/conn.go",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/examples/command/README.md",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/examples/command/home.html",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/examples/command/main.go",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/examples/echo/README.md",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/examples/echo/client.go",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/examples/echo/server.go",
+    "Godeps/_workspace/src/github.com/gorilla/websocket/server.go",
+    "bindata.go",
+    "config.go",
+    "extras/web/app/public/bundle/bundle.js",
+    "extras/web/app/public/bundle/bundle.js.map",
+    "libcentrifugo/application.go",
+    "libcentrifugo/application_test.go",
+    "libcentrifugo/client.go",
+    "libcentrifugo/client_test.go",
+    "libcentrifugo/commands.go",
+    "libcentrifugo/config.go",
+    "libcentrifugo/engine.go",
+    "libcentrifugo/engine_test.go",
+    "libcentrifugo/enginememory.go",
+    "libcentrifugo/enginememory_test.go",
+    "libcentrifugo/engineredis.go",
+    "libcentrifugo/engineredis_test.go",
+    "libcentrifugo/errors.go",
+    "libcentrifugo/handlers.go",
+    "libcentrifugo/handlers_test.go",
+    "libcentrifugo/hubs.go",
+    "libcentrifugo/hubs_test.go",
+    "libcentrifugo/mediator_test.go",
+    "libcentrifugo/metrics.go",
+    "libcentrifugo/response.go",
+    "main.go"
+   ],
+   "repo": "centrifugal/centrifugo",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002711",
+   "head": "fcfe2f0143a7de8fc29a51be14cb5b3864a621f7",
+   "late_files": [
+    "scio-tensorflow/src/main/scala/com/spotify/scio/tensorflow/TensorFlowFunctions.scala",
+    "scio-tensorflow/src/test/scala/com/spotify/scio/tensorflow/MetadataSchemaTest.scala"
+   ],
+   "repo": "Vikaskumar9/Scio-Scala",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "b944bab7410e373c7fb00e4b3ca35095202a6326",
+   "fix_subject": "Fix #1259 don't add shape dim for scalar features (#1260)",
+   "fix_files": [
+    "scio-tensorflow/src/main/scala/com/spotify/scio/tensorflow/TensorFlowFunctions.scala",
+    "scio-tensorflow/src/test/scala/com/spotify/scio/tensorflow/MetadataSchemaTest.scala"
+   ],
+   "fix_files_existing_at_base": [
+    "scio-tensorflow/src/main/scala/com/spotify/scio/tensorflow/TensorFlowFunctions.scala",
+    "scio-tensorflow/src/test/scala/com/spotify/scio/tensorflow/MetadataSchemaTest.scala"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000578",
+   "head": "a4ce7ec5ca9f2f822896907e3e88968640a56ecc",
+   "late_files": [
+    "opentsdb/tsdb.go",
+    "opentsdb/tsdb_test.go"
+   ],
+   "repo": "bosun-monitor/bosun",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "096715b17c4c82344e99fc9deed1c741f0652d9f",
+   "fix_subject": "opentsdb: support DropResets rate option (#2409) (#2410)",
+   "fix_files": [
+    "opentsdb/tsdb.go",
+    "opentsdb/tsdb_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "opentsdb/tsdb.go",
+    "opentsdb/tsdb_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001936",
+   "head": "4cb96dedd0143cf9b6278d3622457e1e485b3090",
+   "late_files": [
+    "mitmproxy/addons/clientplayback.py",
+    "mitmproxy/flow.py",
+    "mitmproxy/http.py",
+    "mitmproxy/proxy/protocol/http_replay.py",
+    "test/mitmproxy/addons/test_clientplayback.py",
+    "test/mitmproxy/test_flow.py"
+   ],
+   "repo": "emtee40/mitmproxy-other",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001474",
+   "head": "990909455b6486160318d1ef6830e07f14db67b4",
+   "late_files": [
+    "gulpfile.js",
+    "node_modules/.package-lock.json",
+    "node_modules/graceful-fs/LICENSE",
+    "node_modules/graceful-fs/README.md",
+    "node_modules/graceful-fs/clone.js",
+    "node_modules/graceful-fs/graceful-fs.js",
+    "node_modules/graceful-fs/legacy-streams.js",
+    "node_modules/graceful-fs/package.json",
+    "node_modules/graceful-fs/polyfills.js",
+    "package-lock.json",
+    "package.json",
+    "src/waax.timebase.js"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-003049",
+   "head": "1b6a01190708a23e40fe729859d93b4d3ed12fa7",
+   "late_files": [
+    "go.mod",
+    "go.sum",
+    "pkg/zeaburpack/image.go",
+    "pkg/zeaburpack/ref.go",
+    "pkg/zeaburpack/ref_test.go"
+   ],
+   "repo": "zeabur/zbpack",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001253",
+   "head": "2392e46f8ad6050d797390cb1859623f0994f710",
+   "late_files": [
+    "openapi3/swagger_loader.go"
+   ],
+   "repo": "getkin/kin-openapi",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "ceae068a70e7ef3d55351ab14a261e8b9802ce46",
+   "fix_subject": "Fix openapi3.referencedDocumentPath (#248)",
+   "fix_files": [
+    "openapi3/swagger_loader.go",
+    "openapi3/swagger_loader_referenced_document_path_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "openapi3/swagger_loader.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002043",
+   "head": "49e6aa9d1d8ee6083ad860319a9845ac92746dfd",
+   "late_files": [
+    "src/extensions/Mention.js",
+    "src/tests/markdown.spec.js"
+   ],
+   "repo": "nextcloud/text",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "aeeaad9d326e0b64d573eb2d1bbe132563641b79",
+   "fix_subject": "fix(mention): No extra whitespace in markdown before/after mentions",
+   "fix_files": [
+    "src/extensions/Mention.js",
+    "src/tests/markdown.spec.js"
+   ],
+   "fix_files_existing_at_base": [
+    "src/extensions/Mention.js",
+    "src/tests/markdown.spec.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001642",
+   "head": "db1c406507b2022830a3a1966f53c32d1eeb2c25",
+   "late_files": [
+    "docs/fundamentals/flow/topologies.md",
+    "jina/orchestrate/deployments/__init__.py",
+    "jina/serve/stream/__init__.py",
+    "tests/unit/orchestrate/deployments/test_cuda_assignment.py"
+   ],
+   "repo": "jina-ai/serve",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000278",
+   "head": "00bcd840c6dd37d1904e6fb1dccb02da71af9437",
+   "late_files": [
+    "lib/diplomat/service.rb",
+    "spec/service_spec.rb"
+   ],
+   "repo": "WeAreFarmGeek/diplomat",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001129",
+   "head": "e6f4383e054e29c9ab802fba23956690ba861394",
+   "late_files": [
+    "go.mod",
+    "go.sum",
+    "internal/cmd/between.go",
+    "internal/cmd/cmds_test.go",
+    "internal/cmd/root.go",
+    "pkg/dyff/core_suite_test.go",
+    "pkg/dyff/output_human.go"
+   ],
+   "repo": "mascai/dyff-deb-package",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000609",
+   "head": "b2d2dd1cd9d180f5dbfaf77aaa0385e52cd86576",
+   "late_files": [
+    "CHANGELOG.md",
+    "docs/creating/data_tables.md",
+    "src/calliope/config/data_table_schema.yaml",
+    "src/calliope/preprocess/data_tables.py",
+    "tests/test_preprocess_data_sources.py"
+   ],
+   "repo": "calliope-project/calliope",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "a9a610e4476fabdc0dfb4df8eda957c2f946a7ac",
+   "fix_subject": "Add data source dimension name renaming option (#687)",
+   "fix_files": [
+    "CHANGELOG.md",
+    "docs/creating/data_tables.md",
+    "src/calliope/config/data_table_schema.yaml",
+    "src/calliope/preprocess/data_tables.py",
+    "tests/test_preprocess_data_sources.py"
+   ],
+   "fix_files_existing_at_base": [
+    "CHANGELOG.md",
+    "docs/creating/data_tables.md",
+    "src/calliope/config/data_table_schema.yaml",
+    "src/calliope/preprocess/data_tables.py",
+    "tests/test_preprocess_data_sources.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002256",
+   "head": "4610732ef8e65b41c5fa297ff2c318e78c7d6b7a",
+   "late_files": [
+    "persistqueue/async_queue.py",
+    "persistqueue/queue.py",
+    "persistqueue/tests/test_async_queue.py",
+    "persistqueue/tests/test_queue.py"
+   ],
+   "repo": "peter-wangxu/persist-queue",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "b8bcfd7cc78c67e6f53de134e5bef69ff33911b4",
+   "fix_subject": "fix: don't mark empty queue without max size 'full'",
+   "fix_files": [
+    "persistqueue/async_queue.py",
+    "persistqueue/queue.py",
+    "persistqueue/tests/test_async_queue.py",
+    "persistqueue/tests/test_queue.py"
+   ],
+   "fix_files_existing_at_base": [
+    "persistqueue/async_queue.py",
+    "persistqueue/queue.py",
+    "persistqueue/tests/test_async_queue.py",
+    "persistqueue/tests/test_queue.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001153",
+   "head": "a3f1d8d89d1b5010b5fc9d7dfeca34c35d8d4f90",
+   "late_files": [
+    "CHANGELOG.md",
+    "rpc/ethereum/namespaces/personal/api.go",
+    "tests/rpc/personal_test.go"
+   ],
+   "repo": "Rine0pp/planq",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "a874c1e1ca14db8d3623fcdd0b486044c0ce50e9",
+   "fix_subject": "rpc: personal_initializeWallet (#740)",
+   "fix_files": [
+    "CHANGELOG.md",
+    "rpc/ethereum/namespaces/personal/api.go",
+    "tests/rpc/personal_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "CHANGELOG.md",
+    "rpc/ethereum/namespaces/personal/api.go",
+    "tests/rpc/personal_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002798",
+   "head": "458e896983d056352e9ce1a3a85cbb19dba90fc5",
+   "late_files": [
+    "src/core/Typewriter.js",
+    "src/core/constants.js",
+    "src/utils/index.js"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001935",
+   "head": "9a3d8ef05f7ad3dc2a63f5d9b4e19fa544325b57",
+   "late_files": [
+    "go.sum",
+    "lib/option/flags.go",
+    "lib/parser/parser.go",
+    "lib/parser/parser.y",
+    "lib/query/file_info.go",
+    "lib/query/load_view.go",
+    "lib/syntax/syntax.go",
+    "lib/terminal/completer_readline.go"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000987",
+   "head": "738c6953d407f3fc14f2065403ef89da48eeb4cb",
+   "late_files": [
+    "flair/datasets/__init__.py",
+    "flair/datasets/sequence_labeling.py",
+    "tests/test_datasets.py"
+   ],
+   "repo": "bodhitrii/flair",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000855",
+   "head": "98106855948be249955b61fbfdf3abaeb3ad6bcf",
+   "late_files": [
+    "src/index.js",
+    "test/flatten.test.js"
+   ],
+   "repo": "eggheadio-github/stack-overflow-copy-paste",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000958",
+   "head": "2021bad0ad9731a3bd6d48631271c257961251ba",
+   "late_files": [
+    "internal/api/grpc/session/v2/session.go",
+    "internal/api/grpc/session/v2/session_test.go",
+    "pkg/grpc/protoc/v2/options.pb.go",
+    "proto/zitadel/session/v2beta/session.proto"
+   ],
+   "repo": "ardifx01/zitadel",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "a83829b5ffefae3311f24af5d0a546687e9e552b",
+   "fix_subject": "fix(API): remove deprecated organisation_id from user factor in session service (#7631)",
+   "fix_files": [
+    "internal/api/grpc/session/v2/session.go",
+    "internal/api/grpc/session/v2/session_test.go",
+    "proto/zitadel/session/v2beta/session.proto"
+   ],
+   "fix_files_existing_at_base": [
+    "internal/api/grpc/session/v2/session.go",
+    "internal/api/grpc/session/v2/session_test.go",
+    "proto/zitadel/session/v2beta/session.proto"
+   ],
+   "precision": 0.75,
+   "recall": 1.0,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-001633",
+   "head": "dd3468936c15a2dbcebe77302bc30425015d67d0",
+   "late_files": [
+    "CHANGELOG.md",
+    "packages/jest-cli/bin/jest.js",
+    "packages/jest-repl/bin/jest-repl.js",
+    "packages/jest-runtime/bin/jest-runtime.js",
+    "packages/jest/bin/jest.js",
+    "packages/pretty-format/src/__tests__/dom_element.test.js",
+    "packages/pretty-format/src/index.js"
+   ],
+   "repo": "jestjs/jest",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000991",
+   "head": "6855d9285ba30eafccfb721a66244bd7c4bb7857",
+   "late_files": [
+    "src/annotation/annotations/example.js",
+    "test/annotations/example.test.js"
+   ],
+   "repo": "SassDoc/sassdoc",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#148",
+   "fix_subject": "Add support for description ",
+   "fix_files": [
+    "src/annotation/annotations/example.js",
+    "test/annotations/example.test.js"
+   ],
+   "fix_files_existing_at_base": [
+    "src/annotation/annotations/example.js",
+    "test/annotations/example.test.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-003043",
+   "head": "506f8453a6d0f703007792c944dee494f3d050ae",
+   "late_files": [
+    "provisioner/clusterpy.go",
+    "provisioner/clusterpy_test.go"
+   ],
+   "repo": "zalando-incubator/cluster-lifecycle-manager",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002768",
+   "head": "1178f2d2d4c7d83d12ad4ec55b686a7bf7e28995",
+   "late_files": [
+    "lib/rules/max-line-length/__tests__/index.js",
+    "lib/rules/max-line-length/index.js"
+   ],
+   "repo": "ec0lint/ec0lint-style",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000230",
+   "head": "9e6a016dbd44fdeedf27241b9e02fbd8d4a617c8",
+   "late_files": [
+    "qiskit/pulse/transforms.py",
+    "test/python/pulse/test_transforms.py"
+   ],
+   "repo": "PiXeLfLeX01010101/So-IT_Begins-01010101-My_quantum-Code-010101",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "bf0287e46cec5f86ae7efd1c5955f9e777ed3367",
+   "fix_subject": "Fix the spacing in align_equispaced when there are multiple channels (#5440)",
+   "fix_files": [
+    "qiskit/pulse/transforms.py",
+    "test/python/pulse/test_transforms.py"
+   ],
+   "fix_files_existing_at_base": [
+    "qiskit/pulse/transforms.py",
+    "test/python/pulse/test_transforms.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000029",
+   "head": "f9ca7459ed9080ec462f251734185ade537c2afd",
+   "late_files": [
+    "lib/constants.js",
+    "lib/helpers/model/applyStaticHooks.js",
+    "test/model.test.js"
+   ],
+   "repo": "neilkumar93600/mongoose-docker-assessment",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "8655c6c8ac72e3acb083a6539f50f6c538b22fe6",
+   "fix_subject": "fix(model): skip applying static hooks by default if static name conflicts with model,document middleware",
+   "fix_files": [
+    "lib/constants.js",
+    "lib/helpers/model/applyStaticHooks.js"
+   ],
+   "fix_files_existing_at_base": [
+    "lib/constants.js",
+    "lib/helpers/model/applyStaticHooks.js"
+   ],
+   "precision": 0.667,
+   "recall": 1.0,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-002917",
+   "head": "8079b69f8b65abf6e7e71b3abe311000b88aa7b6",
+   "late_files": [
+    "README.md",
+    "package.json",
+    "src/crypto/js/index.ts",
+    "src/crypto/node/index.ts",
+    "src/index.ts",
+    "src/utils/index.ts",
+    "test/crypto.test.ts",
+    "test/utils.test.ts"
+   ],
+   "repo": "unjs/ohash",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "7ee55cbb50b051cc4f269bc16e16851b7a4e416d",
+   "fix_subject": "refactor!: rewrite serializer (#113)",
+   "fix_files": [
+    "README.md",
+    "build.config.ts",
+    "package.json",
+    "src/hash.ts",
+    "src/index.ts",
+    "src/serialize.ts",
+    "src/utils/diff.ts",
+    "src/utils/is-equal.ts",
+    "test/benchmarks.bench.ts",
+    "test/bundle.test.ts",
+    "test/hash.test.ts",
+    "test/serialize.test.ts"
+   ],
+   "fix_files_existing_at_base": [
+    "README.md",
+    "build.config.ts",
+    "package.json",
+    "src/hash.ts",
+    "src/index.ts",
+    "src/serialize.ts",
+    "src/utils/diff.ts",
+    "src/utils/is-equal.ts",
+    "test/benchmarks.bench.ts",
+    "test/bundle.test.ts",
+    "test/hash.test.ts",
+    "test/serialize.test.ts"
+   ],
+   "precision": 0.375,
+   "recall": 0.25,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-001969",
+   "head": "20908a1d39392affe158bdaa09d77931efaa7c99",
+   "late_files": [
+    "Docs/Browser/Browser.md",
+    "Source/Browser/Browser.js",
+    "Specs/Browser/Browser.js"
+   ],
+   "repo": "mootools/mootools-core",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "bb74c89e693da8a0ef037a4753b85e36710a2d99",
+   "fix_subject": "Browser: We only need the Browser.Plugins object in the compat section.",
+   "fix_files": [
+    "Source/Browser/Browser.js"
+   ],
+   "fix_files_existing_at_base": [
+    "Source/Browser/Browser.js"
+   ],
+   "precision": 0.333,
+   "recall": 1.0,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-000501",
+   "head": "1c100688338c03ce478961ee99eb0cf78ea2168b",
+   "late_files": [
+    "packages/cdk/apps/context/app.ts",
+    "packages/cdk/apps/core/app.ts",
+    "packages/cdk/lib/constants.ts",
+    "packages/cdk/lib/env/context-app-parameters.ts",
+    "packages/cli/internal/pkg/cli/account_activate.go",
+    "packages/cli/internal/pkg/cli/account_activate_test.go",
+    "packages/cli/internal/pkg/cli/context/context_environment.go",
+    "packages/cli/internal/pkg/cli/context/manager_deploy_test.go"
+   ],
+   "repo": "aws/amazon-genomics-cli",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#243",
+   "fix_subject": "feat: Tag AGC AWS resources with CLI version",
+   "fix_files": [
+    "packages/cdk/apps/context/app.ts",
+    "packages/cdk/apps/core/app.ts",
+    "packages/cdk/lib/constants.ts",
+    "packages/cdk/lib/env/context-app-parameters.ts",
+    "packages/cli/internal/pkg/cli/account_activate.go",
+    "packages/cli/internal/pkg/cli/account_activate_test.go",
+    "packages/cli/internal/pkg/cli/context/context_environment.go",
+    "packages/cli/internal/pkg/cli/context/manager_deploy_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "packages/cdk/apps/context/app.ts",
+    "packages/cdk/apps/core/app.ts",
+    "packages/cdk/lib/constants.ts",
+    "packages/cdk/lib/env/context-app-parameters.ts",
+    "packages/cli/internal/pkg/cli/account_activate.go",
+    "packages/cli/internal/pkg/cli/account_activate_test.go",
+    "packages/cli/internal/pkg/cli/context/context_environment.go",
+    "packages/cli/internal/pkg/cli/context/manager_deploy_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001384",
+   "head": "cd6bc786956f800c9d91a4aa2eb4f6caa0ebb8bf",
+   "late_files": [
+    "src/unittests/floating_point.spec.ts",
+    "src/webgpu/shader/execution/expression/call/builtin/fma.spec.ts",
+    "src/webgpu/util/floating_point.ts"
+   ],
+   "repo": "gpuweb/cts",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002739",
+   "head": "e544656a2d0ab4ff33f30deca118d8366be16cb8",
+   "late_files": [
+    "statsmodels/tsa/stattools.py",
+    "statsmodels/tsa/tests/test_stattools.py"
+   ],
+   "repo": "commit0-fillin/statsmodels",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002551",
+   "head": "54ee7ea88ea63c3d4eb15ff778794d7f1f6495de",
+   "late_files": [
+    "lib/schema.js",
+    "lib/table.js",
+    "package.json",
+    "scripts/build.js",
+    "test/test-helper.js"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-003053",
+   "head": "1a3af27b67b99e44c466872d6452a3c0912639d7",
+   "late_files": [
+    "tests/mdm/test_setup_dep_enrollment.py",
+    "zentral/contrib/mdm/dep_client.py"
+   ],
+   "repo": "zentralopensource/zentral",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "0cbe0abe10bfa49f249eeb5958423ea011989043",
+   "fix_subject": "Better DEP enrollment form errors",
+   "fix_files": [
+    "tests/mdm/test_setup_dep_enrollment.py",
+    "zentral/contrib/mdm/dep_client.py"
+   ],
+   "fix_files_existing_at_base": [
+    "tests/mdm/test_setup_dep_enrollment.py",
+    "zentral/contrib/mdm/dep_client.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000342",
+   "head": "11f9b624a9e5ee803b3810d2329fb027662c69f4",
+   "late_files": [
+    "go.sum",
+    "parse.go",
+    "parse_test.go"
+   ],
+   "repo": "alexflint/go-arg",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000786",
+   "head": "b6e92a6aaa7fd0e402ca4c2f2099fd9057f66781",
+   "late_files": [
+    "Dockerfile-GPU",
+    "examples/train_from_scratch.py",
+    "examples/train_from_scratch_with_sagemaker.py",
+    "farm/data_handler/data_silo.py",
+    "farm/data_handler/input_features.py",
+    "farm/data_handler/processor.py",
+    "farm/data_handler/samples.py",
+    "farm/data_handler/utils.py",
+    "farm/eval.py",
+    "farm/infer.py",
+    "farm/modeling/optimization.py",
+    "farm/modeling/prediction_head.py",
+    "farm/modeling/predictions.py",
+    "farm/modeling/tokenization.py",
+    "farm/train.py",
+    "farm/utils.py",
+    "requirements.txt",
+    "setup.py",
+    "test/benchmarks/question_answering_accuracy.py",
+    "test/conftest.py",
+    "test/test_inference.py"
+   ],
+   "repo": "AymericSallet/farmlibrary",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-003015",
+   "head": "d8949dffbed96fe9e3cc2c82905bdcdad1d9b6d7",
+   "late_files": [
+    "tests/interpreters/test_arith_interpreter.py",
+    "xdsl/interpreters/arith.py"
+   ],
+   "repo": "xdslproject/xdsl",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "5b688a4a73f2d3878ea4c4a65c4b59792cee1493",
+   "fix_subject": "interpreter: (arith) add functions for shlsi,shrsi,divsi,remsi,floordivsi (#4523)",
+   "fix_files": [
+    "tests/interpreters/test_arith_interpreter.py",
+    "xdsl/interpreters/arith.py"
+   ],
+   "fix_files_existing_at_base": [
+    "tests/interpreters/test_arith_interpreter.py",
+    "xdsl/interpreters/arith.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001529",
+   "head": "73adb4df702be91717e96e1ad6e44b6b47e4adce",
+   "late_files": [
+    "src/transformers/models/openai/modeling_tf_openai.py",
+    "tests/test_modeling_tf_openai.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002883",
+   "head": "c06f5c30a9ebd3cdc4f138c87ed905d803034faa",
+   "late_files": [
+    "src/app/helptext/data-protection/cloud-backup/cloud-backup.ts",
+    "src/app/pages/data-protection/cloud-backup/cloud-backup-form/cloud-backup-form.component.html",
+    "src/app/pages/data-protection/cloud-backup/cloud-backup-form/cloud-backup-form.component.spec.ts",
+    "src/app/pages/data-protection/cloud-backup/cloud-backup-form/cloud-backup-form.component.ts",
+    "src/assets/i18n/af.json",
+    "src/assets/i18n/ar.json",
+    "src/assets/i18n/ast.json",
+    "src/assets/i18n/az.json",
+    "src/assets/i18n/be.json",
+    "src/assets/i18n/bg.json",
+    "src/assets/i18n/bn.json",
+    "src/assets/i18n/br.json",
+    "src/assets/i18n/bs.json",
+    "src/assets/i18n/ca.json",
+    "src/assets/i18n/cs.json",
+    "src/assets/i18n/cy.json",
+    "src/assets/i18n/da.json",
+    "src/assets/i18n/de.json",
+    "src/assets/i18n/dsb.json",
+    "src/assets/i18n/el.json",
+    "src/assets/i18n/en-au.json",
+    "src/assets/i18n/en-gb.json",
+    "src/assets/i18n/en.json",
+    "src/assets/i18n/eo.json",
+    "src/assets/i18n/es-ar.json",
+    "src/assets/i18n/es-co.json",
+    "src/assets/i18n/es-mx.json",
+    "src/assets/i18n/es-ni.json",
+    "src/assets/i18n/es-ve.json",
+    "src/assets/i18n/es.json",
+    "src/assets/i18n/et.json",
+    "src/assets/i18n/eu.json",
+    "src/assets/i18n/fa.json",
+    "src/assets/i18n/fi.json",
+    "src/assets/i18n/fr.json",
+    "src/assets/i18n/fy.json",
+    "src/assets/i18n/ga.json",
+    "src/assets/i18n/gd.json",
+    "src/assets/i18n/gl.json",
+    "src/assets/i18n/he.json",
+    "src/assets/i18n/hi.json",
+    "src/assets/i18n/hr.json",
+    "src/assets/i18n/hsb.json",
+    "src/assets/i18n/hu.json",
+    "src/assets/i18n/ia.json",
+    "src/assets/i18n/id.json",
+    "src/assets/i18n/io.json",
+    "src/assets/i18n/is.json",
+    "src/assets/i18n/it.json",
+    "src/assets/i18n/ja.json",
+    "src/assets/i18n/ka.json",
+    "src/assets/i18n/kk.json",
+    "src/assets/i18n/km.json",
+    "src/assets/i18n/kn.json",
+    "src/assets/i18n/ko.json",
+    "src/assets/i18n/lb.json",
+    "src/assets/i18n/lt.json",
+    "src/assets/i18n/lv.json",
+    "src/assets/i18n/mk.json",
+    "src/assets/i18n/ml.json",
+    "src/assets/i18n/mn.json",
+    "src/assets/i18n/mr.json",
+    "src/assets/i18n/my.json",
+    "src/assets/i18n/nb.json",
+    "src/assets/i18n/ne.json",
+    "src/assets/i18n/nl.json",
+    "src/assets/i18n/nn.json",
+    "src/assets/i18n/os.json",
+    "src/assets/i18n/pa.json",
+    "src/assets/i18n/pl.json",
+    "src/assets/i18n/pt-br.json",
+    "src/assets/i18n/pt.json",
+    "src/assets/i18n/ro.json",
+    "src/assets/i18n/ru.json",
+    "src/assets/i18n/sk.json",
+    "src/assets/i18n/sl.json",
+    "src/assets/i18n/sq.json",
+    "src/assets/i18n/sr-latn.json",
+    "src/assets/i18n/sr.json",
+    "src/assets/i18n/strings.json",
+    "src/assets/i18n/sv.json",
+    "src/assets/i18n/sw.json",
+    "src/assets/i18n/ta.json",
+    "src/assets/i18n/te.json",
+    "src/assets/i18n/th.json",
+    "src/assets/i18n/tr.json",
+    "src/assets/i18n/tt.json",
+    "src/assets/i18n/udm.json",
+    "src/assets/i18n/uk.json",
+    "src/assets/i18n/vi.json",
+    "src/assets/i18n/zh-hans.json",
+    "src/assets/i18n/zh-hant.json"
+   ],
+   "repo": "truenas/webui",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "3f625f8b4c16e268247b482c627737c5ded80760",
+   "fix_subject": "NAS-132920: New cloud backup option: `absolute_paths` (#11165)",
+   "fix_files": [
+    "src/app/helptext/data-protection/cloud-backup/cloud-backup.ts",
+    "src/app/pages/data-protection/cloud-backup/cloud-backup-form/cloud-backup-form.component.html",
+    "src/app/pages/data-protection/cloud-backup/cloud-backup-form/cloud-backup-form.component.spec.ts",
+    "src/app/pages/data-protection/cloud-backup/cloud-backup-form/cloud-backup-form.component.ts",
+    "src/assets/i18n/af.json",
+    "src/assets/i18n/ar.json",
+    "src/assets/i18n/ast.json",
+    "src/assets/i18n/az.json",
+    "src/assets/i18n/be.json",
+    "src/assets/i18n/bg.json",
+    "src/assets/i18n/bn.json",
+    "src/assets/i18n/br.json",
+    "src/assets/i18n/bs.json",
+    "src/assets/i18n/ca.json",
+    "src/assets/i18n/cs.json",
+    "src/assets/i18n/cy.json",
+    "src/assets/i18n/da.json",
+    "src/assets/i18n/de.json",
+    "src/assets/i18n/dsb.json",
+    "src/assets/i18n/el.json",
+    "src/assets/i18n/en-au.json",
+    "src/assets/i18n/en-gb.json",
+    "src/assets/i18n/en.json",
+    "src/assets/i18n/eo.json",
+    "src/assets/i18n/es-ar.json",
+    "src/assets/i18n/es-co.json",
+    "src/assets/i18n/es-mx.json",
+    "src/assets/i18n/es-ni.json",
+    "src/assets/i18n/es-ve.json",
+    "src/assets/i18n/es.json",
+    "src/assets/i18n/et.json",
+    "src/assets/i18n/eu.json",
+    "src/assets/i18n/fa.json",
+    "src/assets/i18n/fi.json",
+    "src/assets/i18n/fr.json",
+    "src/assets/i18n/fy.json",
+    "src/assets/i18n/ga.json",
+    "src/assets/i18n/gd.json",
+    "src/assets/i18n/gl.json",
+    "src/assets/i18n/he.json",
+    "src/assets/i18n/hi.json",
+    "src/assets/i18n/hr.json",
+    "src/assets/i18n/hsb.json",
+    "src/assets/i18n/hu.json",
+    "src/assets/i18n/ia.json",
+    "src/assets/i18n/id.json",
+    "src/assets/i18n/io.json",
+    "src/assets/i18n/is.json",
+    "src/assets/i18n/it.json",
+    "src/assets/i18n/ja.json",
+    "src/assets/i18n/ka.json",
+    "src/assets/i18n/kk.json",
+    "src/assets/i18n/km.json",
+    "src/assets/i18n/kn.json",
+    "src/assets/i18n/ko.json",
+    "src/assets/i18n/lb.json",
+    "src/assets/i18n/lt.json",
+    "src/assets/i18n/lv.json",
+    "src/assets/i18n/mk.json",
+    "src/assets/i18n/ml.json",
+    "src/assets/i18n/mn.json",
+    "src/assets/i18n/mr.json",
+    "src/assets/i18n/my.json",
+    "src/assets/i18n/nb.json",
+    "src/assets/i18n/ne.json",
+    "src/assets/i18n/nl.json",
+    "src/assets/i18n/nn.json",
+    "src/assets/i18n/os.json",
+    "src/assets/i18n/pa.json",
+    "src/assets/i18n/pl.json",
+    "src/assets/i18n/pt-br.json",
+    "src/assets/i18n/pt.json",
+    "src/assets/i18n/ro.json",
+    "src/assets/i18n/ru.json",
+    "src/assets/i18n/sk.json",
+    "src/assets/i18n/sl.json",
+    "src/assets/i18n/sq.json",
+    "src/assets/i18n/sr-latn.json",
+    "src/assets/i18n/sr.json",
+    "src/assets/i18n/strings.json",
+    "src/assets/i18n/sv.json",
+    "src/assets/i18n/sw.json",
+    "src/assets/i18n/ta.json",
+    "src/assets/i18n/te.json",
+    "src/assets/i18n/th.json",
+    "src/assets/i18n/tr.json",
+    "src/assets/i18n/tt.json",
+    "src/assets/i18n/udm.json",
+    "src/assets/i18n/uk.json",
+    "src/assets/i18n/vi.json",
+    "src/assets/i18n/zh-hans.json",
+    "src/assets/i18n/zh-hant.json"
+   ],
+   "fix_files_existing_at_base": [
+    "src/app/helptext/data-protection/cloud-backup/cloud-backup.ts",
+    "src/app/pages/data-protection/cloud-backup/cloud-backup-form/cloud-backup-form.component.html",
+    "src/app/pages/data-protection/cloud-backup/cloud-backup-form/cloud-backup-form.component.spec.ts",
+    "src/app/pages/data-protection/cloud-backup/cloud-backup-form/cloud-backup-form.component.ts",
+    "src/assets/i18n/af.json",
+    "src/assets/i18n/ar.json",
+    "src/assets/i18n/ast.json",
+    "src/assets/i18n/az.json",
+    "src/assets/i18n/be.json",
+    "src/assets/i18n/bg.json",
+    "src/assets/i18n/bn.json",
+    "src/assets/i18n/br.json",
+    "src/assets/i18n/bs.json",
+    "src/assets/i18n/ca.json",
+    "src/assets/i18n/cs.json",
+    "src/assets/i18n/cy.json",
+    "src/assets/i18n/da.json",
+    "src/assets/i18n/de.json",
+    "src/assets/i18n/dsb.json",
+    "src/assets/i18n/el.json",
+    "src/assets/i18n/en-au.json",
+    "src/assets/i18n/en-gb.json",
+    "src/assets/i18n/en.json",
+    "src/assets/i18n/eo.json",
+    "src/assets/i18n/es-ar.json",
+    "src/assets/i18n/es-co.json",
+    "src/assets/i18n/es-mx.json",
+    "src/assets/i18n/es-ni.json",
+    "src/assets/i18n/es-ve.json",
+    "src/assets/i18n/es.json",
+    "src/assets/i18n/et.json",
+    "src/assets/i18n/eu.json",
+    "src/assets/i18n/fa.json",
+    "src/assets/i18n/fi.json",
+    "src/assets/i18n/fr.json",
+    "src/assets/i18n/fy.json",
+    "src/assets/i18n/ga.json",
+    "src/assets/i18n/gd.json",
+    "src/assets/i18n/gl.json",
+    "src/assets/i18n/he.json",
+    "src/assets/i18n/hi.json",
+    "src/assets/i18n/hr.json",
+    "src/assets/i18n/hsb.json",
+    "src/assets/i18n/hu.json",
+    "src/assets/i18n/ia.json",
+    "src/assets/i18n/id.json",
+    "src/assets/i18n/io.json",
+    "src/assets/i18n/is.json",
+    "src/assets/i18n/it.json",
+    "src/assets/i18n/ja.json",
+    "src/assets/i18n/ka.json",
+    "src/assets/i18n/kk.json",
+    "src/assets/i18n/km.json",
+    "src/assets/i18n/kn.json",
+    "src/assets/i18n/ko.json",
+    "src/assets/i18n/lb.json",
+    "src/assets/i18n/lt.json",
+    "src/assets/i18n/lv.json",
+    "src/assets/i18n/mk.json",
+    "src/assets/i18n/ml.json",
+    "src/assets/i18n/mn.json",
+    "src/assets/i18n/mr.json",
+    "src/assets/i18n/my.json",
+    "src/assets/i18n/nb.json",
+    "src/assets/i18n/ne.json",
+    "src/assets/i18n/nl.json",
+    "src/assets/i18n/nn.json",
+    "src/assets/i18n/os.json",
+    "src/assets/i18n/pa.json",
+    "src/assets/i18n/pl.json",
+    "src/assets/i18n/pt-br.json",
+    "src/assets/i18n/pt.json",
+    "src/assets/i18n/ro.json",
+    "src/assets/i18n/ru.json",
+    "src/assets/i18n/sk.json",
+    "src/assets/i18n/sl.json",
+    "src/assets/i18n/sq.json",
+    "src/assets/i18n/sr-latn.json",
+    "src/assets/i18n/sr.json",
+    "src/assets/i18n/strings.json",
+    "src/assets/i18n/sv.json",
+    "src/assets/i18n/sw.json",
+    "src/assets/i18n/ta.json",
+    "src/assets/i18n/te.json",
+    "src/assets/i18n/th.json",
+    "src/assets/i18n/tr.json",
+    "src/assets/i18n/tt.json",
+    "src/assets/i18n/udm.json",
+    "src/assets/i18n/uk.json",
+    "src/assets/i18n/vi.json",
+    "src/assets/i18n/zh-hans.json",
+    "src/assets/i18n/zh-hant.json"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000913",
+   "head": "0e98c8288939f1e7e3dbb6b8515d57cf711a7966",
+   "late_files": [
+    "x/erc20/client/cli/tx.go"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002098",
+   "head": "ba4b3118ba4575c8d210f2595c8bb7fdd4538e65",
+   "late_files": [
+    "pkg/cmd/build/build.go",
+    "pkg/cmd/build/build_test.go",
+    "pkg/model/dev.go",
+    "pkg/model/serializer.go",
+    "pkg/model/serializer_test.go"
+   ],
+   "repo": "okteto/okteto",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000409",
+   "head": "cf814550275bd04326f095cc28f93663daf3404b",
+   "late_files": [
+    "airflow/providers/google/cloud/operators/bigquery_dts.py",
+    "tests/providers/google/cloud/operators/test_bigquery_dts.py"
+   ],
+   "repo": "jaeopt/airflow-standalone",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000746",
+   "head": "17078ed96e40ba48112f1746830f3d32f716d0de",
+   "late_files": [
+    "js_modules/dagster-ui/packages/ui-core/src/graphql/schema.graphql",
+    "js_modules/dagster-ui/packages/ui-core/src/graphql/types.ts",
+    "python_modules/dagster-graphql/dagster_graphql/implementation/fetch_schedules.py",
+    "python_modules/dagster-graphql/dagster_graphql/schema/instigation.py",
+    "python_modules/dagster-graphql/dagster_graphql/schema/schedules/__init__.py",
+    "python_modules/dagster-graphql/dagster_graphql/schema/sensors.py",
+    "python_modules/dagster-graphql/dagster_graphql_tests/graphql/test_scheduler.py",
+    "python_modules/dagster-graphql/dagster_graphql_tests/graphql/test_sensors.py",
+    "python_modules/dagster/dagster/_core/remote_representation/external.py",
+    "python_modules/dagster/dagster/_core/storage/dagster_run.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001239",
+   "head": "43f3c6f10d5096a227a031bc4547b9eef93a097d",
+   "late_files": [
+    "packages/gatsby-remark-images/src/__tests__/index.js",
+    "packages/gatsby-remark-images/src/index.js"
+   ],
+   "repo": "drmonstr/gatsby",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002593",
+   "head": "a62bce6c87682f9e10290f4d3d126dade6edb915",
+   "late_files": [
+    ".husky/.gitignore",
+    "packages/runtime/src/ctx.ts",
+    "packages/runtime/src/errors/errors-list.ts",
+    "packages/runtime/test/src/runtime.ts"
+   ],
+   "repo": "scale-it/algo-builder",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002710",
+   "head": "14d5da165b01af15909ea9b16dbd2ee2752e8526",
+   "late_files": [
+    ".travis.yml",
+    "Dockerfile",
+    "Makefile",
+    "pythonflow/__init__.py",
+    "pythonflow/core.py",
+    "requirements/deployment.txt",
+    "requirements/docs.txt",
+    "requirements/test.txt",
+    "tests/test_pythonflow.py"
+   ],
+   "repo": "nnayar-r2c/spotify-pythonflow",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001463",
+   "head": "13f500e540fb7c855e66bfc2cada1689caa76e1f",
+   "late_files": [
+    "apps/glusterfs/device_entry.go",
+    "apps/glusterfs/device_entry_test.go"
+   ],
+   "repo": "mrdima/heketi",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "e90c511d937b4310904473f3d0bcc276e261d4f2",
+   "fix_subject": "device: skip replaceBrick for bricks with no path",
+   "fix_files": [
+    "apps/glusterfs/device_entry.go"
+   ],
+   "fix_files_existing_at_base": [
+    "apps/glusterfs/device_entry.go"
+   ],
+   "precision": 0.5,
+   "recall": 1.0,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-001102",
+   "head": "53395e8ab39d55ae051757f985834224b3a5d406",
+   "late_files": [
+    "pkg/controller/grouping/controller.go",
+    "pkg/controller/grouping/controller_test.go",
+    "pkg/controller/grouping/group_entity_index.go",
+    "pkg/controller/grouping/group_entity_index_test.go"
+   ],
+   "repo": "antrea-io/antrea",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#7217",
+   "fix_subject": "Sync groups members for pods that turns into terminated status",
+   "fix_files": [
+    "pkg/controller/grouping/controller.go",
+    "pkg/controller/grouping/controller_test.go",
+    "pkg/controller/grouping/group_entity_index.go",
+    "pkg/controller/grouping/group_entity_index_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "pkg/controller/grouping/controller.go",
+    "pkg/controller/grouping/controller_test.go",
+    "pkg/controller/grouping/group_entity_index.go",
+    "pkg/controller/grouping/group_entity_index_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000520",
+   "head": "8dc7b8837c552aeb2d9d53d6e1a767832da2ce6b",
+   "late_files": [
+    "rastervision_aws_sagemaker/rastervision/aws_sagemaker/aws_sagemaker_runner.py",
+    "rastervision_core/rastervision/core/data/label_source/semantic_segmentation_label_source_config.py",
+    "rastervision_core/rastervision/core/data/raster_source/__init__.py",
+    "rastervision_core/rastervision/core/data/utils/factory.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002891",
+   "head": "67c7967de29e260a126f908994deb5e5a926c497",
+   "late_files": [
+    "src/Node/Expression/Filter/RawFilter.php"
+   ],
+   "repo": "get-xor/twigphp-XOR-Twig",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "6e55b5f9569a9ac0874f2759d144fb203d5c2a0c",
+   "fix_subject": "Simplify usage of RawFilter",
+   "fix_files": [
+    "src/Node/Expression/Filter/RawFilter.php",
+    "tests/Node/Expression/Filter/RawTest.php"
+   ],
+   "fix_files_existing_at_base": [
+    "src/Node/Expression/Filter/RawFilter.php"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001263",
+   "head": "e3dfe4ba9d05d06a055490303eb357bda4d68d89",
+   "late_files": [
+    "moto/ses/models.py",
+    "moto/ses/responses.py",
+    "moto/sesv2/models.py",
+    "moto/sesv2/responses.py",
+    "moto/sesv2/urls.py",
+    "tests/test_ses/test_ses_boto3.py",
+    "tests/test_sesv2/test_sesv2.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001493",
+   "head": "87cabc933c9481530048033f99d7cfd1cd9a5bb9",
+   "late_files": [
+    "homeassistant/components/mobile_app/const.py",
+    "homeassistant/components/mobile_app/webhook.py",
+    "tests/components/mobile_app/test_webhook.py"
+   ],
+   "repo": "brianjcarroll8/Home-Assistant-Core",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001292",
+   "head": "82233e9f93a7525ed884bba65fb0369de12b0ab4",
+   "late_files": [
+    "package-lock.json",
+    "src/parser/expr.js",
+    "test/variableTests.js"
+   ],
+   "repo": "glayzzle/php-parser",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001207",
+   "head": "78b613262e0424866bd7542d7abdf900031c6535",
+   "late_files": [
+    "app/api/__init__.py",
+    "app/api/stripe_authorization.py",
+    "docs/api/api_blueprint.apib",
+    "tests/hook_main.py"
+   ],
+   "repo": "swe-train/fossasia__open-event-server",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001334",
+   "head": "e2a0a290e7098a2c5a2cdb25ec68036298954c0d",
+   "late_files": [
+    "tensorflow_federated/proto/v0/computation_pb2_test.py",
+    "tensorflow_federated/python/program/BUILD",
+    "tensorflow_federated/python/program/file_program_state_manager.py",
+    "tensorflow_federated/python/program/file_program_state_manager_test.py",
+    "tensorflow_federated/python/program/file_release_manager.py",
+    "tensorflow_federated/python/program/file_release_manager_test.py",
+    "tensorflow_federated/python/program/file_utils.py",
+    "tensorflow_federated/python/program/file_utils_test.py",
+    "tensorflow_federated/python/program/logging_release_manager.py",
+    "tensorflow_federated/python/program/logging_release_manager_test.py",
+    "tensorflow_federated/python/program/memory_release_manager.py",
+    "tensorflow_federated/python/program/memory_release_manager_test.py",
+    "tensorflow_federated/python/program/native_platform.py",
+    "tensorflow_federated/python/program/native_platform_test.py",
+    "tensorflow_federated/python/program/program_state_manager.py",
+    "tensorflow_federated/python/program/program_state_manager_test.py",
+    "tensorflow_federated/python/program/release_manager.py",
+    "tensorflow_federated/python/program/tensorboard_release_manager.py",
+    "tensorflow_federated/python/program/tensorboard_release_manager_test.py",
+    "tensorflow_federated/python/program/test_utils.py",
+    "tensorflow_federated/python/program/value_reference.py",
+    "tensorflow_federated/python/program/value_reference_test.py",
+    "tensorflow_federated/python/simulation/training_loop.py",
+    "tensorflow_federated/python/simulation/training_loop_test.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001721",
+   "head": "bae670c2d0d564f350cf075947d729477b62ab69",
+   "late_files": [
+    "pkg/arn/arn.go",
+    "pkg/arn/arn_test.go"
+   ],
+   "repo": "Shubhamp0598/aws-iam-authenticator",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "b5938b91f9c97061f5520802dfc0b1c18d7f3c1a",
+   "fix_subject": "Add support for ARNs with paths.",
+   "fix_files": [
+    "pkg/arn/arn.go",
+    "pkg/arn/arn_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "pkg/arn/arn.go",
+    "pkg/arn/arn_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001547",
+   "head": "33a827927dd90945dbb6edb997cd8231b3b67aeb",
+   "late_files": [
+    "src/parser.js",
+    "test/fixtures/app.jsx",
+    "test/parser.js"
+   ],
+   "repo": "i18next/i18next-scanner",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000246",
+   "head": "20f7a9798cc7e0e94d164906e04c0372b7260d20",
+   "late_files": [
+    "lib/ruby_lsp/requests/code_actions.rb",
+    "lib/ruby_lsp/server.rb"
+   ],
+   "repo": "Shopify/ruby-lsp",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "e29223d24991e048103a9ea591b9806d685efdaa",
+   "fix_subject": "Fix the code action cache level",
+   "fix_files": [
+    "lib/ruby_lsp/requests/code_actions.rb",
+    "lib/ruby_lsp/server.rb"
+   ],
+   "fix_files_existing_at_base": [
+    "lib/ruby_lsp/requests/code_actions.rb",
+    "lib/ruby_lsp/server.rb"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000267",
+   "head": "f67b38daf414ec1de884644f5ce0c5ebd243e4e0",
+   "late_files": [
+    "ghost/core/core/frontend/meta/schema.js",
+    "ghost/core/test/unit/frontend/helpers/__snapshots__/ghost_head.test.js.snap",
+    "ghost/core/test/unit/frontend/meta/schema.test.js"
+   ],
+   "repo": "snowangel912/ghost",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "b7a03ca7655297efc5638707968317672f2dc900",
+   "fix_subject": "\ud83d\udc1b Fixed `mainEntityOfPage` property within page metadata",
+   "fix_files": [
+    "ghost/core/core/frontend/meta/schema.js",
+    "ghost/core/test/unit/frontend/helpers/__snapshots__/ghost_head.test.js.snap",
+    "ghost/core/test/unit/frontend/meta/schema.test.js"
+   ],
+   "fix_files_existing_at_base": [
+    "ghost/core/core/frontend/meta/schema.js",
+    "ghost/core/test/unit/frontend/helpers/__snapshots__/ghost_head.test.js.snap",
+    "ghost/core/test/unit/frontend/meta/schema.test.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000162",
+   "head": "19590653cafe3c64504c550020fa9a1d82db04a3",
+   "late_files": [
+    "constraints.go",
+    "constraints_test.go",
+    "version_test.go"
+   ],
+   "repo": "382868331/semver",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "ee95afbd4e1367cedf50566001b62c5709095b51",
+   "fix_subject": "Fixing issue where validation of constraint setion gave false positives",
+   "fix_files": [
+    "constraints.go",
+    "constraints_test.go",
+    "version_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "constraints.go",
+    "constraints_test.go",
+    "version_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001135",
+   "head": "9bffa13e0b96efe1039d9075fdcb11d5946b2f90",
+   "late_files": [
+    "DEPENDENCIES.md",
+    "node_modules/.gitignore",
+    "node_modules/@npmcli/installed-package-contents/LICENSE",
+    "node_modules/@npmcli/installed-package-contents/lib/index.js",
+    "node_modules/@npmcli/installed-package-contents/package.json",
+    "node_modules/color-support/LICENSE",
+    "node_modules/color-support/bin.js",
+    "node_modules/color-support/browser.js",
+    "node_modules/color-support/index.js",
+    "node_modules/color-support/package.json",
+    "node_modules/cross-spawn/node_modules/which/LICENSE",
+    "node_modules/cross-spawn/node_modules/which/bin/node-which",
+    "node_modules/cross-spawn/node_modules/which/package.json",
+    "node_modules/cross-spawn/node_modules/which/which.js",
+    "node_modules/cssesc/LICENSE-MIT.txt",
+    "node_modules/cssesc/bin/cssesc",
+    "node_modules/cssesc/cssesc.js",
+    "node_modules/cssesc/man/cssesc.1",
+    "node_modules/cssesc/package.json",
+    "node_modules/glob/LICENSE",
+    "node_modules/glob/dist/commonjs/glob.js",
+    "node_modules/glob/dist/commonjs/has-magic.js",
+    "node_modules/glob/dist/commonjs/ignore.js",
+    "node_modules/glob/dist/commonjs/index.js",
+    "node_modules/glob/dist/commonjs/package.json",
+    "node_modules/glob/dist/commonjs/pattern.js",
+    "node_modules/glob/dist/commonjs/processor.js",
+    "node_modules/glob/dist/commonjs/walker.js",
+    "node_modules/glob/dist/esm/bin.d.mts",
+    "node_modules/glob/dist/esm/bin.mjs",
+    "node_modules/glob/dist/esm/glob.js",
+    "node_modules/glob/dist/esm/has-magic.js",
+    "node_modules/glob/dist/esm/ignore.js",
+    "node_modules/glob/dist/esm/index.js",
+    "node_modules/glob/dist/esm/package.json",
+    "node_modules/glob/dist/esm/pattern.js",
+    "node_modules/glob/dist/esm/processor.js",
+    "node_modules/glob/dist/esm/walker.js",
+    "node_modules/glob/package.json",
+    "node_modules/mkdirp/LICENSE",
+    "node_modules/mkdirp/bin/cmd.js",
+    "node_modules/mkdirp/index.js",
+    "node_modules/mkdirp/lib/find-made.js",
+    "node_modules/mkdirp/lib/mkdirp-manual.js",
+    "node_modules/mkdirp/lib/mkdirp-native.js",
+    "node_modules/mkdirp/lib/opts-arg.js",
+    "node_modules/mkdirp/lib/path-arg.js",
+    "node_modules/mkdirp/lib/use-native.js",
+    "node_modules/mkdirp/package.json",
+    "node_modules/node-gyp/CONTRIBUTING.md",
+    "node_modules/node-gyp/LICENSE",
+    "node_modules/node-gyp/SECURITY.md",
+    "node_modules/node-gyp/addon.gypi",
+    "node_modules/node-gyp/bin/node-gyp.js",
+    "node_modules/node-gyp/gyp/LICENSE",
+    "node_modules/node-gyp/gyp/data/win/large-pdb-shim.cc",
+    "node_modules/node-gyp/gyp/gyp",
+    "node_modules/node-gyp/gyp/gyp.bat",
+    "node_modules/node-gyp/gyp/gyp_main.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/MSVSNew.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/MSVSProject.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/MSVSSettings.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/MSVSSettings_test.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/MSVSToolFile.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/MSVSUserFile.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/MSVSUtil.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/MSVSVersion.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/__init__.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/common.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/common_test.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/easy_xml.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/easy_xml_test.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/flock_tool.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/__init__.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/analyzer.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/android.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/cmake.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/compile_commands_json.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/dump_dependency_json.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/eclipse.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/gypd.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/gypsh.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/make.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/msvs.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/msvs_test.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/ninja.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/ninja_test.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/xcode.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/generator/xcode_test.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/input.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/input_test.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/mac_tool.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/ninja_syntax.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/simple_copy.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/win_tool.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/xcode_ninja.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/xcodeproj_file.py",
+    "node_modules/node-gyp/gyp/pylib/gyp/xml_fix.py"
+   ],
+   "repo": "barrersoftware/npm-safe",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002933",
+   "head": "bd87bee9ec7927a55e031b64aa7e462a5542025e",
+   "late_files": [
+    "bbox/utils.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001090",
+   "head": "e634aa6277a38ecb626f36985809d03f99146be1",
+   "late_files": [
+    "internal/database/database.go",
+    "internal/database/mirror.go",
+    "internal/database/notices.go",
+    "internal/database/notices_test.go",
+    "internal/database/repo.go",
+    "internal/route/admin/notice.go"
+   ],
+   "repo": "caowei-sea/gogs",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "b89f20e02d352b86f34321adba1e4b3ff8576c2f",
+   "fix_subject": "all: unwrap `database.NoticesStore` interface (#7695)",
+   "fix_files": [
+    "internal/database/database.go",
+    "internal/database/mirror.go",
+    "internal/database/notices.go",
+    "internal/database/notices_test.go",
+    "internal/database/repo.go",
+    "internal/route/admin/notice.go"
+   ],
+   "fix_files_existing_at_base": [
+    "internal/database/database.go",
+    "internal/database/mirror.go",
+    "internal/database/notices.go",
+    "internal/database/notices_test.go",
+    "internal/database/repo.go",
+    "internal/route/admin/notice.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002260",
+   "head": "3cdb444c06b703e7bb2b51512202dae77f04410c",
+   "late_files": [
+    "packages/ts-ghost-admin-api/src/admin-api.ts",
+    "packages/ts-ghost-core-api/src/api-composer.ts",
+    "packages/ts-ghost-core-api/src/fetchers/index.ts"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000122",
+   "head": "9e11ceede14f5b675bbdecaf2e9d031c2feff52f",
+   "late_files": [
+    "idaes/core/components.py",
+    "idaes/core/util/misc.py",
+    "idaes/core/util/tests/test_misc.py",
+    "idaes/generic_models/properties/core/generic/generic_property.py",
+    "idaes/generic_models/properties/core/generic/utility.py",
+    "idaes/generic_models/properties/core/pure/NIST.py",
+    "idaes/generic_models/properties/core/pure/Perrys.py",
+    "idaes/generic_models/properties/core/pure/RPP.py",
+    "idaes/generic_models/properties/core/pure/RPP3.py",
+    "idaes/generic_models/properties/core/pure/tests/test_RPP3.py",
+    "idaes/generic_models/properties/core/reactions/dh_rxn.py",
+    "idaes/generic_models/properties/core/reactions/equilibrium_constant.py",
+    "idaes/generic_models/properties/core/reactions/rate_constant.py"
+   ],
+   "repo": "IDAES/idaes-pse",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#123",
+   "fix_subject": "Fixing circular import issue in set_param_value method",
+   "fix_files": [
+    "idaes/core/components.py",
+    "idaes/core/util/misc.py",
+    "idaes/core/util/tests/test_misc.py",
+    "idaes/generic_models/properties/core/generic/generic_property.py",
+    "idaes/generic_models/properties/core/generic/utility.py",
+    "idaes/generic_models/properties/core/pure/NIST.py",
+    "idaes/generic_models/properties/core/pure/Perrys.py",
+    "idaes/generic_models/properties/core/pure/RPP.py",
+    "idaes/generic_models/properties/core/pure/RPP3.py",
+    "idaes/generic_models/properties/core/pure/tests/test_RPP3.py",
+    "idaes/generic_models/properties/core/reactions/dh_rxn.py",
+    "idaes/generic_models/properties/core/reactions/equilibrium_constant.py",
+    "idaes/generic_models/properties/core/reactions/rate_constant.py"
+   ],
+   "fix_files_existing_at_base": [
+    "idaes/core/components.py",
+    "idaes/core/util/misc.py",
+    "idaes/core/util/tests/test_misc.py",
+    "idaes/generic_models/properties/core/generic/generic_property.py",
+    "idaes/generic_models/properties/core/generic/utility.py",
+    "idaes/generic_models/properties/core/pure/NIST.py",
+    "idaes/generic_models/properties/core/pure/Perrys.py",
+    "idaes/generic_models/properties/core/pure/RPP.py",
+    "idaes/generic_models/properties/core/pure/RPP3.py",
+    "idaes/generic_models/properties/core/pure/tests/test_RPP3.py",
+    "idaes/generic_models/properties/core/reactions/dh_rxn.py",
+    "idaes/generic_models/properties/core/reactions/equilibrium_constant.py",
+    "idaes/generic_models/properties/core/reactions/rate_constant.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001692",
+   "head": "f7734cbc3c78837c283a8455755953410a4d0b31",
+   "late_files": [
+    "kerastuner/engine/hyperparameters.py",
+    "tests/kerastuner/engine/hyperparameters_test.py"
+   ],
+   "repo": "keras-team/keras-tuner",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "3c7bff9d11ef697a144fb17237028aae9c840b51",
+   "fix_subject": "Integrate with TensorBoard HParams plugin (#418)",
+   "fix_files": [
+    "kerastuner/engine/hyperparameters.py",
+    "kerastuner/engine/tuner.py",
+    "kerastuner/engine/tuner_utils.py",
+    "tests/kerastuner/engine/tuner_workflows_test.py"
+   ],
+   "fix_files_existing_at_base": [
+    "kerastuner/engine/hyperparameters.py",
+    "kerastuner/engine/tuner.py",
+    "kerastuner/engine/tuner_utils.py",
+    "tests/kerastuner/engine/tuner_workflows_test.py"
+   ],
+   "precision": 0.5,
+   "recall": 0.25,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-002201",
+   "head": "c8859b57b891701f250fb05f2cc60d2e6cae2d6b",
+   "late_files": [
+    "doc/source/whatsnew/v0.23.0.txt",
+    "pandas/core/generic.py",
+    "pandas/tests/frame/test_dtypes.py"
+   ],
+   "repo": "gun-1986/pandas",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002153",
+   "head": "3fa1968831125d1ef9b89171600c3d7504dcf207",
+   "late_files": [
+    "pkg/image/apis/image/helper.go",
+    "pkg/image/apis/image/helper_test.go",
+    "pkg/image/apis/image/types.go"
+   ],
+   "repo": "bithedz/origin",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-003017",
+   "head": "6c0f2854460f59c76a69ff66a2b422f4e59392b3",
+   "late_files": [
+    "sdg/gpu_affinity.py",
+    "sdg/respace.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002327",
+   "head": "1ca473186a83e9748fad2d9d8aedf565756e66cf",
+   "late_files": [
+    "src/language-markdown/parser-markdown.js",
+    "tests/mdx/__snapshots__/jsfmt.spec.js.snap",
+    "tests/mdx/jsx.mdx"
+   ],
+   "repo": "adrianmirandamunoz/prettier",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002741",
+   "head": "c18a0f76d76e8188e57fae64ed42a7460761aa00",
+   "late_files": [
+    "__tests__/misc.test.js",
+    "jest.setup.js",
+    "package-lock.json",
+    "package.json",
+    "src/client.js"
+   ],
+   "repo": "vuer-ai/react-helmet-async",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "237ae74480dd1c59998b107d7b9fbc1930ddb5d7",
+   "fix_subject": "remove requestAnimationFrame polyfill from bundle",
+   "fix_files": [
+    "__tests__/misc.test.js",
+    "jest.setup.js",
+    "package-lock.json",
+    "package.json",
+    "src/client.js"
+   ],
+   "fix_files_existing_at_base": [
+    "__tests__/misc.test.js",
+    "jest.setup.js",
+    "package-lock.json",
+    "package.json",
+    "src/client.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002649",
+   "head": "20c3e35c1970fd8de241f598ecd1b1f443b84ac3",
+   "late_files": [
+    "siliconcompiler/schema/schema_obj.py",
+    "siliconcompiler/tools/vpr/place.py",
+    "siliconcompiler/tools/vpr/vpr.py",
+    "tests/core/test_setget.py"
+   ],
+   "repo": "siliconcompiler/siliconcompiler",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "37af05dcc4704563f06544e8ddedebe33af52111",
+   "fix_subject": "generate error when accessing default keys",
+   "fix_files": [
+    "siliconcompiler/schema/schema_obj.py",
+    "tests/core/test_setget.py"
+   ],
+   "fix_files_existing_at_base": [
+    "siliconcompiler/schema/schema_obj.py",
+    "tests/core/test_setget.py"
+   ],
+   "precision": 0.5,
+   "recall": 1.0,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-001069",
+   "head": "b62ea9edfbda006dc08a6151c2601f9c0624721c",
+   "late_files": [
+    "src/any_agent/evaluation/evaluation_case.py",
+    "src/any_agent/evaluation/evaluators.py",
+    "src/any_agent/evaluation/schemas.py",
+    "tests/unit/evaluation/test_evaluate.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002218",
+   "head": "1cc030e984944bf4ca7ea5aec552dca55a117204",
+   "late_files": [
+    "doc/source/whatsnew/v1.2.0.rst",
+    "pandas/core/frame.py",
+    "pandas/tests/frame/indexing/test_getitem.py",
+    "setup.py"
+   ],
+   "repo": "Dobosz/pandas",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001214",
+   "head": "b37ba1e7ad344cd7912b2cc3a990c277d2a40e1e",
+   "late_files": [
+    "Build/Include/Makefile.inc",
+    "Core/Core.make",
+    "Main/CommandLineInterface.cpp",
+    "Main/CommandLineInterface.h",
+    "Main/Main.make",
+    "Main/Unix/Main.cpp",
+    "Main/UserInterface.cpp",
+    "Makefile",
+    "Platform/Platform.make",
+    "Platform/PlatformBase.h"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002860",
+   "head": "3bd811d67e7001046812f2a8590bd07e23b81c88",
+   "late_files": [
+    "sqlglot/dialects/bigquery.py",
+    "sqlglot/expressions.py",
+    "tests/dialects/test_bigquery.py",
+    "tests/dialects/test_duckdb.py"
+   ],
+   "repo": "swe-train/tobymao__sqlglot",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002306",
+   "head": "addcf670b91fda633b492b22ae0dd3fc1e229580",
+   "late_files": [
+    "identify/extensions.py",
+    "tests/identify_test.py"
+   ],
+   "repo": "pre-commit/identify",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000199",
+   "head": "7f33a456f2c59480aa5e11f38c7b4a12646bffa8",
+   "late_files": [
+    "pennylane/__init__.py",
+    "tests/test_qnode.py"
+   ],
+   "repo": "Rashid-Test-Org/pennylane-gpu-test",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002916",
+   "head": "0bb37f9c1bae29042317cd2940f6b1d41f087429",
+   "late_files": [
+    ".gitignore",
+    "src/dotenv.ts"
+   ],
+   "repo": "unjs/c12",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "3e67bd484b52ba1c2aacdb0c8e8e529947866da1",
+   "fix_subject": "fix: update dotenv assigned env variables on subsequent calls (#243)",
+   "fix_files": [
+    ".gitignore",
+    "src/dotenv.ts",
+    "test/dotenv.test.ts"
+   ],
+   "fix_files_existing_at_base": [
+    ".gitignore",
+    "src/dotenv.ts"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000695",
+   "head": "0e830014f6dd896ec6ce240954d927a98a5bf36e",
+   "late_files": [
+    "cli/testdata/coder_users_list_--help.golden",
+    "cli/userlist.go",
+    "coderd/database/dbmem/dbmem.go",
+    "coderd/database/modelqueries.go",
+    "coderd/database/queries.sql.go",
+    "coderd/database/queries/users.sql",
+    "coderd/httpapi/queryparams.go",
+    "coderd/searchquery/search.go",
+    "coderd/users.go",
+    "coderd/users_test.go",
+    "docs/reference/cli/users_list.md"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002191",
+   "head": "7f18915af777a3f62cf04a8af10bdf22cd4576a8",
+   "late_files": [
+    ".travis.yml",
+    "CHANGES",
+    "docs/serving.rst",
+    "tests/test_serving.py",
+    "tox.ini",
+    "werkzeug/serving.py"
+   ],
+   "repo": "pallets/werkzeug",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000994",
+   "head": "1d2f79408cc0fa31f6b6e028e4c5ba66119cb16a",
+   "late_files": [
+    "socorro/external/es/supersearch.py",
+    "socorro/middleware/search_common.py",
+    "socorro/unittest/external/es/test_supersearch.py",
+    "webapp-django/crashstats/base/templatetags/jinja_helpers.py",
+    "webapp-django/crashstats/documentation/jinja2/documentation/supersearch/examples.html",
+    "webapp-django/crashstats/documentation/jinja2/documentation/supersearch/home.html",
+    "webapp-django/crashstats/supersearch/form_fields.py",
+    "webapp-django/crashstats/supersearch/static/supersearch/js/lib/dynamic_form.js"
+   ],
+   "repo": "swe-train/mozilla-services__socorro",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001495",
+   "head": "a3c98440e0e208a162f90ad67a5f843e5011f153",
+   "late_files": [
+    "homeassistant/components/homeassistant/scene.py",
+    "homeassistant/components/scene/__init__.py",
+    "homeassistant/components/scene/services.yaml",
+    "tests/components/homeassistant/test_scene.py"
+   ],
+   "repo": "brianjcarroll8/Home-Assistant-Core",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000768",
+   "head": "e71800b8529899a21168bf0bfea5080c41a9c332",
+   "late_files": [
+    "dbt-adapters/pyproject.toml",
+    "dbt-postgres/hatch.toml",
+    "dbt-postgres/pyproject.toml",
+    "dbt-snowflake/src/dbt/adapters/snowflake/relation.py",
+    "dbt-snowflake/src/dbt/adapters/snowflake/relation_configs/__init__.py",
+    "dbt-snowflake/src/dbt/adapters/snowflake/relation_configs/dynamic_table.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002745",
+   "head": "d01f442ec0d3911bd73a0ad70cf593a3fea64dde",
+   "late_files": [
+    "txnbuild/CHANGELOG.md",
+    "txnbuild/example_test.go",
+    "txnbuild/path_payment.go",
+    "txnbuild/path_payment_test.go"
+   ],
+   "repo": "bantublockchain/blockchain-go",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002031",
+   "head": "98bf3bc05de10ac23aec1c520b609eb88c1f28a8",
+   "late_files": [
+    "packages/graphql/src/translate/queryAST/ast/fields/aggregation-fields/AggregationAttributeField.ts",
+    "packages/graphql/src/translate/queryAST/factory/FieldFactory.ts",
+    "packages/graphql/src/translate/queryAST/factory/Operations/AggregateFactory.ts",
+    "packages/graphql/src/translate/queryAST/factory/Operations/ConnectionFactory.ts",
+    "packages/graphql/tests/integration/aggregations/field-level/field-level-aggregations.int.test.ts",
+    "packages/graphql/tests/integration/deprecations/aggregations/field-level/field-level-aggregations.int.test.ts"
+   ],
+   "repo": "neo4j/graphql",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "42ee8c08f7c46a66ef79ec87a115587df0cbac3e",
+   "fix_subject": "Enable distinct for new aggregations",
+   "fix_files": [
+    "packages/graphql/src/translate/queryAST/ast/fields/aggregation-fields/AggregationAttributeField.ts",
+    "packages/graphql/src/translate/queryAST/ast/fields/aggregation-fields/DeprecatedAggregationAttributeField.ts",
+    "packages/graphql/src/translate/queryAST/factory/FieldFactory.ts",
+    "packages/graphql/src/translate/queryAST/factory/Operations/AggregateFactory.ts",
+    "packages/graphql/src/translate/queryAST/factory/Operations/ConnectionFactory.ts",
+    "packages/graphql/tests/integration/aggregations/field-level/field-level-aggregations.int.test.ts",
+    "packages/graphql/tests/integration/deprecations/aggregations/field-level/field-level-aggregations.int.test.ts"
+   ],
+   "fix_files_existing_at_base": [
+    "packages/graphql/src/translate/queryAST/ast/fields/aggregation-fields/AggregationAttributeField.ts",
+    "packages/graphql/src/translate/queryAST/factory/FieldFactory.ts",
+    "packages/graphql/src/translate/queryAST/factory/Operations/AggregateFactory.ts",
+    "packages/graphql/src/translate/queryAST/factory/Operations/ConnectionFactory.ts",
+    "packages/graphql/tests/integration/aggregations/field-level/field-level-aggregations.int.test.ts",
+    "packages/graphql/tests/integration/deprecations/aggregations/field-level/field-level-aggregations.int.test.ts"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000700",
+   "head": "e7a3ac03c00abd38a153f79b71d31c3f00192395",
+   "late_files": [
+    "BIBLIOGRAPHY.bib",
+    "colour/difference/__init__.py",
+    "colour/difference/delta_e.py",
+    "colour/difference/tests/test_delta_e.py",
+    "docs/colour.difference.rst"
+   ],
+   "repo": "colour-science/colour",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "363145a3d57a95bac68b241a2997f4617198f6a0",
+   "fix_subject": "PR: Implement support for *HyAB*  large color difference. (#1305)",
+   "fix_files": [
+    "BIBLIOGRAPHY.bib",
+    "colour/difference/__init__.py",
+    "colour/difference/delta_e.py",
+    "colour/difference/tests/test_delta_e.py",
+    "docs/colour.difference.rst"
+   ],
+   "fix_files_existing_at_base": [
+    "BIBLIOGRAPHY.bib",
+    "colour/difference/__init__.py",
+    "colour/difference/delta_e.py",
+    "colour/difference/tests/test_delta_e.py",
+    "docs/colour.difference.rst"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002766",
+   "head": "c7c964f9c5cd503b61a385d2b175445498136bf1",
+   "late_files": [
+    "lib/rules/property-no-vendor-prefix/README.md",
+    "lib/rules/property-no-vendor-prefix/__tests__/index.js",
+    "lib/rules/property-no-vendor-prefix/index.js"
+   ],
+   "repo": "ec0lint/ec0lint-style",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002598",
+   "head": "08eed0a49ae87595376b462ae5e6071e53154644",
+   "late_files": [
+    "README.md",
+    "go.mod",
+    "go.sum",
+    "main.go",
+    "screen_arpeggio.txt",
+    "screen_chain.txt",
+    "screen_ducking.txt",
+    "screen_file.txt",
+    "screen_filemetadata.txt",
+    "screen_midi.txt",
+    "screen_mixer.txt",
+    "screen_modulate.txt",
+    "screen_phrase.txt",
+    "screen_retrigger.txt",
+    "screen_settings.txt",
+    "screen_song.txt",
+    "screen_soundmaker.txt",
+    "screen_timestretch.txt",
+    "screen_waveform.txt"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-000969",
+   "head": "dce34733cf8478ca63b19a574562d64f51288bfb",
+   "late_files": [
+    "zds/member/forms.py",
+    "zds/member/models.py",
+    "zds/member/views.py",
+    "zds/mp/tests/tests_utils.py",
+    "zds/notification/receivers.py",
+    "zds/notification/tests/tests_basics.py",
+    "zds/utils/mps.py"
+   ],
+   "repo": "zestedesavoir/zds-site",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "1c816dd3747f50d6999a96745def7c87a4b10d05",
+   "fix_subject": "Ajout d'une option pour la r\u00e9ception d'emails \u00e0 la r\u00e9ception d'un nou\u2026 (#4998)",
+   "fix_files": [
+    "zds/member/forms.py",
+    "zds/member/migrations/0017_profile_email_for_new_mp.py",
+    "zds/member/models.py",
+    "zds/member/views.py",
+    "zds/mp/tests/tests_utils.py",
+    "zds/notification/receivers.py",
+    "zds/notification/tests/tests_basics.py",
+    "zds/utils/mps.py"
+   ],
+   "fix_files_existing_at_base": [
+    "zds/member/forms.py",
+    "zds/member/models.py",
+    "zds/member/views.py",
+    "zds/mp/tests/tests_utils.py",
+    "zds/notification/receivers.py",
+    "zds/notification/tests/tests_basics.py",
+    "zds/utils/mps.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000217",
+   "head": "71662a1cc44f9d1e2ef186bae1d9bc1cb39a2c31",
+   "late_files": [
+    "__tests__/src/lib/ThumbnailFactory.test.js",
+    "src/lib/ThumbnailFactory.js"
+   ],
+   "repo": "ARVEST-APP/mirador-video",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001795",
+   "head": "d0e5444ee080c63a51fe18b3769f3c9e43729dcc",
+   "late_files": [
+    "charts/linkerd-control-plane/README.md",
+    "charts/linkerd-control-plane/values.yaml",
+    "charts/partials/templates/_proxy.tpl",
+    "cli/cmd/install_test.go",
+    "cli/cmd/testdata/inject-filepath/expected/injected_nginx.yaml",
+    "cli/cmd/testdata/inject-filepath/expected/injected_nginx_redis.yaml",
+    "cli/cmd/testdata/inject-filepath/expected/injected_redis.yaml",
+    "cli/cmd/testdata/inject_contour.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_already_injected.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_access_log.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_automountServiceAccountToken_false.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_capabilities.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_config_overrides.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_controller_name.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_debug.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_empty_resources.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_hostNetwork_false.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_native_sidecar.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_no_init_container.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_opaque_ports.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_overridden.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_proxyignores.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_deployment_udp.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_list.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_list_empty_resources.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_pod.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_pod_ingress.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_pod_proxyignores.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_pod_with_requests.golden.yml",
+    "cli/cmd/testdata/inject_emojivoto_statefulset.golden.yml",
+    "cli/cmd/testdata/inject_gettest_deployment.good.golden.yml",
+    "cli/cmd/testdata/inject_tap_deployment_debug.golden.yml",
+    "cli/cmd/testdata/install_controlplane_tracing_output.golden",
+    "cli/cmd/testdata/install_custom_domain.golden",
+    "cli/cmd/testdata/install_custom_registry.golden",
+    "cli/cmd/testdata/install_default.golden",
+    "cli/cmd/testdata/install_default_override_dst_get_nets.golden",
+    "cli/cmd/testdata/install_default_token.golden",
+    "cli/cmd/testdata/install_ha_output.golden",
+    "cli/cmd/testdata/install_ha_with_overrides_output.golden",
+    "cli/cmd/testdata/install_heartbeat_disabled_output.golden",
+    "cli/cmd/testdata/install_helm_control_plane_output.golden",
+    "cli/cmd/testdata/install_helm_control_plane_output_ha.golden",
+    "cli/cmd/testdata/install_helm_output_ha_labels.golden",
+    "cli/cmd/testdata/install_helm_output_ha_namespace_selector.golden",
+    "cli/cmd/testdata/install_no_init_container.golden",
+    "cli/cmd/testdata/install_output.golden",
+    "cli/cmd/testdata/install_proxy_ignores.golden",
+    "cli/cmd/testdata/install_values_file.golden",
+    "controller/proxy-injector/fake/data/pod-with-debug.patch.json",
+    "controller/proxy-injector/fake/data/pod-with-ns-annotations.patch.json",
+    "controller/proxy-injector/fake/data/pod.patch.json",
+    "pkg/charts/linkerd2/values.go",
+    "pkg/charts/linkerd2/values_test.go"
+   ],
+   "repo": "Sameer939/linkerd2-mirror",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001285",
+   "head": "54a55c9062e67f240c52d7f1655752b8ce42ed49",
+   "late_files": [
+    "pyftpdlib/authorizers.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002777",
+   "head": "8e92e8082529a798c27403c17fa8dbb6f8584b7c",
+   "late_files": [
+    "package-lock.json",
+    "studio/components/interfaces/Settings/Logs/LogSelectionRenderers/AuthSelectionRenderer.tsx",
+    "studio/components/interfaces/Settings/Logs/LogSelectionRenderers/DatabaseApiSelectionRender.tsx",
+    "studio/components/interfaces/Settings/Logs/LogSelectionRenderers/DatabasePostgresSelectionRender.tsx",
+    "studio/components/interfaces/Settings/Logs/LogSelectionRenderers/DefaultPreviewSelectionRenderer.tsx",
+    "studio/components/interfaces/Settings/Logs/LogSelectionRenderers/FunctionInvocationSelectionRender.tsx",
+    "studio/components/interfaces/Settings/Logs/LogSelectionRenderers/FunctionLogsSelectionRender.tsx",
+    "studio/components/interfaces/Settings/Logs/LogsFormatters.tsx",
+    "studio/tests/pages/projects/LogsPreviewer.test.js"
+   ],
+   "repo": "shankar-narayanan-d/supabase-host",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002797",
+   "head": "fb545bc94de9e8baf33990b71d87df0c269dce22",
+   "late_files": [
+    "CHANGELOG.md",
+    "src/lib/evaluateTailwindFunctions.js",
+    "src/util/toPath.js",
+    "tests/evaluateTailwindFunctions.test.js",
+    "tests/to-path.test.js"
+   ],
+   "repo": "kcedward/pangaea",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "08a07f6e02fd13405875e3719d2c9dfa7ec2827e",
+   "fix_subject": "Support square bracket notation in paths (#6519)",
+   "fix_files": [
+    "CHANGELOG.md",
+    "src/lib/evaluateTailwindFunctions.js",
+    "src/util/toPath.js",
+    "tests/evaluateTailwindFunctions.test.js",
+    "tests/to-path.test.js"
+   ],
+   "fix_files_existing_at_base": [
+    "CHANGELOG.md",
+    "src/lib/evaluateTailwindFunctions.js",
+    "src/util/toPath.js",
+    "tests/evaluateTailwindFunctions.test.js",
+    "tests/to-path.test.js"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000039",
+   "head": "aabe373ce9c24eae2a94132155dc1eed12ece5c1",
+   "late_files": [
+    "backend/aopp.go",
+    "backend/aopp_test.go",
+    "backend/handlers/handlers.go",
+    "frontends/web/src/api/aopp.ts",
+    "frontends/web/src/components/aopp/aopp.tsx"
+   ],
+   "repo": "BitBoxSwiss/bitbox-wallet-app",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002443",
+   "head": "1ba92f405d6a88316cd34705b581eeffdfa460e5",
+   "late_files": [
+    "mypy/stubgen.py",
+    "mypy/stubgenc.py",
+    "mypy/test/data/stubgen.test"
+   ],
+   "repo": "graingert/mypy-foo",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-001974",
+   "head": "a9e242bfcbfc22909a85f7c3699c1afe9d598c6a",
+   "late_files": [
+    "aio_pika/pool.py",
+    "docs/source/examples/pooling.py",
+    "tests/test_pool.py"
+   ],
+   "repo": "mosquito/aio-pika",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-002558",
+   "head": "451381b6d1431d2d74024be57ec935ba7765cdc7",
+   "late_files": [
+    "saleor/order/utils.py",
+    "tests/test_order_utils.py"
+   ],
+   "repo": "ERNEST-OKIYA/E-comms",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000757",
+   "head": "94a6474df913aca2a12968a865fbe99782bd3ed4",
+   "late_files": [
+    "common/version.go",
+    "scim/resource_service_principal.go",
+    "scim/resource_service_principal_test.go",
+    "scripts/nightly/main.tf"
+   ],
+   "repo": "databricks/terraform-provider-databricks",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000720",
+   "head": "0f0715198d5980caf51189a7a7ada495ce99ce50",
+   "late_files": [
+    "pkg/storage/bucket/s3/bucket_client.go",
+    "pkg/storage/bucket/s3/bucket_client_test.go"
+   ],
+   "repo": "cortexproject/cortex",
+   "anchor": "pr_base_is_head",
+   "status": "ok",
+   "fix_commit": "PR#5997",
+   "fix_subject": "S3 bucket: Don't retry when ctx cancel",
+   "fix_files": [
+    "pkg/storage/bucket/s3/bucket_client.go",
+    "pkg/storage/bucket/s3/bucket_client_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "pkg/storage/bucket/s3/bucket_client.go",
+    "pkg/storage/bucket/s3/bucket_client_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-001939",
+   "head": "a329fae5c5b85ad06e0e36b079104fec60d61645",
+   "late_files": [
+    "packages/mjml-body/src/index.js",
+    "packages/mjml-core/src/index.js",
+    "packages/mjml-parser-xml/package.json",
+    "packages/mjml-preset-core/package.json",
+    "packages/mjml-preset-core/src/dependencies.js",
+    "packages/mjml-preset-core/src/index.js",
+    "packages/mjml/package.json"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-002804",
+   "head": "25cea60a1b4fdee07fea7067b8c57e81e3606f53",
+   "late_files": [
+    "docs/models/types.md",
+    "tests/fixtures/books/fixtures.py",
+    "tests/formats/dataclass/cases/attribute.py",
+    "tests/formats/dataclass/cases/element.py",
+    "xsdata/formats/dataclass/typing.py"
+   ],
+   "repo": "Eternity-gaga/tefra__xsdata.b6bd7e91",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "1f42a6a5990664494049d4f97810cb0bcccc76df",
+   "fix_subject": "revert: Add back support for optional lists (#1053)",
+   "fix_files": [
+    "docs/models/types.md",
+    "tests/fixtures/books/fixtures.py",
+    "tests/formats/dataclass/cases/attribute.py",
+    "tests/formats/dataclass/cases/element.py",
+    "xsdata/formats/dataclass/typing.py"
+   ],
+   "fix_files_existing_at_base": [
+    "docs/models/types.md",
+    "tests/fixtures/books/fixtures.py",
+    "tests/formats/dataclass/cases/attribute.py",
+    "tests/formats/dataclass/cases/element.py",
+    "xsdata/formats/dataclass/typing.py"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-000682",
+   "head": "ef7ecf3430a90b8f9fb6590a7591bede10a996ba",
+   "late_files": [
+    "c7n/resources/sns.py",
+    "tests/test_sns.py"
+   ],
+   "repo": "moothumk/cloyd",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000449",
+   "head": "770f8f0aa55c751bfb23f8d3a88a0e04b188db5f",
+   "late_files": [
+    "api/v1alpha1/argocd_types.go",
+    "api/v1alpha1/zz_generated.deepcopy.go",
+    "bundle/manifests/argoproj.io_argocds.yaml",
+    "config/crd/bases/argoproj.io_argocds.yaml",
+    "controllers/argocd/deployment.go",
+    "controllers/argocd/deployment_test.go",
+    "deploy/olm-catalog/argocd-operator/0.6.0/argoproj.io_argocds.yaml",
+    "docs/reference/argocd.md"
+   ],
+   "repo": "Taufeeqahmedshaik/argocd-operator",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "cbe0bbc335fe04ba5beff1e482c369a549316a69",
+   "fix_subject": "feat: Allow user instance monitoring (#835)",
+   "fix_files": [
+    "api/v1alpha1/argocd_types.go",
+    "api/v1alpha1/zz_generated.deepcopy.go",
+    "bundle/manifests/argoproj.io_argocds.yaml",
+    "config/crd/bases/argoproj.io_argocds.yaml",
+    "controllers/argocd/prometheus.go",
+    "controllers/argocd/prometheus_test.go",
+    "controllers/argocd/util.go",
+    "deploy/olm-catalog/argocd-operator/0.6.0/argoproj.io_argocds.yaml",
+    "docs/usage/monitoring.md"
+   ],
+   "fix_files_existing_at_base": [
+    "api/v1alpha1/argocd_types.go",
+    "api/v1alpha1/zz_generated.deepcopy.go",
+    "bundle/manifests/argoproj.io_argocds.yaml",
+    "config/crd/bases/argoproj.io_argocds.yaml",
+    "controllers/argocd/prometheus.go",
+    "controllers/argocd/util.go",
+    "deploy/olm-catalog/argocd-operator/0.6.0/argoproj.io_argocds.yaml"
+   ],
+   "precision": 0.625,
+   "recall": 0.714,
+   "exact": false
+  },
+  {
+   "task_id": "format-code-task-001087",
+   "head": "112f0d93506872678ce23a900f6f2bb8992a9567",
+   "late_files": [
+    "deepchecks/nlp/metric_utils/token_classification.py",
+    "deepchecks/nlp/utils/data_inference.py",
+    "docs/source/user-guide/general/metrics_guide.rst",
+    "tests/nlp/checks/model_evaluation/single_dataset_performance_test.py",
+    "tests/nlp/checks/model_evaluation/train_test_performance_test.py"
+   ],
+   "status": "head_not_found_on_github"
+  },
+  {
+   "task_id": "format-code-task-001420",
+   "head": "340ec2e06ac58d5fefedd15ca04c63b23d4b740a",
+   "late_files": [
+    "ui/src/time_picker.test.tsx",
+    "ui/src/time_picker.tsx"
+   ],
+   "repo": "tmcharles/wave",
+   "status": "no_anchor_found"
+  },
+  {
+   "task_id": "format-code-task-000824",
+   "head": "578cb4dc34169efef6752df0863d2fc22a8fcf3a",
+   "late_files": [
+    "commands/scp.go",
+    "commands/scp_test.go"
+   ],
+   "repo": "tuxmonteiro/docker-machine-rancher",
+   "anchor": "commit_parent_is_head",
+   "status": "ok",
+   "fix_commit": "9e003791c1689cadac60adb438a8588182b9fea6",
+   "fix_subject": "[scp] allow ssh-agent when no key is provided",
+   "fix_files": [
+    "commands/scp.go",
+    "commands/scp_test.go"
+   ],
+   "fix_files_existing_at_base": [
+    "commands/scp.go",
+    "commands/scp_test.go"
+   ],
+   "precision": 1.0,
+   "recall": 1.0,
+   "exact": true
+  },
+  {
+   "task_id": "format-code-task-002430",
+   "head": "8b106c1c634e8c200794fcbef4f546d356b1fc96",
+   "late_files": [
+    "mypy/checkstrformat.py",
+    "mypy/test/testcheck.py",
+    "test-data/unit/check-expressions.test"
+   ],
+   "repo": "ZiadAlrez2/test_repo",
+   "status": "no_anchor_found"
+  }
+ ]
+}
